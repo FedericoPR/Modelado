@@ -11,11 +11,11 @@ Esta sección debe contener información sobre los aspectos positivos y negativo
 
 Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.
 
-| <id> 999 | <nombre descriptivo> |
+| **<id>999** | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripcion** | <descripcion> |  
-| **Comentarios** | <comentarios adicionales sobre el actor de negocio actual> |   
+| **Descripción** | descripcion> |
+| **Comentarios** | \<comentarios adicionales> |
   
    _Tabla 1: Fortalezas de la situación actual._
   
@@ -24,11 +24,11 @@ Esta sección debe contener información sobre las fortalezas o aspectos positiv
 
 Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.
 
-| <id> 999 | <nombre descriptivo> |
+| **<id>999** | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripcion** | <descripcion> |  
-| **Comentarios** | <comentarios adicionales sobre el actor de negocio actual>|  
+| **Descripción** | descripcion> |
+| **Comentarios** | \<comentarios adicionales> | 
   
    _Tabla 2: Debilidades de la situación actual._
 
