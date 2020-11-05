@@ -12,11 +12,8 @@ Esta sección debe contener información sobre los aspectos positivos y negativo
 Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.
 
 | <id>999 | <nombre descriptivo> | 
-  
 | [Versión] | <nº versión>(<fecha de versión>) | 
-
 | Descripcion | <descripción> |
-
 | Comentarios | <comentarios adicionales> |   
   
 
