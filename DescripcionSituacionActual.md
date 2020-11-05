@@ -11,26 +11,18 @@ Esta sección debe contener información sobre los aspectos positivos y negativo
 
 Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.
 
-<TABLA 1>
+| <id>999 | <nombre descriptivo> | 
+| [Versión] | <nº versión>(<fecha de versión>) | 
+| Descripcion | <descripción> |
+| Comentarios | <comentarios adicionales> |   
+  
 
 ###3.1.2 Debilidades de la Situación Actual
 
 Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.
 
-<TABLA 2>
+| <id>999 | <nombre descriptivo> | 
+| [Versión] | <nº versión>(<fecha de versión>) | 
+| Descripcion | <descripción> |
+| Comentarios | <comentarios adicionales> | 
 
-##3.2 Modelos de Procesos de Negocio Actuales
-
-Esta sección debe contener información sobre los modelos de procesos de negocio actuales, que suelen ser la base de los modelos de procesos de negocio a implantar. Se divide en las secciones que se describen a continuación.
-
-###3.2.1 Descripción de los Actores de Negocio Actuales
-
-Esta sección debe contener información sobre los actores de negocio (organizaciones, roles o responsabilidades) de los modelos de procesos de negocio actuales especificados mediante las plantillas para actores del negocio actual que se muestran a continuación.
-
-<TABLA 3>
-
-###3.2.2 Descripción de Procesos de Negocio Actuales
-
-Esta sección debe contener información sobre los procesos de negocio actuales, tal y como se realizan en la organización del cliente antes del comienzo del desarrollo del sistema software. Para cada proceso de negocio se incluirá una descripción textual usando las plantillas para procesos de negocio actuales que se muestran a continuación, y un diagrama en la notación que se considere oportuna, por ejemplo, diagramas BPMN (Business Process Model and Notation) o diagramas de actividad UML (Unified Modeling Language).
-
-<TABLA 4>
