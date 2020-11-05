@@ -14,19 +14,21 @@ Esta sección debe contener información sobre las fortalezas o aspectos positiv
 | <id>999 | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
+| **Descripcion** | <descripcion> |  
 | **Comentarios** | <comentarios adicionales sobre el actor de negocio actual> |   
   
-  _Tabla 1: Fortalezas de la situación actual._
+          _Tabla 1: Fortalezas de la situación actual._
   
 
 ### 3.1.2 Debilidades de la Situación Actual
 
 Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.
 
-| <id>999 | <nombre descriptivo> | 
-| [Versión] | <nº versión>(<fecha de versión>) | 
-| Descripcion | <descripción> |
-| Comentarios | <comentarios comentarios adicionales sobre el actor de negocio actual> | 
+| <id>999 | <nombre descriptivo> |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha de versión>) |
+| **Descripcion** | <descripcion> |  
+| **Comentarios** | <comentarios adicionales sobre el actor de negocio actual> |  
   
-  _Tabla 2: Debilidades de la situación actual._
+         _Tabla 2: Debilidades de la situación actual._
 
