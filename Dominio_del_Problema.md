@@ -1,6 +1,7 @@
 # 2 INFORMACIÓN DEL DOMINIO DEL PROBLEMA
 Esta sección obligatoria debe contener información relativa al dominio del problema que permita comprender los conceptos básicos del mismo al lector del documento. Se divide en las secciones que se describen a continuación.
 La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el Pliego de Prescripciones Técnicas, la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.
+Aqui se debe poner una información general del dominio del problema que se presenta
 ## 2.1 Introducción al dominio del problema
 Esta sección debe contener una introducción al dominio del problema que ayude al lector del documento a asimilar los conceptos del glosario de términos de la siguiente sección. Se trata de dar una visión general del conjunto de conceptos que se manejan en la organización para la que se va a desarrollar el sistema software. Pueden incluirse diagramas u otro elemento multimedia si se considera oportuno para facilitar su comprensión.
 ## 2.2 Glosario de términos
