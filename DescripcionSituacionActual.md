@@ -14,10 +14,10 @@ Esta sección debe contener información sobre las fortalezas o aspectos positiv
 | <id> 999 | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripcion** | <<descripcion>> |  
-| **Comentarios** | <<comentarios adicionales sobre el actor de negocio actual>> |   
+| **Descripcion** | <descripcion> |  
+| **Comentarios** | <comentarios adicionales sobre el actor de negocio actual> |   
   
-    _Tabla 1: Fortalezas de la situación actual._
+   _Tabla 1: Fortalezas de la situación actual._
   
 
 ### 3.1.2 Debilidades de la Situación Actual
@@ -27,8 +27,8 @@ Esta sección debe contener información sobre las debilidades o aspectos negati
 | <id> 999 | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripcion** | <<descripcion>> |  
-| **Comentarios** | <<omentarios adicionales sobre el actor de negocio actual>>|  
+| **Descripcion** | <descripcion> |  
+| **Comentarios** | <comentarios adicionales sobre el actor de negocio actual>|  
   
-    _Tabla 2: Debilidades de la situación actual._
+   _Tabla 2: Debilidades de la situación actual._
 
