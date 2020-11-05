@@ -11,7 +11,7 @@ las plantillas para actores del negocio actual que se muestran a continuación.
 | **<id>999** | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa> * ... |
+| **[Dependencias]** | * \<procesos de negocio actuales en los que participa> <br> * ... |
 | **Descripción** | Este actor de negocio actual representa a <descripción de la organización, rol o responsabilidad  a la que representa  el actor de negocio actual> |
 | **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
 
@@ -21,7 +21,7 @@ Esta sección debe contener información sobre los procesos de negocio actuales,
 | <id>999 | <nombre descriptivo> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa> * ... |
+| **[Dependencias]** | * \<procesos de negocio actuales en los que participa>  <br> * ... |
 | **Descripción** | Descripción	<descripción del proceso de negocio actual en términos del dominio del problema> |
 | **[Importancia]** | <importancia del proceso de negocio para el cliente> |
 | **[Actores]** | * <actor que participa en el proceso de negocio> * ... |
