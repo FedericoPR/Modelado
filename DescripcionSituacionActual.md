@@ -14,7 +14,7 @@ Esta sección debe contener información sobre las fortalezas o aspectos positiv
 | <id>999 | <nombre descriptivo> | 
 | [Versión] | <nº versión>(<fecha de versión>) | 
 | Descripcion | <descripción> |
-| Comentarios | <comentarios adicionales> |   
+| Comentarios | <comentarios comentarios adicionales sobre el actor de negocio actual> |   
   
 
 ###3.1.2 Debilidades de la Situación Actual
@@ -24,5 +24,5 @@ Esta sección debe contener información sobre las debilidades o aspectos negati
 | <id>999 | <nombre descriptivo> | 
 | [Versión] | <nº versión>(<fecha de versión>) | 
 | Descripcion | <descripción> |
-| Comentarios | <comentarios adicionales> | 
+| Comentarios | <comentarios comentarios adicionales sobre el actor de negocio actual> | 
 
