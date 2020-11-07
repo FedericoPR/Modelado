@@ -1,8 +1,21 @@
 # 2 INFORMACIÓN DEL DOMINIO DEL PROBLEMA
-Esta sección obligatoria debe contener información relativa al dominio del problema que permita comprender los conceptos básicos del mismo al lector del documento. Se divide en las secciones que se describen a continuación.
-La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el Pliego de Prescripciones Técnicas, la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.
-Aqui se debe poner una información general del dominio del problema que se presenta
+El 17 de Noviembre de 2019 se detectó en China el primer caso de Covid-19, a partir de esta fecha y durante todo el año 2020 la situación mundial ha cambiado después de que el 11 de Marzo de 2020 la Organización Mundial de la Salud (**OMS**) declarara la enfermedad Covid-19 como pandemia.
+
+Debido a esta pandemia, se han debido de tomar cierta medidas, tales como el confinamiento domiciliario durante 99 días, la limitación de aforos en los comercios y los establecimientos, el toque de queda o el cierre de aquellos comercios que no se consideren esenciales. Debido a la cambiante e incierta situación que se está viviendo durante todos estos meses, dichas medidas están sufriendo constante modificaciones e incluso se añaden nuevas medidas.
+
+Uno de los aspectos más importantes que se deben de tener en cuenta para poder hacer frente a esta pandemia es el rastreo de todos aquellos casos positivos en la población, asi como asegurar que los ciudadanos que sean positivos o hayan estado en contacto directo con positivos cumplan la cuarentena durante los días que indiquen los médicos.
+
+Otro aspecto importante a tener en cuenta a la hora de rastrear los casos positivos, es que aquellos ciudadanos que hayan estado en contacto con positivos o aquellas personas que tengan síntomas compatibles con Covid-19 acudan a los centros de salud a realizarse las pruebas médicas oportunas.
+
+Para asegurarse que todas estas medidas anteriormente comentadas se cumplan por parte de los ciudadanos se dispone del apoyo de las fuerzas del órden (policia local, nacional, guardia civil y ejército).
 ## 2.1 Introducción al dominio del problema
-Esta sección debe contener una introducción al dominio del problema que ayude al lector del documento a asimilar los conceptos del glosario de términos de la siguiente sección. Se trata de dar una visión general del conjunto de conceptos que se manejan en la organización para la que se va a desarrollar el sistema software. Pueden incluirse diagramas u otro elemento multimedia si se considera oportuno para facilitar su comprensión.
+A la hora de actuar ante un nuevo caso positivo en Covid-19, se debe seguir un protocolo estricto. El cuál consiste en que una vez que se conoce el resultado positivo de la prueba PCR oportuna, el paciente positivo debe permanecer en cuarentena durante 15 días, en los cuales no podrá salir de casa o incluso de su habitación en caso de que conviva con más personas que  no sean positivas.
+
+Después, se llevará a cabo un seguimiento de todas aquellas personas que hayan estado en contacto con el paciente positivo en las 48 horas anteriores a la realización de la prueba PCR,a las cuales se les considerará contacto directo. Los contactos directos deben permanecer en cuarentena hasta que se conozca el resultado de la prueba PCR, si esta es negativa en algunos casos se debe mantener la cuarentena unos días más (depende del tipo de contacto, tiempo, si ha sido con mascarilla o sin ella,etc) en caso de que lo indique el responsable sanitario. Si la prueba es positiva, se repetirá el mismo proceso con los contactos directos del nuevo caso positivo.
 ## 2.2 Glosario de términos
-Esta sección debe contener una lista ordenada alfabéticamente de los principales términos, acrónimos y abreviaturas específicos del dominio del problema, especialmente de los que se considere que su significado deba ser aclarado. Cada término, acrónimo o abreviatura deberá acompañarse de su definición y se podrá adjuntar material multimedia que facilite su comprensión como fotografías, documentos escaneados, diagramas o incluso vídeo o sonido en el caso de que   el formato de la ERS lo permita.
+- Caso positivo:
+- Contacto directo:
+- Covid-19:
+- Cuarentena:
+- Prueba PCR:
+- 
