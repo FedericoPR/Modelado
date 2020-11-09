@@ -9,10 +9,10 @@ Se divide en las secciones que se describen a continuación.)_
 ## 3.2.1 Descripción de los Actores de Negocio Actuales
 
 Los actores de negocio de nuestra aplicación o toda aquella persona interesada en está serán: usuarios, ministerio de sanidad, autoridades (policia, guardia civil, ...), ambulatorios. 
-- Los usuarios: se podrán registrar en la aplicación para asi llevar un seguimiento de su estado asi como de poder acceder a estadísticas de su zona.
-- Ministerio de sanidad: podrá acceder a los listados y estadísticas generadas por la aplicación, lo que les servirá para tomar medidas e informarse de la situacion sanitaria.
-- Autoridades: podrán verificar que los ciudadanos están cumpliendo los periodos de cuarentena.
-- Ambulatorios: dispondrán de listados donde se informarán del estado de los usuarios, pudiendo preveer que servicios pueden ofrecer. Asi como un medio, para comunicarle al
+- **Los usuarios**: se podrán registrar en la aplicación para asi llevar un seguimiento de su estado asi como de poder acceder a estadísticas de su zona.
+- **Ministerio de sanidad**: podrá acceder a los listados y estadísticas generadas por la aplicación, lo que les servirá para tomar medidas e informarse de la situacion sanitaria.
+- **Autoridades**: podrán verificar que los ciudadanos están cumpliendo los periodos de cuarentena.
+- **Ambulatorios**: dispondrán de listados donde se informarán del estado de los usuarios, pudiendo preveer que servicios pueden ofrecer. Asi como un medio, para comunicarle al
 usuario que medidas debe tomar, periodo de cuarentena, pruebas a realizar, etc.
 
 _(Esta sección debe contener información sobre los actores de negocio (organizaciones, roles
