@@ -13,13 +13,11 @@ La información de esta sección puede que ya se encuentre total o parcialmente 
 
 La situación actual hace que para la implementación de la aplicación que se nos solicita se nos presentan varios puntos que podrían ser de ayuda pero también cuestiones que suponen un obstacúlo a la hora de cumplir con las necesidades del cliente. 
 
-Puesto que tenemos una aplicación realizada y probada recientemente en el mismo ámbito y con propósitos similares podremos establecer comparaciones con ella y establecer un punto de partida sólido. Tendremos en cuenta aquellos aspectos que han funcionado y aquellos que no y sus razones para poder aprender de ella y mejorar.
+Puesto que tenemos una aplicación realizada y probada recientemente en el mismo ámbito y con propósitos similares podremos realizar comparaciones con ella y establecer un punto de partida sólido. Tendremos en cuenta aquellos aspectos que han funcionado y aquellos que no y sus razones para poder aprender de ella y mejorar.
 
 _(Esta sección debe contener información sobre los aspectos positivos y negativos del negocio actual de la organización para la que se va a desarrollar el sistema software. Se divide en las secciones que se describen a continuación.)_
 
 ### 3.1.1 Fortalezas de la Situación Actual
-
-
 
 _(Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.)_
 
@@ -34,7 +32,7 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
 
 ### 3.1.2 Debilidades de la Situación Actual
 
-Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.
+_(Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.)_
 
 | **<id>999** | <nombre descriptivo> |
 | -- | -- |
