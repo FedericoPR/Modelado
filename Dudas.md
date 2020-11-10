@@ -24,3 +24,5 @@
 - Base de datos con lo que se puede hacer en cada autonomía. ¿Sistemas de información?
 
 - Hacer que la aplicación sirva para consultar o se sale del alcance del proyecto. En función de cada comunidad.
+
+Fin
