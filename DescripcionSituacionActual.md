@@ -19,6 +19,13 @@ _(Esta sección debe contener información sobre los aspectos positivos y negati
 
 ### 3.1.1 Fortalezas de la Situación Actual
 
+Para poder enfrentarnos al problema con un punto de partida fuerte aprovecharemos que tenemos el backup de la aplicación __Radar Covid__ de la que podemos sacar numerosas conclusiones para usarlas en nuestro favor.
+
+Puesto que la situación de la pandemia actual es una situación critica se nos proporcionarán ciertos privilegios y facilidades proporcionandonos legalidad para ciertos asuntos que ahora mismo suponen un problema.
+
+De toda esta situiación podemos resumir las siguientes fortalezas en cuanto a nuestra situación actual:
+
+
 _(Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.)_
 
 | **<id>999** | <nombre descriptivo> |
@@ -31,6 +38,12 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
   
 
 ### 3.1.2 Debilidades de la Situación Actual
+
+Debido a la complejidad de la situación actual y a que la aplicación __Radar Covid__ ha ofrecido muchos puntos en contra pero pocos a favor nos encontramos en una posición donde todo aquello que queramos implementar puede ser muy buena idea sobre el papel pero causar muchas dificultades en un contezto real.
+
+Por otro lado para poder llevar a cabo ciertas operaciones vamos a necesitar del uso de los datos de localización de los móviles y eso, por el momento supone un problema. Aú así, cuando esto esté solucionado deberemos lidiar con el cumplimiento de la ley de protección de datos.
+
+De toda esta situiación podemos resumir las siguientes debilidades en cuanto a nuestra situación actual:
 
 _(Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.)_
 
