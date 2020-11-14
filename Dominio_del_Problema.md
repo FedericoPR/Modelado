@@ -18,4 +18,5 @@ Después, se llevará a cabo un seguimiento de todas aquellas personas que hayan
 - **Covid-19:** Enfermedad infecciosa causada por el coronavirus SARS-COV-2.
 - **Cuarentena:** Ponerse en cuarentena significa separarse de los demás porque ha estado expuesto a alguien con COVID‑19 aunque usted mismo no tenga síntomas. Durante la cuarentena, debe vigilar su estado para detectar síntomas. El objetivo de la cuarentena es prevenir la transmisión
 - **Prueba PCR:** Tipo de prueba de diagnóstico, que permite detectar un caso positivo de Covid-19.
+- **Confinamiento:**
 
