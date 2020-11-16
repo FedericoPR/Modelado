@@ -29,43 +29,43 @@ De toda esta situiación podemos resumir las siguientes fortalezas en cuanto a n
 _(Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.)_
 
 
-| **<id>999** | <Reciente pandemia del COVID-19> |
+| **<id>999** | Reciente pandemia del COVID-19 |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
   
-| **<id>999** | <Referencia Aplicación "Radar Covid"> |
+| **<id>999** | Referencia Aplicación "Radar Covid" |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
     
-| **<id>999** | <Existencia de datos sobre la población> |
+| **<id>999** | Existencia de datos sobre la población |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
   
-| **<id>999** | <Acceso a los datos de los operadores móviles> |
+| **<id>999** | Acceso a los datos de los operadores móviles |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
   
-| **<id>999** | <Nuestro cliente es el ministerio> |
+| **<id>999** | Nuestro cliente es el ministerio |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
   
-| **<id>999** | <Disponibilidad de móvil de gran parte de la población> |
+| **<id>999** | Disponibilidad de móvil de gran parte de la población |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
 | **Comentarios** | \<comentarios adicionales> |
   
-| **<id>999** | <Comunicación con las fuerzas del orden y los sanitarios> |
+| **<id>999** | Comunicación con las fuerzas del orden y los sanitarios |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
