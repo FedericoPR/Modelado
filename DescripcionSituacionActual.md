@@ -1,6 +1,7 @@
 # 3 DESCRIPCIÓN DE LA SITUACIÓN ACTUAL
 
 _- Situación COVID actual(situación cambiante)  __+ Añadir__
+
 _- Situaciones espciales (gente sin movil)  __+ Añadir__
 
 
@@ -9,6 +10,7 @@ Actualmente el Ministerio de Sanidad posee una aplicación para el control y seg
 Hoy en día todo el mundo lleva su móvil en todo momento consigo, móviles conectados a la red y que funcionan por medio de aplicaciones . Nos aprovecharemos este entorno tecnológico ya que es ideal para el seguimiento ciudadano. Puesto que las fuerzas del orden así como el sector sanitario posee también de dispositivos conectados a la red podremos comunicarnos con ellos. De esta manera se podrá comprobar el cumplimiento de las cuarentenas y las obliaciones de los ciudadanos por parte de los cuerpos de seguridad del estado, así como recibir listas, los ambulatorios, con las personas que deberán hacerse las pruebas para poder poner en conocimiento de las fuerzas del orden cualquier incumplimiento.
 
 _- Gran volumen de datos y complejidad de los algoritmos  __+ Añadir__
+
 _- Complejidad a la hora de respetar la protección de datos  __+ Añadir__
 
 Debido a que la situación actual ha llevado a que se transfieran las competencias a las autonomías y cada una tiene sus propios sistemas de información, para poder realizar una implementación correcta en todas las autonomías deberemos hablar con cada una de ellas.
