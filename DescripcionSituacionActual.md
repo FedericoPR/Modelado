@@ -28,6 +28,7 @@ De toda esta situiación podemos resumir las siguientes fortalezas en cuanto a n
 
 _(Esta sección debe contener información sobre las fortalezas o aspectos positivos de la situación actual, especificadas mediante las  plantillas para fortalezas que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que deben mantenerse en el modelo de negocio a implantar, para que se tengan en cuenta en el sistema software a desarrollar. El objetivo es mantener aquellas buenas prácticas que se considere oportuno en el nuevo sistema a desarrollar.)_
 
+
 | **<id>999** | <Reciente pandemia del COVID-19> |
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
