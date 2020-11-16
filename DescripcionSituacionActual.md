@@ -84,7 +84,25 @@ De toda esta situiación podemos resumir las siguientes debilidades en cuanto a 
 
 _(Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.)_
 
-| **<id>999** | <nombre descriptivo> |
+| **<id>999** | Problemas en el uso de Bluetooth |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha de versión>) |
+| **Descripción** | descripcion> |
+| **Comentarios** | \<comentarios adicionales> | 
+  
+| **<id>999** | Opcionalidad de los usuarios para estar controlados|
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha de versión>) |
+| **Descripción** | descripcion> |
+| **Comentarios** | \<comentarios adicionales> | 
+  
+ | **<id>999** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones|
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha de versión>) |
+| **Descripción** | descripcion> |
+| **Comentarios** | \<comentarios adicionales> | 
+ 
+ | **<id>999** | Independecia a nivel autonómico en la gestion de los datos|
 | -- | -- |
 | **[Versión]** | <nº versión>(<fecha de versión>) |
 | **Descripción** | descripcion> |
