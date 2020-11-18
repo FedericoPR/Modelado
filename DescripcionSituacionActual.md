@@ -7,7 +7,6 @@ Entre las medidas tomadas cabe destacar el confinamiento domiciliario al cual he
 
 Actualmente, las medidas tomadas son distintas dependiendo de las comunidades autónomas (dependen de los datos de la pandemia en dichas comunidades), y además dichas medidas cambian constantemente; luego no podemos suponer que la situación de hoy en día sea igual a la que se va a presentar mañana.
 
-
 Actualmente el Ministerio de Sanidad posee una aplicación para el control y seguimiento ciudadano en términos de la pandemia mundial que nos asola causada por el COVID-19; sin embargo esta aplicación no es del agrado del ministerio por diversas razones. Para poder llevar a cabo una mejor gestión, que la proporcionada por la aplicación actual, en caso de producirse una nueva pandemia, el ministerio quiere hecerse con nuestros servicios para la creación de una nueva aplicación que sí satisfaga sus necesidades ante una posible situación similar en el futuro. 
 
 Hoy en día todo el mundo lleva su móvil en todo momento consigo, móviles conectados a la red y que funcionan por medio de aplicaciones . Nos aprovecharemos este entorno tecnológico ya que es ideal para el seguimiento ciudadano. Puesto que las fuerzas del orden así como el sector sanitario posee también de dispositivos conectados a la red podremos comunicarnos con ellos. De esta manera se podrá comprobar el cumplimiento de las cuarentenas y las obligaciones de los ciudadanos por parte de los cuerpos de seguridad del estado, así como recibir listas, los ambulatorios, con las personas que deberán hacerse las pruebas para poder poner en conocimiento de las fuerzas del orden cualquier incumplimiento.
@@ -61,7 +60,7 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
 | **Descripción** | Dado que actualmente existe la pandemia del Covid-19, hemos adquirido la suficiente experiencia de como se debe actuar ante una pandemia y cuales deben ser las medidad a tomar. Es decir, tendremos un conocimiento previo y un conjunto de técnicas que se podrán aplicar de cara a controlar la pandemia y no actuaremos desde cero. |
 | **Comentarios** | En la actualidad se conocen los protocolos de actuación ante una pandemia, la sociedad conoce el como actuar y dispone de una experiencia previa de ello. Además se dispone de datos previos y estudios acerca de la eficacia de las diferenetes mediadas tomadas en la actual pandemia. |
   
-         _Tabla 1.1_
+_Tabla 1.1_
   
 | **<id>002** | Referencia Aplicación "Radar Covid" |
 | -- | -- |
@@ -122,29 +121,35 @@ De toda esta situiación podemos resumir las siguientes debilidades en cuanto a 
 
 _(Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.)_
 
-| **<id>999** | Problemas en el uso de Bluetooth |
+| **<id>001** | Problemas en el uso de Bluetooth |
 | -- | -- |
-| **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripción** | descripcion> |
-| **Comentarios** | \<comentarios adicionales> | 
+| **[Versión]** | 1.0 (18/11/2020) |
+| **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo reultó ser indervible si este estaba apagado o siendo usado por otro accesorio|
+| **Comentarios** | Supone un a debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor| 
   
-| **<id>999** | Opcionalidad de los usuarios para estar controlados|
-| -- | -- |
-| **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripción** | descripcion> |
-| **Comentarios** | \<comentarios adicionales> | 
+   _Tabla 2.1_
   
- | **<id>999** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones|
+| **<id>002** | Opcionalidad de los usuarios para estar controlados|
 | -- | -- |
-| **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripción** | descripcion> |
-| **Comentarios** | \<comentarios adicionales> | 
+| **[Versión]** | 1.0 (18/11/2020) |
+| **Descripción** | La obtención de Radar Covid por parte del usuario era totalmente voluntaria, lo que supone un gran problema ya que el usuario que lo deseara podría ser "invisible" desde el punto de vista de la aplicación |
+| **Comentarios** | Para poder paliar la debilidad de que los usuarios decidan no tener la aplicación nosotros contamos con los datos de las operadoras sobre los registros de localización de los usuarios con lo que el usuario estará "monitorizado" sin saberlo (ver Tabla 1.4) | 
+  
+   _Tabla 2.2_
+  
+ | **<id>003** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones|
+| -- | -- |
+| **[Versión]** | 1.0 (18/11/2020) |
+| **Descripción** | Una vez diagnosticado un positivo y alertado a los posibles contagiados dependemos de la responsabilidad de cada uno de ellos para cumplir con las normas y las restricciones que se les apliquen. En caso de que no sea así tendremos dificultades para  llevar un control de la actividad del usuario y posibles brotes|
+| **Comentarios** | Para resolver el problema contamos con la ventaja de que podremos avisar a las fuerzas del orden para que estén al tanto de las personas que deben estar en  cuarentena y asegurar su cumplimiento (ver Tabla 1.7)| 
+  
+   _Tabla 2.3_
  
- | **<id>999** | Independecia a nivel autonómico en la gestion de los datos|
+ | **<id>004** | Independecia a nivel autonómico en la gestion de los datos|
 | -- | -- |
-| **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripción** | descripcion> |
-| **Comentarios** | \<comentarios adicionales> | 
+| **[Versión]** |  1.0 (18/11/2020) |
+| **Descripción** | Actualmente se han transeferido las competencias en la gestión de la pandemia a las autonomias, teniendo cada una sus propios sistemas de información |
+| **Comentarios** | Para solventar esta debilidad deberemos hablar con cada autonomía para poder adaptar nuestro proyecto a trabajar con cada uno de los respectivos sistemas de información| 
   
-   _Tabla 2: Debilidades de la situación actual._
+   _Tabla 2.4_
 
