@@ -69,9 +69,9 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
     
 | **<id>003** | Existencia de datos sobre la población |
 | -- | -- |
-| **[Versión]** | <nº versión>(<fecha de versión>) |
-| **Descripción** | descripcion> |
-| **Comentarios** | \<comentarios adicionales> |
+| **[Versión]** | 1.0  (18/11/2020) |
+| **Descripción** | Debido a la actual pandemia del COVID-19 los distintos estamentos del gobierno y sus autonomías han podido recabar información sobre la población en vistas a poder prevenir la extension del virus. |
+| **Comentarios** | Con cada llamada a los teléfonos habilitados para la población para temas de COVID-19 el protocolo marcaba imprescindible recabar datos sobre la persona que realizaba la llamada, tales como la edad o el código postal. De confirmarse el positivo, y con el objetivo de realizar el rastreo se le preguntaba al usuario las personas con las que había mantenido contacto en los días previos así como su dirección y los lugares donde había estado durante un periodo largo de tiempo. Toda esa información que ya tenemos podría ser usada en un futuro para realizar estudios que nos permitieran llevar a cabo una actuación más rápida y eficiente a la hora de encotrar infectados y adelantarnos en una posible nueva pandemia para minimizar la propagación|
   
 | **<id>004** | Acceso a los datos de los operadores móviles |
 | -- | -- |
