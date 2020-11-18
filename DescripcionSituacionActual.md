@@ -61,7 +61,7 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
 | **Descripción** | Dado que actualmente existe la pandemia del Covid-19, hemos adquirido la suficiente experiencia de como se debe actuar ante una pandemia y cuales deben ser las medidad a tomar. Es decir, tendremos un conocimiento previo y un conjunto de técnicas que se podrán aplicar de cara a controlar la pandemia y no actuaremos desde cero. |
 | **Comentarios** | En la actualidad se conocen los protocolos de actuación ante una pandemia, la sociedad conoce el como actuar y dispone de una experiencia previa de ello. Además se dispone de datos previos y estudios acerca de la eficacia de las diferenetes mediadas tomadas en la actual pandemia. |
   
- _Tabla 1.1_
+         _Tabla 1.1_
   
 | **<id>002** | Referencia Aplicación "Radar Covid" |
 | -- | -- |
