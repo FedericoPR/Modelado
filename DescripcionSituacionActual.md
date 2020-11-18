@@ -106,7 +106,7 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
 | **Descripción** | Para poder llevar a cabo un control eficiente de las personas que deben realizarse las pruebas enviaremos a los ambulatorios los listados de personas que deben hacerse las pruebas, y estos podrán notificar a la autoridad el inclumplimiento. Por su parte las fuerzas del orden podrán comprobar el cumplimiento de las cuarentenas y las obligaciones impuestas a los ciudadanos |
-| **Comentarios** | Nuestra labor será la de recabar infomración que proporcionaremos a los ambulatorios y a sanidad para que puedan llevar a cabo las acciones pertinentes, pero el hecho de que estemos en comunicacion directa con organismos con tanto "poder" debería influir positivamente en el éxito de nuestro proyecto |
+| **Comentarios** | Nuestra labor será la de recabar información que proporcionaremos a los ambulatorios y a sanidad para que puedan llevar a cabo las acciones pertinentes, pero el hecho de que estemos en comunicacion directa con organismos con tanto "poder" debería influir positivamente en el éxito de nuestro proyecto |
     
 <p align="center"> <b>Tabla 1.7</b>
   
@@ -115,17 +115,17 @@ _(Esta sección debe contener información sobre las fortalezas o aspectos posit
 
 Debido a la complejidad de la situación actual y a que la aplicación __Radar Covid__ ha ofrecido muchos puntos en contra pero pocos a favor nos encontramos en una posición donde todo aquello que queramos implementar puede ser muy buena idea sobre el papel pero causar muchas dificultades en un contezto real.
 
-Por otro lado para poder llevar a cabo ciertas operaciones vamos a necesitar del uso de los datos de localización de los móviles y eso, por el momento supone un problema. Aú así, cuando esto esté solucionado deberemos lidiar con el cumplimiento de la ley de protección de datos.
+Por otro lado para poder llevar a cabo ciertas operaciones vamos a necesitar del uso de los datos de localización de los móviles y eso, por el momento supone un problema. Aún así, cuando esto esté solucionado deberemos lidiar con el cumplimiento de la ley de protección de datos.
 
-De toda esta situiación podemos resumir las siguientes debilidades en cuanto a nuestra situación actual:
+De toda esta situación podemos resumir las siguientes debilidades en cuanto a nuestra situación actual:
 
 _(Esta sección debe contener información sobre las debilidades o aspectos negativos de la situación actual, especificadas mediante las plantillas para debilidades que se muestran a continuación. Se deberá prestar especial atención a aquellos aspectos que se considere que no deben repetirse en el modelo de negocio a implantar, para que se eviten en el sistema software a desarrollar. El objetivo es no volver a reproducir los problemas del sistema actual en el sistema a desarrollar.)_
 
 | **<id>001** | Problemas en el uso de Bluetooth |
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
-| **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo reultó ser indervible si este estaba apagado o siendo usado por otro accesorio|
-| **Comentarios** | Supone un a debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor| 
+| **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo reultó ser inservible si este estaba apagado o siendo usado por otro accesorio.|
+| **Comentarios** | Supone una debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor.| 
   
 <p align="center"> <b>Tabla 2.1</b>
   
@@ -140,16 +140,16 @@ _(Esta sección debe contener información sobre las debilidades o aspectos nega
  | **<id>003** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones|
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
-| **Descripción** | Una vez diagnosticado un positivo y alertado a los posibles contagiados dependemos de la responsabilidad de cada uno de ellos para cumplir con las normas y las restricciones que se les apliquen. En caso de que no sea así tendremos dificultades para  llevar un control de la actividad del usuario y posibles brotes|
-| **Comentarios** | Para resolver el problema contamos con la ventaja de que podremos avisar a las fuerzas del orden para que estén al tanto de las personas que deben estar en  cuarentena y asegurar su cumplimiento (ver Tabla 1.7)| 
+| **Descripción** | Una vez diagnosticado un positivo y alertado a los posibles contagiados dependemos de la responsabilidad de cada uno de ellos para cumplir con las normas y las restricciones que se les apliquen. En caso de que no sea así tendremos dificultades para  llevar un control de la actividad del usuario y posibles brotes.|
+| **Comentarios** | Para resolver el problema contamos con la ventaja de que podremos avisar a las fuerzas del orden para que estén al tanto de las personas que deben estar en  cuarentena y asegurar su cumplimiento (ver Tabla 1.7). También se podrá hacer el control del cumplimiento de la cuarentena, por medio de la localización del dispositivo móvil de los pacientes o por medio de llamadas telefónicas a estos. (ver tabla 1.6).| 
   
 <p align="center"> <b>Tabla 2.3</b>
  
  | **<id>004** | Independecia a nivel autonómico en la gestion de los datos|
 | -- | -- |
 | **[Versión]** |  1.0 (18/11/2020) |
-| **Descripción** | Actualmente se han transeferido las competencias en la gestión de la pandemia a las autonomias, teniendo cada una sus propios sistemas de información |
-| **Comentarios** | Para solventar esta debilidad deberemos hablar con cada autonomía para poder adaptar nuestro proyecto a trabajar con cada uno de los respectivos sistemas de información| 
+| **Descripción** | Actualmente se han transeferido las competencias en la gestión de la pandemia a las autonomias, teniendo cada una sus propios sistemas de información. |
+| **Comentarios** | Para solventar esta debilidad deberemos hablar con cada autonomía para poder adaptar nuestro proyecto a trabajar con cada uno de los respectivos sistemas de información.| 
   
 <p align="center"> <b>Tabla 2.4</b>
 
