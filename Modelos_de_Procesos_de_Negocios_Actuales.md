@@ -1,6 +1,6 @@
 # 3.2 Modelos de Procesos de Negocios Actuales
 
-En este apartado representaremos y describiremos todos aquellos procesos que se llevarán acabo para poder mantener un control del estado de los usuarios de nuestra aplicación. Así podremos informar a los actores interesados del estado de la pandemia en su zona dotando de información útil para cada tipo de usuario. 
+En este apartado representaremos y describiremos todos aquellos procesos que se llevarán acabo para gestionar los contagios que se producen en la pandemia, asi como los procesos que se emplearán para controlar el cumplimiento de la cuarentena obligatoria por parte de los ciudadanos positivos. También se tendrán en cuenta todos aquellos procesos en los que se gestionen las distintas pruebas médicas que se deben realizar los ciudadanos, asi como informales a estos de los resultados.Por otro lado, se especificará como debe ser la comunicación con el resto de actores que intervienen en la plataforma como los agentes de la autoridad o el gobierno al que se le proporcionarán todos los datos obtenidos con la plataforma para que puedan tomarse las medidas oportunas por parte de los expertos correspondientes.
 
 ## 3.2.1 Descripción de los Actores de Negocio Actuales
 
@@ -10,37 +10,37 @@ Los actores de negocio de nuestra aplicación o toda aquella persona interesada 
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales en los que participa> <br> * ... |
-| **Descripción** | Este actor de negocio actual representa a los usuarios de a pie que podrán llevar un seguimiento de su estado asi como de acceder a estadisticas de su zona |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **Descripción** | Este actor de negocio actual es el actor principal de la plataforma y representa a cada uno de los ciudadanos, de dicho actor se van a obtener todos los datos que se gestionarán por medio de la plataforma. De ellos por medio de sus dispositivos móviles, se va a poder acceder a cual ha sido su localización, las personas con las que ha estado en contacto, el tiempo que ha permanecido en un determinado lugar, etc. Toda esta información será procesada por la plataforma pandemio para poder obtener la información "depurada" y poderla suministrar a los distintos actores interesados como el gobierno, las autoridades o los ambulatorios.|
+| **Comentarios** | De dicho actor se van a obtener sus datos por medio de los datos suministrados por las compañias telefónicas. |
 
-<p align="center"> <b>Tabla 3.1: Actores de negocio.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 3.1: Actores de negocio.</b>
 
 | **\<id>2** | Gobierno |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales en los que participa> <br> * ... |
-| **Descripción** | Este actor de negocio actual representa al gobiberno, en concreto al ministro de sanidad que podrá acceder a los listados y estadísticas generadas por la aplicación, lo que les servirá para tomar medidas e informarse de la situacion sanitaria |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **Descripción** | Este actor de negocio actual representa al gobierno, en concreto al ministro de sanidad, al que se le suministrarán todos los datos y estadísticas que se han obtenido por medio del procesamiento de los datos capturados de los ciudadanos y procesados por parte de nuestra plataforma pandemio. Dicho actor se encargará como entidad de tomar las decisiones oportunas en función de los datos suministrados por la plataforma, en base a diferentes criterios.
+| **Comentarios** | El objetivo de nuestra plataforma es proporcionar los datos lo mejor procesados y "depurados" a este actor para que puedan tomar decisiones. |
 
-<p align="center"> <b>Tabla 3.2: Actores de negocio.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 3.2: Actores de negocio.</b> 
 
 | **\<id>3** | Autoridades |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales en los que participa> <br> * ... |
-| **Descripción** | Este actor de negocio actual representa a las fuerzas del orden (policía local, nacional, guardia civil y el ejército) que deberán de ser informados del cumplimiento de la cuarentena y poder verificar que se esta cumpliendo esta. |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **Descripción** | Este actor de negocio actual representa a las fuerzas del orden (policía local, nacional, guardia civil y el ejército) que deberán de ser informados del cumplimiento de la cuarentena y poder verificar que se esta cumpliendo esta. Dicho actor puede acceder a la información de los ciudadanos que estén encuarentena para poder controlar que se cumplen dichas cuarentenas así como intervenir en el caso de que dejen de cumplirse o no se realicen las pruebas médicas oportunas.|
+| **Comentarios** | Las autoridades dispondran de dispositivos por medio de los cuales se les podrá notificar cuando un ciudadano no se ha presentado a hacerse las pruebas médicas, para que actuen en consecuencia. Por otra parte, también se les informará cuando deben de realizar los controles periódicos de que se cumple la cuarentena entre aquellos ciudadanos que deben cumplirla, será con la minoría de la población que no disponde de teléfono móvil o con aquellos que si disponen de teléfono móvil pero que no es posible verificar que se encuentran en casa o es imposible contactar con ellos.|
 
-<p align="center"> <b>Tabla 3.3: Actores de negocio.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 3.3: Actores de negocio.</b> </p>
 
 | **\<id>4** | Ambulatorio |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales en los que participa> <br> * ... |
-| **Descripción** | Este actor de negocio actual representa al centro de salud que dispondrá de listados donde se informarán del estado de los usuarios, pudiendo preveer que servicios pueden ofrecer. Así como un medio, para comunicarle al usuario que medidas debe tomar, periodo de cuarentena, pruebas a realizar, etc  |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **Descripción** | Este actor de negocio actual representa al centro de salud que dispondrá de listados donde se informarán del estado de los ciudadanos, así como de las distintas pruebas médicas que se les debe de realizar a cada uno de ellos. También se encargarán de notificar a los ciudadanos las citas en las que se les realizarán las pruebas, asi como las medidas que deben de tomar en caso de dar positivo y cual es la duración de la cuarentena que deben de cumplir. |
+| **Comentarios** | Este actor podrá acceder a los datos de los ciudadanos (a sus datos médicos), también será el encargado de registrar el resultado de las pruebas realizadas a los ciudadanos en la plataforma pandemio, para que finalmente se pueda contabilizar dicho positivo y poder hacer un seguimiento de los contactos de dicho positivo, así como proporcionar los datos al gobierno. |
 
-<p align="center"> <b>Tabla 3.4: Actores de negocio.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 3.4: Actores de negocio.</b> <br> </p>
 
 
 ## 3.2.2 Descripción de Procesos de Negocio Actuales
@@ -93,13 +93,22 @@ Aquí se especificarán los procesos que debe llevar a cabo nuestra aplicación 
 
 # 3.3 Entorno Tecnológico Actual
 
-Pandemio parte de una aplicación ya existente (Radar Covid), aparte de los servidores a los que se conecta dicha aplicación. Las bases de datos de cada autonomía. Aparte de la propia tecnologia Bluetooth (hardware y software) en la que se basa el funcionamiento de Radar Covid
+
+Pandemio surge como necesidad de mejorar diferentes aspectos negativos encontrados en la ya existente aplicación Radar Covid, aparte de introducir nueva funcionalidad para poder gestionar los datos acerca de la pandemia. Además a parte de esta aplicación en la actualidad se encuentran otras con una funcionalidad parecida, como se ha comentado en el apartado 3.0.
+
+Dado que en la actualidad, la sociedad está muy concienciada con las nuevas tecnologías y cada vez está mas acostrumbrada al uso de la tecnología en su vida diaria, hace que sea interesante aprovechar este entorno tecnológico en el que vivimos para poder obtener datos e información acerca de la pandemia.
 
 
 ## 3.3.1 Descripción del Entorno de Hardware Actual
 
-Para que Radar Covid funcione es necesario un terminal (teléfonos de los usuarios), base de datos con datos anonimos que tienen identificadores de casos cofirmados. Incuimos tambien todo el soporte de red.
+Hoy en día, cerca del 90% de la población española dispone de un teléfono móvil y en la mayoría de los casos se tratan de smartphones. Aprovechando de que la mayoría de la población dispone de tal dispositivo y lo lleva siempre consigo, podemos beneficiarnos de toda la información que se está compartiendo por la red mientras estamos conectados o disponemos de cobertura o señal GPS.
+
+Por otra parte, hoy en dia disponemos de unas buenas infraestructuras de redes de comunicación en la que se pueden sustentar todo este intercambio de información constante.
+
+Dado que pandemio va a gestionar también información y datos médicos relativos a los pacientes que se deben realizar las pruebas oportunas en los ambulatorios en los que estén asigandos, se necesita disponer de tal información la cual se encuentra en las bases de datos y servidores del sistema sanitario de cada comunidad autónoma.Por lo que resulta conveniente que se pueda acceder a tal información de dichas bases de datos por medio de nuestra plataforma pandemio.
 
 ## 3.3.2 	Descripción del Entorno de Software Actual
+
+**Se puede añadir aquí el estudio del arte de la descripcion del entrono actual**
 
 La antigüa aplicación está disponible tanto para android como para ios. Utiliza como kit de desarrollo DP-3T (Decentralized Privacy-Preserving Proximity Tracing) que es un protocolo para el rastreo digital de los contactos de manera anónima donde cada terminal se conecta a través de un token con el servidor. Por otro lado contamos con otras aplicaciones como por ejemplo Coronamadrid.
