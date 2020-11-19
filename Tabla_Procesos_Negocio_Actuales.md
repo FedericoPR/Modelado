@@ -20,6 +20,7 @@ irán añadiento y modificando los procesos. Inicialmente podemos pensar en esto
 | **[Versión]** | 1.1(19/11/2020) |
 | **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Actualmente una vez se detecta un positivo, este queda automaticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena las autoridades sanitarias realizan llamadas con frecuencia al paciente. Con esta llamada se pretede controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud|
+| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
 | **[Actores]** | * Ambulatorio <br> * Cuidadano |
 | **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar|
 
