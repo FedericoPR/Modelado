@@ -5,7 +5,7 @@ Ante los resultados decepcionantes obtenidos con la aplicación **Radar Covid** 
 
 Con esta nueva plataforma que se propone desarrollar, se desea mitigar aquellos problemas que se han encontrado en la ya existente aplicación **Radar Covid**. Entre los cuales el comité de expertos resalta que son debidos a que la instalación y el uso de la app NO eran obligatorios, por lo que pocos usuarios la instalaron y además dicha aplicación al basarse en el uso de bluetooth, la aplicación era inservible si el bluetooth estaba apagado o bien estaba ocupado.
 
-Además se propone que la nueva plataforma a desarrollar pueda llevar a cabo un seguimiento de aquellos ciudadanos que deben cumplir la cuarentena y no la cumplian, asi como aquellos que no acudian a hacerse las pruebas médicas oportunas. Donde resulta importante que se cumpla la ley de datos y los datos de los ciudadanos solo sean usados por las personas autorizadas y sean anonimizados cuando sea posible.
+Además se propone que la nueva plataforma a desarrollar pueda llevar a cabo un seguimiento de aquellos ciudadanos que deben cumplir la cuarentena y no la cumplían, asi como aquellos que no acudían a hacerse las pruebas médicas oportunas. Donde resulta importante que se cumpla la ley de datos y los datos de los ciudadanos solo sean usados por las personas autorizadas y sean anonimizados cuando sea posible.
 
 ### 1.1 Alcance
 Con el desarrollo de la plataforma PANDEMIO, se busca conseguir un sistema de control e información acerca de los contagios que se dan en una pandemia, en este caso de Covid-19, pero también nos servirá para otras pandemias que se pudieran presentar en un futuro.
@@ -77,61 +77,61 @@ Puesto que la situación de la pandemia actual es una situación critica se nos 
 
 De toda esta situación podemos resumir las siguientes fortalezas en cuanto a nuestra situación actual:
 
-| **<id>001** | Reciente pandemia del COVID-19 |
+| **\<id>001** | Reciente pandemia del COVID-19 |
 | -- | -- |
 | **[Versión]** | 1.0 (17/11/2020) |
 | **Descripción** | Dado que actualmente existe la pandemia del Covid-19, hemos adquirido la suficiente experiencia de como se debe actuar ante una pandemia y cuales deben ser las medidad a tomar. Es decir, tendremos un conocimiento previo y un conjunto de técnicas que se podrán aplicar de cara a controlar la pandemia y no actuaremos desde cero. |
 | **Comentarios** | En la actualidad se conocen los protocolos de actuación ante una pandemia, la sociedad conoce el como actuar y dispone de una experiencia previa de ello. Además se dispone de datos previos y estudios acerca de la eficacia de las diferenetes mediadas tomadas en la actual pandemia. |
   
-<p align="center"> <b>Tabla 1.1</b>
+<p align="center"> <b>Tabla 1.1: Fortalezas de la situación actual.</b>
   
-| **<id>002** | Referencia Aplicación "Radar Covid" |
+| **\<id>002** | Referencia Aplicación "Radar Covid" |
 | -- | -- |
 | **[Versión]** | 1.0  (17/11/2020) |
 | **Descripción** | En la actualidad existe otra aplicación del ministerio llamada Radar Covid, la cual la base de su funcionalidad es parecida a la de nuestra plataforma, la idea de controlar los contagios surge de esta aplicación y se tratará de mejorar las deficiencias encontradas en ella. A partir de esta aplicación se dispone de una base para comenzar a desarrollar nuestra plataforma. |
 | **Comentarios** | Usaremos como fortaleza de esta aplicación la idea de controlar los contactos con los positivos, pero la implementación sufrirá modificaciones, ya que se usarán los datos proporcionados por las operadoras móviles, en vez de el uso de bluetooth por los problemas encontrados en su uso.  |
   
-<p align="center"> <b>Tabla 1.2</b>
+<p align="center"> <b>Tabla 1.2: Fortalezas de la situación actual.</b>
     
-| **<id>003** | Existencia de datos sobre la población |
+| **\<id>003** | Existencia de datos sobre la población |
 | -- | -- |
 | **[Versión]** | 1.0  (18/11/2020) |
 | **Descripción** | Debido a la actual pandemia del COVID-19 los distintos estamentos del gobierno y sus autonomías han podido recabar información sobre la población en vistas a poder prevenir la extension del virus. |
 | **Comentarios** | Con cada llamada a los teléfonos habilitados para la población para temas de COVID-19 el protocolo marcaba imprescindible recabar datos sobre la persona que realizaba la llamada, tales como la edad o el código postal. De confirmarse el positivo, y con el objetivo de realizar el rastreo se le preguntaba al usuario las personas con las que había mantenido contacto en los días previos así como su dirección y los lugares donde había estado durante un periodo largo de tiempo. Toda esa información que ya tenemos podría ser usada en un futuro para realizar estudios que nos permitieran llevar a cabo una actuación más rápida y eficiente a la hora de encotrar infectados y adelantarnos en una posible nueva pandemia para minimizar la propagación|
   
-<p align="center"> <b>Tabla 1.3</b>
+<p align="center"> <b>Tabla 1.3: Fortalezas de la situación actual.</b>
   
-| **<id>004** | Acceso a los datos de los operadores móviles |
+| **\<id>004** | Acceso a los datos de los operadores móviles |
 | -- | -- |
 | **[Versión]** | 1.0 (17/11/2020) |
 | **Descripción** | Gracias a que la situación de pandemia ha llevado a que se declare un estado de alerta sanitaria se dispone de una situación en la cual se pueden hacer los cambios legales necesarios, entre ellos que los datos acerca de los ciudadanos sean proporcionados por las propias operadoras con el fin de usar esta información para nuestra plataforma y no con otros fines. Dichos datos son los mas precisos que se pueden obtener, y en ellos no tiene que intervenir el usuario, sino que son obtenidos sin su "consentimiento". |
 | **Comentarios** | Tomaremos como fortaleza el hecho de que al obtener los datos de las operadoras móviles, el usuario no se puede negar a proporcionar dichos datos y además, se evitan los posibles despistes de tener desconectado el bluetooth como ocurría con Radar Covid o que al utilizarse otro dispositivo, no se registren los nuevos contactos directos.|
   
-<p align="center"> <b>Tabla 1.4</b>
+<p align="center"> <b>Tabla 1.4: Fortalezas de la situación actual.</b>
   
-| **<id>005** | Posibilidad de realizar los cambios legales necesarios |
+| **\<id>005** | Posibilidad de realizar los cambios legales necesarios |
 | -- | -- |
 | **[Versión]** | 1.0 (17/11/2020) |
 | **Descripción** | Dado que nuestro cliente es el Ministerio de Sanidad, se está planteando crear un estado de alerta sanitaria o pandemia con el fín de que dicho estado de alerta sirva como paraguas para poder realizar los cambios legales necesarios a la hora de poder implementar de una forma correcta nuestra plataforma y poder obtener los datos necesarios para ello.|
 | **Comentarios** | Se tomará como fortaleza el hecho de que si existe algún impedimento legal a la hora de poder implementar nuestra plataforma, al estar destinada al gobierno se podrán realizar los cambios legales necesarios para eliminar dichos impedimentos o reducirles. |
   
-<p align="center"> <b>Tabla 1.5</b>
+<p align="center"> <b>Tabla 1.5: Fortalezas de la situación actual.</b>
   
-| **<id>006** | Disponibilidad de móvil de gran parte de la población |
+| **\<id>006** | Disponibilidad de móvil de gran parte de la población |
 | -- | -- |
 | **[Versión]** | 1.0 (17/11/2020) |
 | **Descripción** | En la actualidad cerca del 90% de la población española dispone de teléfono móvil, luego esto es una gran fortaleza dado que podremos obtener información de una gran parte de la población gracias a sus dispositivos móviles. Además se podrá utilizar a su vez como dispositivo para controlar que se cumplen con las cuarentenas obligatorias así como medio de comunicación con el ciudadano. |
 | **Comentarios** | El pequeño porcentaje de la población que no dispone de teléfono movil se suele corresponder con niños o personas de edad avanzada, las cuales es más fácil de rastrear sus contagios y si cumplen la cuarentena obligatoria, para ello hará falta de la actuación de los agentes de la autoridad o personas asignadas para ello. |
   
-<p align="center"> <b>Tabla 1.6</b>
+<p align="center"> <b>Tabla 1.6: Fortalezas de la situación actual.</b>
   
-| **<id>007** | Comunicación con las fuerzas del orden y los sanitarios |
+| **\<id>007** | Comunicación con las fuerzas del orden y los sanitarios |
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
 | **Descripción** | Para poder llevar a cabo un control eficiente de las personas que deben realizarse las pruebas enviaremos a los ambulatorios los listados de personas que deben hacerse las pruebas, y estos podrán notificar a la autoridad el inclumplimiento. Por su parte las fuerzas del orden podrán comprobar el cumplimiento de las cuarentenas y las obligaciones impuestas a los ciudadanos |
 | **Comentarios** | Nuestra labor será la de recabar información que proporcionaremos a los ambulatorios y a sanidad para que puedan llevar a cabo las acciones pertinentes, pero el hecho de que estemos en comunicacion directa con organismos con tanto "poder" debería influir positivamente en el éxito de nuestro proyecto |
-    
-<p align="center"> <b>Tabla 1.7</b>
+  
+<p align="center"> <b>Tabla 1.7: Fortalezas de la situación actual.</b>
 
 #### 3.1.2 Debilidades de la situación Actual
 Debido a la complejidad de la situación actual y a que la aplicación __Radar Covid__ ha ofrecido muchos puntos en contra pero pocos a favor nos encontramos en una posición donde todo aquello que queramos implementar puede ser muy buena idea sobre el papel pero causar muchas dificultades en un contezto real.
@@ -145,8 +145,8 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
 | **[Versión]** | 1.0 (18/11/2020) |
 | **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo reultó ser inservible si este estaba apagado o siendo usado por otro accesorio.|
 | **Comentarios** | Supone una debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor.| 
-  
-<p align="center"> <b>Tabla 2.1</b>
+
+<p align="center"> <b>Tabla 2.1: Debilidades de la situación actual.</b>
   
 | **<id>002** | Opcionalidad de los usuarios para estar controlados|
 | -- | -- |
@@ -154,7 +154,7 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
 | **Descripción** | La obtención de Radar Covid por parte del usuario era totalmente voluntaria, lo que supone un gran problema ya que el usuario que lo deseara podría ser "invisible" desde el punto de vista de la aplicación |
 | **Comentarios** | Para poder paliar la debilidad de que los usuarios decidan no tener la aplicación nosotros contamos con los datos de las operadoras sobre los registros de localización de los usuarios con lo que el usuario estará "monitorizado" sin saberlo (ver Tabla 1.4) | 
   
-<p align="center"> <b>Tabla 2.2</b>
+<p align="center"> <b>Tabla 2.2: Debilidades de la situación actual.</b>
   
 | **<id>003** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones|
 | -- | -- |
@@ -162,15 +162,15 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
 | **Descripción** | Una vez diagnosticado un positivo y alertado a los posibles contagiados dependemos de la responsabilidad de cada uno de ellos para cumplir con las normas y las restricciones que se les apliquen. En caso de que no sea así tendremos dificultades para  llevar un control de la actividad del usuario y posibles brotes.|
 | **Comentarios** | Para resolver el problema contamos con la ventaja de que podremos avisar a las fuerzas del orden para que estén al tanto de las personas que deben estar en  cuarentena y asegurar su cumplimiento (ver Tabla 1.7). También se podrá hacer el control del cumplimiento de la cuarentena, por medio de la localización del dispositivo móvil de los pacientes o por medio de llamadas telefónicas a estos. (ver tabla 1.6).| 
   
-<p align="center"> <b>Tabla 2.3</b>
+<p align="center"> <b>Tabla 2.3: Debilidades de la situación actual.</b>
  
-| **<id>004** | Independecia a nivel autonómico en la gestion de los datos|
+| **\<id>004** | Independecia a nivel autonómico en la gestion de los datos|
 | -- | -- |
 | **[Versión]** |  1.0 (18/11/2020) |
 | **Descripción** | Actualmente se han transeferido las competencias en la gestión de la pandemia a las autonomias, teniendo cada una sus propios sistemas de información. |
 | **Comentarios** | Para solventar esta debilidad deberemos hablar con cada autonomía para poder adaptar nuestro proyecto a trabajar con cada uno de los respectivos sistemas de información.| 
   
-<p align="center"> <b>Tabla 2.4</b>
+<p align="center"> <b>Tabla 2.4: Debilidades de la situación actual.</b>
 
 ### 3.2 Modelos de Procesos de Negocios Acutales
 En este apartado representaremos y describiremos todos aquellos procesos que se llevarán acabo para gestionar los contagios que se producen en la pandemia, asi como los procesos que se emplearán para controlar el cumplimiento de la cuarentena obligatoria por parte de los ciudadanos positivos. También se tendrán en cuenta todos aquellos procesos en los que se gestionen las distintas pruebas médicas que se deben realizar los ciudadanos, asi como informales a estos de los resultados.Por otro lado, se especificará como debe ser la comunicación con el resto de actores que intervienen en la plataforma como los agentes de la autoridad o el gobierno al que se le proporcionarán todos los datos obtenidos con la plataforma para que puedan tomarse las medidas oportunas por parte de los expertos correspondientes.
@@ -178,7 +178,7 @@ En este apartado representaremos y describiremos todos aquellos procesos que se 
 #### 3.2.1 Descripción de los Actores de Negocio Actuales
 Los actores de negocio actuales son todas aquellas personas o entidades que están involucradas en la gestión de la pandemia actual y en los procesos de negocio llevados a cabo. Dichos actores se corresponden con: ciudadanos, gobierno, autoridades y ambulatorios. Necesarios para que la información se transmita de manera segura.
 
-| **\<id>1** | Ciudadano |
+| **\<id>001** | Ciudadano |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | El cuidadano es la piedra angular del proceso y por ello la mayoría de los procesos de negocio actuales dependen de el. El proceso 1, "Hacer prueba PCR", depende directamente del cuidadano ya que es objeto de dicha prueba. Por el mismo motivo también depende el proceso 2, "Registrar resultado de la prueba". El proceso 3, "Rastreo por contacto con un positivo", depende también de este actor ya que un resultado positivo en un cuidadano recae en la realización de pruebas en otros ciudadanos. Por último el proceso control de la cuarentena y seguimiento del estado del paciente, proceso 4, depende del cuidadano por razones obvias.|
@@ -187,7 +187,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 <p align="center"> <b>Tabla 3.1: Actores de negocio.</b>
 
-| **\<id>2** | Gobierno |
+| **\<id>002** | Gobierno |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | De este actor depende el proceso de negocio 5, "Toma de decisiones", ya que es el encargado de tomar las medidas o imponer las restriccones en función del análisis de la información disponible. |
@@ -196,7 +196,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 <p align="center"> <b>Tabla 3.2: Actores de negocio.</b> 
 
-| **\<id>3** | Autoridades |
+| **\<id>003** | Autoridades |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho actor participa en los procesos de negocio 3 Rastreo por contacto con positivo y en el proceso 4 llevar seguimiento del paciente y control de su cuarentena.|
@@ -205,7 +205,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 <p align="center"> <b>Tabla 3.3: Actores de negocio.</b> </p>
 
-| **\<id>4** | Ambulatorio |
+| **\<id>004** | Ambulatorio |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Este actor entra en juego en la mayoría de los procesos de negocio, dado que es el conocedor de como se debe gestionar la pandemia y se encarga de mediar en como se debe actuar en los distintos casos. Los procesos de negocio en los que particicipa son 1 Hacer prueba PCR, 2 Registrar resultado de la prueba PCR, 3 rastreo por contacto con positivo, 4 llevar seguimiento del paciente y control de su cuarentena y 5 interpretción de los datos. |
@@ -217,7 +217,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 #### 3.2.2 Descripción de Procesos de Negocio Actuales
 En este apartado se comentarán cuales son los procesos de negocio que se llevan a cabo en la actualidad para gestionar la pandemia. Dichos procesos son en los que se basará nuestra plataforma para agilizarlos y poder ser llevadas a cabo de una forma más automatizada. De forma general, se comentará cual es el flujo de procesos que se han de llevar a cabo cuando se detectan los sintomas compatibles con la enfermedad. Dichos procesos son los siguientes:
 
-| **\<id>1** | Hacer prueba PCR |
+| **\<id>001** | Hacer prueba PCR |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | En algunos casos depende del proceso de negocio 3, Rastreo de contacto con el positivo, sin embargo en otros casos no hay ninguna dependencia cuando se registra un caso aislado. |
@@ -228,7 +228,7 @@ En este apartado se comentarán cuales son los procesos de negocio que se llevan
 
 <p align="center"> <b>Tabla 4.1: Procesos de Negocio actuales.</b> <br> </p>
 
-| **\<id>2** | Registrar resultado prueba PCR |
+| **\<id>002** | Registrar resultado prueba PCR |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
@@ -239,7 +239,7 @@ En este apartado se comentarán cuales son los procesos de negocio que se llevan
 
 <p align="center"> <b>Tabla 4.2: Procesos de Negocio actuales.</b> <br>  </p>
 
-| **\<id>3** | Rastreo por contacto con positivo |
+| **\<id>003** | Rastreo por contacto con positivo |
 | -- | -- |
 | **[Versión]** | 1.0(19/11/2020) |
 | **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
@@ -263,7 +263,7 @@ En este apartado se comentarán cuales son los procesos de negocio que se llevan
 <p align="center"> <b>Tabla 4.4: Procesos de Negocio actuales.</b> <br>  </p>
 
 
-| **\<id>5** | Interpretación de los datos |
+| **\<id>005** | Interpretación de los datos |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho proceso de negocio depende sobre todo del proceso 2 registrar casos positivos (para conocer los positivos que hay en cada centro de salud) y del proceso 3 Rastreo por contacto con positivo (para conocer de donde provienen dichos contagios).|
