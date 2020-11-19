@@ -19,7 +19,7 @@ Entre los objetivos que se desean alcanzar al desarrollar dicha plataforma se en
 
 - Llevar a cabo un rastreo de los casos positivos entre los ciudadanos, así como conocer las personas que hayan estado en contacto con un positivo (durante un tiempo superior a 15 minutos)
 - LLevar a cabo un control del correcto cumplimiento de la cuarentena por aquellos ciudadanos que la deban cumplir, notificando a la autoridad cuando se deja de cumplir la cuarentena.
-- Llevar a cabo un control de aquellos ciudadanos que deben presentarse a las pruebas médicas oportunas, así como el resultado de estas.
+- LLevar a cabo un control de aquellos ciudadanos que deben presentarse a las pruebas médicas oportunas, así como el resultado de estas.
 - Proporcionar información de los distintos casos positivos que se detectan al ministerio de Sanidad, se debe informar del número de casos positivos que se encuentran en una determinada zona, ya sea por barrios, pueblos, etc. Para que los expertos epidemiólogos puedan tomar las medidas oportunas a partir de estos datos.
 - Rastrear donde se han podido ocasionar los contagios entre los casos positivos, para que dicha información sea proporcionada al ministerio de sanidad y pueda tomar las medidas oportunas sobre permitir ciertas actividades o no.
 
@@ -44,7 +44,8 @@ Después, se llevará a cabo un seguimiento de todas aquellas personas que hayan
 - **Confinamiento:** Acción que se lleva cabo para mantener a una persona positiva dentro de unos límites (en este caso su vivienda), con el fin de que no contagie al resto de la población.
 - **Contacto directo:** Aquella persona que ha estado en contacto con un caso confirmado de Covid-19 desde las 48 horas antes del inicio de síntomas o del diagnóstico. Entre estas, son más probables de ser positivos aquellas que hayan estado en el mismo lugar que un caso positivo, a una distancia menor de 2 metros durante un tiempo superior de 15 minutos.
 - **Covid-19:** Enfermedad infecciosa causada por el coronavirus SARS-COV-2.
-- **Cuarentena:** Ponerse en cuarentena significa separarse de los demás porque ha estado expuesto a alguien con COVID‑19 aunque usted mismo no tenga síntomas. Durante la cuarentena, debe vigilar su estado para detectar síntomas. El objetivo de la cuarentena es prevenir la transmisión
+- **Cuarentena:** Ponerse en cuarentena significa separarse de los demás porque ha estado expuesto a alguien con COVID‑19 aunque usted mismo no tenga síntomas. Durante la cuarentena, debe vigilar su estado para detectar síntomas. El objetivo de la cuarentena es prevenir la transmisión.
+- **Pandemia:** Enfermedad epidémica que se extiende a muchos países o que ataca a casi todos los individuos de una localidad o región.
 - **Prueba PCR:** Tipo de prueba de diagnóstico, que permite detectar un caso positivo de Covid-19.
 - **Toque de queda:**  se refiere a la prohibición o restricción, establecida por instituciones gubernamentales, de circular libremente por las calles de una ciudad o permanecer en lugares públicos, permaneciendo los habitantes únicamente en sus hogares salvo excepciones de necesidad o urgencia.
 
@@ -140,12 +141,11 @@ Por otro lado, para poder llevar a cabo ciertas operaciones vamos a necesitar de
 
 De toda esta situación podemos resumir las siguientes debilidades en cuanto a nuestra situación actual:
 
-| **<id>001** | Problemas en el uso de Bluetooth |
+| **\<id>001** | Problemas en el uso de Bluetooth |
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
-| **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo resultó ser inservible si este estaba apagado o siendo usado por otro accesorio. |
-| **Comentarios** | Supone una debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor. | 
-
+| **Descripción** | La aplicación Radar Covid intentó realizar la localización de los usuarios y sus interacciones por medio del bluetooth sin embargo resultó ser inservible si este estaba apagado o siendo usado por otro accesorio.|
+| **Comentarios** | Supone una debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor.| 
 <p align="center"> <b>Tabla 2.1: Debilidades de la situación actual.</b> </p>
   
 | **<id>002** | Opcionalidad de los usuarios para estar controlados |
@@ -198,11 +198,13 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>003** | Autoridades |
 | -- | -- |
+<<<<<<< HEAD
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho actor participa en los procesos de negocio 3 Rastreo por contacto con positivo y en el proceso 4 llevar seguimiento del paciente y control de su cuarentena. |
 | **Descripción** | Este actor de negocio actual representa a las fuerzas del orden (policía local, nacional, guardia civil y el ejército) que se encargan de rastrear cuales han sido los contactos directos con los positivos y proveer dicha información a los ambulatorios para que sean los encargados de llamar a dichos contactos directos para que se les realicen las pruebas médicas oportunas. También son los encargados de controlar el cumplimiento de las cuarentenas obligatorias por parte de los ciudadanos que deban de cumplirlas, para ello se encargan de hacer llamadas telefónicas o videollamadas con los pacientes positivos para comprobar que se encuentran en casa cumpliendo la cuarentena. |
+=======
+>>>>>>> plantilla
 | **Comentarios** | A este actor en determinadas ocasiones se les llama rastreadores, y llevaran a cabo la misión de rastrear el cómo se producen los contagios entre los positivos, asi como obtener cuales son los brotes de dichos contagios, para ello tan solo disponen de la información proporcionada por los pacientes positivos. |
-
 <p align="center"> <b>Tabla 3.3: Actores de negocio.</b> </p>
 
 | **\<id>004** | Ambulatorio |
@@ -230,10 +232,17 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>002** | Registrar resultado prueba PCR |
 | -- | -- |
+<<<<<<< HEAD
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que, si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
 | **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de casa, si convive con más personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo, pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo, y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+=======
+| **[Versión]** | 1.0 (17/11/2020) |
+| **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
+| **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de casa, si convive con mas personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo,y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo.|
+| **[Importancia]** | Alta |
+>>>>>>> plantilla
 | **[Actores]** | * Ambulatorio> <br> * Ciudadano |
 | **Comentarios** | La comunicación se realiza por medio de llamadas telefónicas. Se tienen en cuenta numerosos factores para decidir cúal es la forma de actuar en cada caso. |
 
@@ -241,24 +250,42 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>003** | Rastreo por contacto con positivo |
 | -- | -- |
+<<<<<<< HEAD
 | **[Versión]** | 1.0(19/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que únicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Hoy en día en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las últimas horas, normalmente las 48 horas previas a la manifestación de síntomas. En caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos ciudadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
 | **[Actores]** | * Ambulatorio <br> * Ciudadano <br> * Autoridades |
 | **Comentarios** | Actualmente tenemos que confiar en que el usuario nos proporcione todos los contactos que ha tenido en las horas previas. En este sentido tenemos el hándicap de que el usuario puede no recordarlos todos y/o no querer proporcionarlos todos por conveniencia. |
+=======
+| **[Versión]** | 1.0 (19/11/2020) |
+| **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
+| **Descripción** | A día de hoy en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las úlitmas horas, normalmente las 48 horas previas a la manifestación de síntomas. En  caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos cuidadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso.|
+| **[Importancia]** | Alta|
+| **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
+| **Comentarios** | Actualmente tenemos que confiar en que el usuario nos proporcione todos los contactos que ha tenido en las horas previas. En este sentido tenemos el handicap de que el usuario puede no recordarlos todos y/o no querer proporcionarlos todos por conveniencia.|
+>>>>>>> plantilla
 
 <p align="center"> <b>Tabla 4.3: Procesos de Negocio actuales.</b> <br> </p>
 
 
 | **\<id>004** | Llevar seguimiento del paciente y control de su cuarentena |
 | -- | -- |
+<<<<<<< HEAD
 | **[Versión]** | 1.1(19/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Actualmente una vez se detecta un positivo, este queda automáticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretende controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
 | **[Actores]** | * Ambulatorio <br> * Ciudadano <br> * Autoridades |
 | **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar. |
+=======
+| **[Versión]** | 1.1 (19/11/2020) |
+| **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
+| **Descripción** | Actualmente una vez se detecta un positivo, este queda automaticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretede controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud|
+| **[Importancia]** | Media |
+| **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
+| **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar|
+>>>>>>> plantilla
 
 <p align="center"> <b>Tabla 4.4: Procesos de Negocio actuales.</b> <br>  </p>
 
@@ -268,13 +295,14 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho proceso de negocio depende sobre todo del proceso 2 registrar casos positivos (para conocer los positivos que hay en cada centro de salud) y del proceso 3 Rastreo por contacto con positivo (para conocer de donde provienen dichos contagios). |
 | **Descripción** | Una vez que los casos positivos han sido registrados en las bases de datos de los ambulatorios, estos pueden proporcionar dicha información al gobierno, para que estos tomen las medidas oportunas en función de estos datos proporcionados y las estadísticas obtenidas. |
-| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+| **[Importancia]** | Alta |
 | **[Actores]** | * Gobierno <br> * Ambulatorios |
 | **Comentarios** | El gobierno debe de pedir los datos sanitarios a los ambulatorios "en crudo" y por medio de los expertos del gobierno se realizarán las estadísticas oportunas con la escasa información que se dispone de cada caso, para posteriormente tomar decisiones. Pero los ambulatorios no disponen de dicha información de forma directa. |
 
 <p align="center"> <b>Tabla 4.5: Procesos de Negocio actuales.</b> <br> </p>
 
 ### 3.3 Entorno Tecnológico Actual
+
 Pandemio surge como necesidad de mejorar diferentes aspectos negativos encontrados en la ya existente aplicación Radar Covid, aparte de introducir nueva funcionalidad para poder gestionar los datos acerca de la pandemia. Además, a parte de esta aplicación en la actualidad se encuentran otras con una funcionalidad parecida, como se ha comentado en el apartado 3.0.
 
 Dado que, en la actualidad, la sociedad está muy concienciada con las nuevas tecnologías y cada vez está más acostumbrada al uso de la tecnología en su vida diaria, hace que sea interesante aprovechar este entorno tecnológico en el que vivimos para poder obtener datos e información acerca de la pandemia.
