@@ -198,12 +198,9 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>003** | Autoridades |
 | -- | -- |
-<<<<<<< HEAD
 | **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho actor participa en los procesos de negocio 3 Rastreo por contacto con positivo y en el proceso 4 llevar seguimiento del paciente y control de su cuarentena. |
 | **Descripción** | Este actor de negocio actual representa a las fuerzas del orden (policía local, nacional, guardia civil y el ejército) que se encargan de rastrear cuales han sido los contactos directos con los positivos y proveer dicha información a los ambulatorios para que sean los encargados de llamar a dichos contactos directos para que se les realicen las pruebas médicas oportunas. También son los encargados de controlar el cumplimiento de las cuarentenas obligatorias por parte de los ciudadanos que deban de cumplirlas, para ello se encargan de hacer llamadas telefónicas o videollamadas con los pacientes positivos para comprobar que se encuentran en casa cumpliendo la cuarentena. |
-=======
->>>>>>> plantilla
 | **Comentarios** | A este actor en determinadas ocasiones se les llama rastreadores, y llevaran a cabo la misión de rastrear el cómo se producen los contagios entre los positivos, asi como obtener cuales son los brotes de dichos contagios, para ello tan solo disponen de la información proporcionada por los pacientes positivos. |
 <p align="center"> <b>Tabla 3.3: Actores de negocio.</b> </p>
 
@@ -232,17 +229,10 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>002** | Registrar resultado prueba PCR |
 | -- | -- |
-<<<<<<< HEAD
-| **[Versión]** | 1.0(17/11/2020) |
-| **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que, si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
-| **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de casa, si convive con más personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo, pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo, y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo. |
-| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-=======
 | **[Versión]** | 1.0 (17/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
 | **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de casa, si convive con mas personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo,y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo.|
 | **[Importancia]** | Alta |
->>>>>>> plantilla
 | **[Actores]** | * Ambulatorio> <br> * Ciudadano |
 | **Comentarios** | La comunicación se realiza por medio de llamadas telefónicas. Se tienen en cuenta numerosos factores para decidir cúal es la forma de actuar en cada caso. |
 
@@ -250,42 +240,24 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>003** | Rastreo por contacto con positivo |
 | -- | -- |
-<<<<<<< HEAD
-| **[Versión]** | 1.0(19/11/2020) |
-| **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que únicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
-| **Descripción** | Hoy en día en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las últimas horas, normalmente las 48 horas previas a la manifestación de síntomas. En caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos ciudadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso. |
-| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Actores]** | * Ambulatorio <br> * Ciudadano <br> * Autoridades |
-| **Comentarios** | Actualmente tenemos que confiar en que el usuario nos proporcione todos los contactos que ha tenido en las horas previas. En este sentido tenemos el hándicap de que el usuario puede no recordarlos todos y/o no querer proporcionarlos todos por conveniencia. |
-=======
 | **[Versión]** | 1.0 (19/11/2020) |
 | **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | A día de hoy en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las úlitmas horas, normalmente las 48 horas previas a la manifestación de síntomas. En  caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos cuidadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso.|
 | **[Importancia]** | Alta|
 | **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
 | **Comentarios** | Actualmente tenemos que confiar en que el usuario nos proporcione todos los contactos que ha tenido en las horas previas. En este sentido tenemos el handicap de que el usuario puede no recordarlos todos y/o no querer proporcionarlos todos por conveniencia.|
->>>>>>> plantilla
 
 <p align="center"> <b>Tabla 4.3: Procesos de Negocio actuales.</b> <br> </p>
 
 
 | **\<id>004** | Llevar seguimiento del paciente y control de su cuarentena |
 | -- | -- |
-<<<<<<< HEAD
-| **[Versión]** | 1.1(19/11/2020) |
-| **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
-| **Descripción** | Actualmente una vez se detecta un positivo, este queda automáticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretende controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud. |
-| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Actores]** | * Ambulatorio <br> * Ciudadano <br> * Autoridades |
-| **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar. |
-=======
 | **[Versión]** | 1.1 (19/11/2020) |
 | **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Actualmente una vez se detecta un positivo, este queda automaticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretede controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud|
 | **[Importancia]** | Media |
 | **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
 | **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar|
->>>>>>> plantilla
 
 <p align="center"> <b>Tabla 4.4: Procesos de Negocio actuales.</b> <br>  </p>
 
