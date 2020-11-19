@@ -180,7 +180,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>001** | Ciudadano |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | El ciudadano es la piedra angular del proceso y por ello la mayoría de los procesos de negocio actuales dependen de él. El proceso 1, "Hacer prueba PCR", depende directamente del ciudadano ya que es objeto de dicha prueba. Por el mismo motivo también depende el proceso 2, "Registrar resultado de la prueba". El proceso 3, "Rastreo por contacto con un positivo", depende también de este actor ya que un resultado positivo en un ciudadano recae en la realización de pruebas en otros ciudadanos. Por último el proceso control de la cuarentena y seguimiento del estado del paciente, proceso 4, depende del ciudadano por razones obvias. |
 | **Descripción** | Este actor de negocio actual es el actor principal en torno al que gira todo el sistema. Representa a cada uno de los ciudadanos. De este actor se obtiene la información de su localización por medio de la tecnología bluetooth de su móvil para que si se produce un positivo poder alertar a aquellas personas que hayan tenido contacto. La llamada de un ciudadano por padecer síntomas y la realización de una PCR es lo que dispara los diferentes procesos de negocio, ya que si se produce un positivo este debe guardar una cuarentena sobre la que se realiza un seguimiento además de iniciarse un rastreo de los posibles ciudadanos que también puedan haber sido contagiados. La información sobre los resultados de las pruebas y sobre el seguimiento del ciudadano positivo se pone en conocimiento de los rastreadores que llevan a cabo las acciones pertinentes. |
 | **Comentarios** | De la información obtenida por medio de los ciudadanos positivos, como la residencia, los puntos de visita frecuentes o las personas con las que ha mantenido contacto se sacan conclusiones por medio de su análisis que puedan dar lugar a toma de decisiones. |
@@ -189,7 +189,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>002** | Gobierno |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | De este actor depende el proceso de negocio 5, "Toma de decisiones", ya que es el encargado de tomar las medidas o imponer las restricciones en función del análisis de la información disponible. |
 | **Descripción** | Este actor de negocio actual representa al gobierno, en concreto al ministro de sanidad, al que se le suministrarán todos los datos y estadísticas que se han obtenido por medio del procesamiento de los datos capturados de los ciudadanos y procesados. Dicho actor se encargará como entidad de tomar las decisiones oportunas en función de los datos suministrados por la plataforma, en base a diferentes criterios. |
 | **Comentarios** | Es un actor que se encuentra "aislado" del proceso de detección y seguimiento de positivos pero que será muy importante debido a su capacidad de toma de decisiones. Este actor puede imponer medidas nuevas, protocolos diferentes y alterar de manera importante todos los procesos tal y como se llevan a cabo hasta ahora. Es por ello que, aunque se encuentre fuera del flujo normal es importantísimo incluirlo por su capacidad de cambiar el mismo. |
@@ -198,7 +198,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>003** | Autoridades |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho actor participa en los procesos de negocio 3 Rastreo por contacto con positivo y en el proceso 4 llevar seguimiento del paciente y control de su cuarentena. |
 | **Descripción** | Este actor de negocio actual representa a las fuerzas del orden (policía local, nacional, guardia civil y el ejército) que se encargan de rastrear cuales han sido los contactos directos con los positivos y proveer dicha información a los ambulatorios para que sean los encargados de llamar a dichos contactos directos para que se les realicen las pruebas médicas oportunas. También son los encargados de controlar el cumplimiento de las cuarentenas obligatorias por parte de los ciudadanos que deban de cumplirlas, para ello se encargan de hacer llamadas telefónicas o videollamadas con los pacientes positivos para comprobar que se encuentran en casa cumpliendo la cuarentena. |
 | **Comentarios** | A este actor en determinadas ocasiones se les llama rastreadores, y llevaran a cabo la misión de rastrear el cómo se producen los contagios entre los positivos, asi como obtener cuales son los brotes de dichos contagios, para ello tan solo disponen de la información proporcionada por los pacientes positivos. |
@@ -207,7 +207,7 @@ Los actores de negocio actuales son todas aquellas personas o entidades que est�
 
 | **\<id>004** | Ambulatorio |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Este actor entra en juego en la mayoría de los procesos de negocio, dado que es el conocedor de cómo se debe gestionar la pandemia y se encarga de mediar en cómo se debe actuar en los distintos casos. Los procesos de negocio en los que participa son 1 Hacer prueba PCR, 2 Registrar resultado de la prueba PCR, 3 rastreo por contacto con positivo, 4 llevar seguimiento del paciente y control de su cuarentena y 5 interpretación de los datos. |
 | **Descripción** | Este actor de negocio actual representa al centro de salud, asi como los responsables médicos, se encargan de determinar si se les debe de realizar las pruebas a los pacientes ante la aparición de síntomas o por contacto directo, también se encargan de concretar las citas para la realización de las pruebas médicas con los pacientes, así como informarles de los resultados obtenidos en dichas pruebas y en caso de ser positivos solicitan los datos de los contactos directos. <br> Por otra parte, se encargan de registrar los resultados de dichas pruebas en la base de datos del centro de salud, para que posteriormente pueda ser proporcionada esta información al gobierno. También se encargan de realizar un seguimiento de la evolución del estado del paciente durante la cuarentena por medio de las llamadas telefónicas. |
 | **Comentarios** | Dicho actor en determinadas ocasiones se les llama responsable Covid y es el encargado de realizar todas las acciones anteriormente comentadas respecto a la gestión de los casos covid en cada uno de los ambulatorios. |
@@ -219,7 +219,7 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>001** | Hacer prueba PCR |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | En algunos casos depende del proceso de negocio 3, Rastreo de contacto con el positivo, sin embargo, en otros casos no hay ninguna dependencia cuando se registra un caso aislado. |
 | **Descripción** | En la actualidad, cuando un ciudadano presenta síntomas compatibles con la enfermedad, debe de llamar al centro de salud al que esté asignado e indicará cuales son los síntomas que presenta. El responsable Covid de cada centro de salud, será el encargado de tomar la decisión de si se le debe realizar las pruebas oportunas, en la mayoría de los casos se realizan. El centro de salud concretará una cita médica con el paciente para realizarle las pruebas oportunas. <br> El paciente acudirá al centro médico el día de la cita y se le realizarán las pruebas necesarias, en la mayoría de los casos son una prueba PCR o una prueba de sangre, según el criterio del responsable médico. Después de esto, el paciente debe de dirigirse a su residencia y debe permanecer en cuarentena hasta el resultado de las pruebas realizadas, que en general, no tardarán más de 24-48 horas. |
 | **[Importancia]** | Alta |
@@ -230,7 +230,7 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>002** | Registrar resultado prueba PCR |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que, si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
 | **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de casa, si convive con más personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo, pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo, y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
@@ -241,7 +241,7 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>003** | Rastreo por contacto con positivo |
 | -- | -- |
-| **[Versión]** | 1.0 (19/11/2020) |
+| **[Versión]** | 1.0(19/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que únicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Hoy en día en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las últimas horas, normalmente las 48 horas previas a la manifestación de síntomas. En caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos ciudadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
@@ -253,7 +253,7 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>004** | Llevar seguimiento del paciente y control de su cuarentena |
 | -- | -- |
-| **[Versión]** | 1.1 (19/11/2020) |
+| **[Versión]** | 1.1(19/11/2020) |
 | **[Dependencias]** | Este proceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
 | **Descripción** | Actualmente una vez se detecta un positivo, este queda automáticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretende controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
@@ -265,7 +265,7 @@ En este apartado se comentarán cúales son los procesos de negocio que se lleva
 
 | **\<id>005** | Interpretación de los datos |
 | -- | -- |
-| **[Versión]** | 1.0 (17/11/2020) |
+| **[Versión]** | 1.0(17/11/2020) |
 | **[Dependencias]** | Dicho proceso de negocio depende sobre todo del proceso 2 registrar casos positivos (para conocer los positivos que hay en cada centro de salud) y del proceso 3 Rastreo por contacto con positivo (para conocer de donde provienen dichos contagios). |
 | **Descripción** | Una vez que los casos positivos han sido registrados en las bases de datos de los ambulatorios, estos pueden proporcionar dicha información al gobierno, para que estos tomen las medidas oportunas en función de estos datos proporcionados y las estadísticas obtenidas. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
