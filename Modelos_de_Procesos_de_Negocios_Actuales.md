@@ -45,51 +45,64 @@ Los actores de negocio de nuestra aplicación o toda aquella persona interesada 
 
 ## 3.2.2 Descripción de Procesos de Negocio Actuales
 
-Aquí se especificarán los procesos que debe llevar a cabo nuestra aplicación que llevarán un diagrama donde se detallarán los pasos a seguir. Según finalicen las entrevistas se irán añadiento y modificando los procesos. Inicialmente podemos pensar en estos como los procesos principales del programa.
+En este apartado se comentarán cuales son los procesos de negocio que se llevan a cabo en la actualidad para gestionar la pandemia. Dichos procesos son en los que se basará nuestra plataforma para agilizarlos y poder ser llevadas a cabo de una forma más automatizada. De forma general, se comentará cual es el flujo de procesos que se han de llevar a cabo cuando se detectan los sintomas compatibles con la enfermedad. Dichos procesos son los siguientes:
 
-| **\<id>1** | Registrar Caso Positivo |
+| **\<id>1** | Hacer prueba PCR |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa>  <br> * ... |
-| **Descripción** | Se espera que la aplicación mantenga un registro de los usuarios que han dado positivo en coronavirus, alamacenándolos en registros que podrán ver tanto los ambulatorios como las autoridades. |
+| **[Dependencias]** | En algunos casos depende del proceso de negocio 3, Rastreo de contacto con el positivo, sin embargo en otros casos no hay ninguna dependencia cuando se registra un caso aislado. |
+| **Descripción** | En la actualidad, cuando un ciudadano presenta síntomas compatibles con la enfermedad, debe de llamar al centro de salud al que esté asignado e indicará cuales son los síntomas que presenta. El responsable Covid de cada centro de salud, será el encargado de tomar la decisión de si se le debe realizar las pruebas oportunas, en la mayoría de los casos se realizan. El centro de salud, concretará una cita médica con el paciente para realizarle las pruebas oportunas. <br> El paciente acudirá al centro médico el día de la cita y se le realizarán las pruebas necesarias, en la mayoría de los casos son una pueba PCR o una prueba de sangre, según el criterio del responsable médico. Después de esto, el paciente debe de dirigirse a su residencia y debe permanecer en cuarentena hasta el resultado de las pruebas realizadas, que en general, no tardarán mas de 24-48 horas.|
 | **[Importancia]** | Alta |
-| **[Actores]** | * Ciudadano <br> * ... |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **[Actores]** | * Ciudadano <br> * Ambulatorio |
+| **Comentarios** | El medio de comunicación en todo momento son las llamadas telefónicas.|
 
-<p align="center"> <b>Tabla 4.1: Procesos de Negocio actuales.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 4.1: Procesos de Negocio actuales.</b> <br> </p>
 
-| **\<id>2** | Notificar a la autoridad |
+| **\<id>2** | Registrar resultado prueba PCR |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa>  <br> * ... |
-| **Descripción** | El sistema será capaz de enviar un mensaje a la autoridad en caso de que un paciente no este cumpliendo el periodo de cuarentena. Así los agentes podrán tomar medidas lo más breve posible. |
+| **[Dependencias]** | Este proceso de negocio depende del proceso 1 hacerse prueba PCR, dado que si no se ha realizado previamente una prueba PCR el paciente, no se puede tener una base en la que basarse para actuar de una forma u otra. |
+| **Descripción** | Una vez que el paciente se ha realizado las pruebas oportunas, y se encuentra confinado en su casa, el ambulatorio le llamará para informarle del resultado de las pruebas lo antes posible y en cuanto se conozca el resultado de estas. Además, el ambulatorio se encargará de registrar en su base de datos el resultado de dicha prueba, para que así esta información sea procesada por parte de los responsables sanitarios y se puedan obtener las estadísticas oportunas. <br> Dependiendo del resultado de dicha prueba, se tomarán distintas medidas, si el resultado es positivo, el paciente deberá permanecer aislado y no podrá salir de cas, si convive con mas personas, dichas personas serán detectadas como contacto directo (ver proceso de negocio 3 Rastreo de contacto con positivo) y se les realizarán las pruebas oportunas, si son negativas o hasta que se conozca el resultado de dichas pruebas deberá permanecer aislado en su habitación y no podrá salir de esta a no ser que sea necesario (y con mascarilla siempre). Si el resultado es negativo pero al paciente se le considera contacto directo con un positivo confirmado, deberá permanecer en cuarentena durante 10 días. Si el paciente es negativo,y no es un contacto directo con un caso positivo confirmado, podrá hacer vida normal a no ser que los síntomas persistan que se le repetirá las pruebas por si es un caso de falso negativo.|
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Actores]** | * Ambulatorio> <br> * Autoridad |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **[Actores]** | * Ambulatorio> <br> * Ciudadano |
+| **Comentarios** | La comunicación se realiza por medio de llamadas telefónicas. Se tienen en cuenta numerosos factores para decidir cual es la forma de actuar en cada caso. |
 
-<p align="center"> <b>Tabla 4.2: Procesos de Negocio actuales.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 4.2: Procesos de Negocio actuales.</b> <br>  </p>
 
-| **\<id>3** | Generar listas pacientes |
+| **\<id>3** | Rastreo por contacto con positivo |
+| -- | -- |
+| **[Versión]** | 1.0(19/11/2020) |
+| **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
+| **Descripción** | A día de hoy en la llamada que se realiza con el usuario susceptible de ser positivo se le solicitan a este los nombres de todas aquellas personas con las que ha mantenido contacto directo a lo largo de las úlitmas horas, normalmente las 48 horas previas a la manifestación de síntomas. En  caso de confirmarse el positivo del usuario los sanitarios y/o las autoridades proceden a contactar con aquellos cuidadanos que el positivo suministró en un primer momento para poder realizarles las pruebas pertinentes a cada uno de ellos y volver a comenzar con el proceso|
+| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+| **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
+| **Comentarios** | Actualmente tenemos que confiar en que el usuario nos proporcione todos los contactos que ha tenido en las horas previas. En este sentido tenemos el handicap de que el usuario puede no recordarlos todos y/o no querer proporcionarlos todos por conveniencia|
+
+<p align="center"> <b>Tabla 4.3: Procesos de Negocio actuales.</b> <br> </p>
+
+
+| **\<id>4** | Llevar seguimiento del paciente y control de su cuarentena |
+| -- | -- |
+| **[Versión]** | 1.1(19/11/2020) |
+| **[Dependencias]** | Este porceso de negocio depende totalmente del proceso 2, "Registrar resultado de la prueba PCR", ya que unicamente entra en juego con un resultado positivo de la prueba realizada al ciudadano. |
+| **Descripción** | Actualmente una vez se detecta un positivo, este queda automaticamente puesto en cuarentena de 10 a 15 días dependiendo del caso. Para poder llevar a cabo un seguimiento de esta cuarentena los sanitarios y/o las autoridades realizan llamadas con frecuencia al paciente. Con esta llamada se pretede controlar que el usuario está cumpliendo las restricciones impuestas así como llevar a cabo un seguimiento sobre su estado de salud|
+| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+| **[Actores]** | * Ambulatorio <br> * Cuidadano <br> * Autoridades |
+| **Comentarios** | Este proceso de negocio finalizaría una vez termine esta cuarentena, dando por hecho que, pasado el tiempo estimado, el paciente estará sano y no puede contagiar|
+
+<p align="center"> <b>Tabla 4.4: Procesos de Negocio actuales.</b> <br>  </p>
+
+
+| **\<id>5** | Interpretación de los datos |
 | -- | -- |
 | **[Versión]** | 1.0(17/11/2020) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa>  <br> * ... |
-| **Descripción** | La aplicación guardará a los usuarios en listados filtrados en función del parámetro deseado. Tanto con pacientes que han dado positivo, los que están pendientes de la prueba. Almacenados de manera anónima solo podrán ser accedidos por aquellos que tengan permiso para verlos como el ambulatorio. O las autoridades en caso de incumplimiento del periodo de cuarentena.  |
+| **[Dependencias]** | Dicho proceso de negocio depende sobre todo del proceso 2 registrar casos positivos (para conocer los positivos que hay en cada centro de salud) y del proceso 3 Rastreo por contacto con positivo (para conocer de donde provienen dichos contagios).|
+| **Descripción** | Una vez que los casos positivos han sido registrados en las bases de datos de los ambulatorios, estos pueden proporcionar dicha información al gobierno, para que estos tomen las medidas oportunas en función de estos datos proporcionados y las estadísticas obtenidas. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Actores]** | * Ciudadano <br> * Ambulatorio <br> * Autoridad |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+| **[Actores]** | * Gobierno <br> * Ambulatorios |
+| **Comentarios** | El gobierno debe de pedir los datos sanitarios a los ambulatorios "en crudo" y por medio de los expertos del gobierno se realizarán las estadísticas oportunas con la escasa información que se dispone de cada caso, para posteriormente tomar decisiones. Pero los ambulatorios no disponen de dicha información de forma directa.|
 
-<p align="center"> <b>Tabla 4.3: Procesos de Negocio actuales.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
-
-| **\<id>4** | Llevar seguimiento |
-| -- | -- |
-| **[Versión]** | 1.0(17/11/2020) |
-| **[Dependencias]** | * \<procesos de negocio actuales en los que participa>  <br> * ... |
-| **Descripción** | El sistema podrá verificar que el paciente está cumpliendo con el periodo de cuarentena. Enviando avisos y realizando las comprobaciones oportunas (peticion de desbloqueo por huella, llamadas telefónicas, mensajes de texto, etc...)  |
-| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Actores]** | * Ciudadano <br> * ... |
-| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
-
-<p align="center"> <b>Tabla 4.4: Procesos de Negocio actuales.</b> <br> <i>Los atributos entre corchetes son opcionales</i> </p>
+<p align="center"> <b>Tabla 4.5: Procesos de Negocio actuales.</b> <br> </p>
 
 # 3.3 Entorno Tecnológico Actual
 
