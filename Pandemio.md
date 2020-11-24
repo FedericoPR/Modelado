@@ -148,7 +148,7 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
 | **Comentarios** | Supone una debilidad el hecho de que la "primera opción" para localizar a los usuarios haya fracasado y por tanto tendremos que buscar otra opción mejor.| 
 <p align="center"> <b>Tabla 2.1: Debilidades de la situación actual.</b> </p>
   
-| **<id>002** | Opcionalidad de los usuarios para estar controlados |
+| **\<id>002** | Opcionalidad de los usuarios para estar controlados |
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
 | **Descripción** | La obtención de Radar Covid por parte del usuario era totalmente voluntaria, lo que supone un gran problema ya que el usuario que lo deseara podría ser "invisible" desde el punto de vista de la aplicación. |
@@ -156,7 +156,7 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
   
 <p align="center"> <b>Tabla 2.2: Debilidades de la situación actual.</b> </p>
   
-| **<id>003** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones |
+| **\<id>003** | Irresponsabilidad de los usuarios en el cumplimiento de las recomendaciones |
 | -- | -- |
 | **[Versión]** | 1.0 (18/11/2020) |
 | **Descripción** | Una vez diagnosticado un positivo y alertado a los posibles contagiados dependemos de la responsabilidad de cada uno de ellos para cumplir con las normas y las restricciones que se les apliquen. En caso de que no sea así tendremos dificultades para llevar un control de la actividad del usuario y posibles brotes. |
@@ -302,4 +302,71 @@ __STOP COVID19 CAT:__ Es una aplicación móvil de salud con un doble objetivo: 
 De _STOP COVID19 CAT_ nos parece buena idea el uso de los datos de la población para llevar a cabo estadísticas de las cuales obtener conclusiones a utilizar.
 
 De Radar Covid, ya se ha comentado en secciones previas de este documento, como surge la necesidad de desarrollar esta nueva plataforma Pandemio, ante los errores detectados en la anterior aplicación del ministerio. Los cuales son el uso de bluetooth y que su uso no es obligatorio por parte de los usuarios. Sin embargo, resulta interesante la idea de cómo rastrear los contagios entre los ciudadanos, por lo que usaremos esta idea como base en nuestra plataforma Pandemio, pero realizando las modificaciones de oportunas en su implementación para mitigar los problemas de implementación encontrados en Radar Covid.
+
+## 4. NECESIDADES DE NEGOCIO
+Esta sección obligatoria debe contener información sobre los objetivos de negocio de clientes y usuarios, incluyendo los modelos de procesos de negocio a implantar. Esta sección se divide en las secciones que se describen a continuación.
+La información de esta sección puede que ya se encuentre total o parcialmente en documentación previa como el Pliego de Prescripciones Técnicas, la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá reutilizar y se hará referencia a dichos documentos como fuente de la misma.
+
+### 4.1 Objetivos de Negocio
+Esta sección debe contener los objetivos de negocio que se esperan alcanzar cuando el sistema software a desarrollar esté en producción, especificados mediante las plantillas de objetivos de negocio que se muestran a continuación. En el caso de que se considere necesario, los objetivos de negocio se pueden descomponer jerárquicamente para facilitar su comprensión y representar dicha jerarquía de forma gráfica.
+
+| **\<id>999** | \<nombre descriptivo> |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha versión>) |
+| **[Dependencias]** | * \<procesos de negocio actuales o a implantar de los que depende> <br> * \<objetivo de negocio padre, si lo tiene>(padre) <br> * \<otros objetivos de negocio de los que depende> <br> * ... |
+| **Descripción** | <descripción del objetivo de negocio en términos del problema> |
+| **Subobjetivos** | * <objetivos de negocio hijos(subobjetivos), si los tiene> <br> * ... |
+| **[Importancia]** | \<importancia del objetivo de negocio para el cliente> |
+| **[Prioridad]** | \<prioridad del objetivo de negocio para la dirección del proyecto> |
+| **Comentarios** | \<comentarios adicionales sobre el actor de negocio actual> |
+
+<p align="center"> <b>Tabla 5: Objetivos de Negocio.</b> <br> </p>
+
+### 4.2 Modelos de Procesos de Negocio a Implantar
+Esta sección debe contener los modelos de procesos de negocio a implantar, que normalmente son los modelos de procesos de negocio actuales con ciertas mejoras. Si las diferencias con los modelos de procesos actuales son pequeñas, se puede optar por describir únicamente dichas diferencias siempre que se hayan incluido los modelos de procesos actuales en la sección 3.2.
+Esta sección podrá omitirse si se han incluido los modelos de procesos de negocio actuales en la sección 3.2 y no se van a introducir cambios significativos en dichos modelos. En cualquier otra situación, esta sección debe considerarse como obligatoria, ya que los modelos de procesos de negocio son la base para un buen desarrollo de sistemas de información, especialmente si se quieren aplicar arquitecturas orientadas a servicios.
+
+#### 4.2.1 Descripción de los Actores de Negocio a Implantar
+Esta sección debe contener información sobre los actores de negocio (organizaciones, roles o responsabilidades) de los modelos de procesos de negocio a implantar, especificados mediante las plantillas para actores del negocio a implantar que se muestran a continuación.
+
+| **\<id>999** | \<nombre descriptivo> |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha versión>) |
+| **[Dependencias]** | * \<actores de negocio actual relacionados> <br> * ... |
+| **Descripción** | Este actor de negocio actual representa a <descripción de la organización, rol o responsabilidad a la que representa el actor de negocio actual> |
+| **Comentarios** | \<comentarios adicionales sobre el actor de negocio a implantar> |
+
+<p align="center"> <b>Tabla 6: Actores de negocio a implantar.</b> <br> </p>
+
+#### 4.2.2 Descripción de Procesos de Negocio a Implantar
+Esta sección debe contener información sobre los procesos de negocio a implantar, tal y como se espera que se realicen en la organización del cliente una vez que el sistema software a desarrollar esté en producción. Para cada proceso de negocio se incluirá una descripción textual usando las plantillas para procesos de negocio a implantar que se muestran a continuación, y un diagrama en la notación que se considere oportuna, por ejemplo diagramas BPMN (Business Process Model and Notation) o diagramas de actividad UML (Unified Modeling Language).
+
+| **\<id>999** | \<nombre descriptivo> |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha versión>) |
+| **[Dependencias]** | * \<procesos de negocio actuales que modifica o sustituye> <br> * ... |
+| **Descripción** | <descripción del proceso de negocio a implantar en términos del dominio del problema> |
+| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+| **[Actores]** | * \<actor que participa en el proceso de negocio> <br> * ... |
+| **Comentarios** | \<comentarios adicionales sobre el proceso de negocio a implantar> |
+
+<p align="center"> <b>Tabla 7: Procesos de Negocio a implantar.</b> <br> </p>
+
+## 5. DESCRIPCIÓN DE LOS SUBSISTEMAS DEL SISTEMA A DESARROLLAR
+Esta sección opcional debe contener una descripción de los subsistemas del sistema a desarrollar, especificados mediante las plantillas para subsistemas que se muestran a continuación. En el contexto de este documento, los subsistemas son agrupaciones lógicas de requisitos cuya finalidad es facilitar la comprensión de los mismos, por lo que no implican necesariamente la existencia de subsistemas o módulos software correspondientes en las siguientes fases de desarrollo. Para facilitar la comprensión, se recomienda el uso de diagramas donde sea posible.
+Los subsistemas a los que se hace referencia en esta sección puede que ya se hayan definido total o parcialmente en documentación previa como el Pliego de Prescripciones Técnicas, la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrán reutilizar y se hará referencia a dichos documentos como fuente de los mismos.
+
+| **\<id>999** | \<nombre descriptivo> |
+| -- | -- |
+| **[Versión]** | <nº versión>(<fecha versión>) |
+| **[Dependencias]** | * \<objetivos de negocio de los que depende> <br> \<proceso de negocio a implantar del que depende> <br> * ... |
+| **Descripción** | Este subsistema agrupa los requisitos relacionados con <descripción del subsistema> |
+| **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
+| **[Prioridad]** | * \<prioridad del subsistema para la dirección del proyecto> |
+| **Comentarios** | \<comentarios adicionales sobre el subsistema> |
+
+<p align="center"> <b>Tabla 8: Subsistemas a desarrollar.</b> <br> </p>
+
+Esta sección podrá omitirse si el sistema software a desarrollar es lo suficientemente sencillo como para no ser dividido en subsistemas.
+
 
