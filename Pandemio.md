@@ -172,6 +172,22 @@ De toda esta situación podemos resumir las siguientes debilidades en cuanto a n
   
 <p align="center"> <b>Tabla 2.4: Debilidades de la situación actual.</b> </p>
 
+| **\<id>005** | Gran volumen de datos a gestionar y algaritmos complejos|
+| -- | -- |
+| **[Versión]** |  1.0 (26/11/2020) |
+| **Descripción** | Debido a los númerosos datos que se deben de gestionar de los usuarios, tales como el historial de localizaciones, el resultado de sus pruebas médicas o los datos personales de este, se deben de manejar grandes volúmenes de información por lo que se necesitará disponer de grandes computadoras, grandes servidores o bases de datos, por lo que la implementación de esta plataforma no está al alcance de cualquiera, se necesita el uso de estos grandes computadores.<br> Además, dado esta gran cantidad de datos, se deberá disponer de algoritmos bastante complejos para poder obtener distinta información acerca de ellos y estos deben de ser eficientes.  |
+| **Comentarios** | Para solventar esta debilidad deberemos de disponer o contratar los servicios de grandes computadoras como mare nostrum. | 
+  
+<p align="center"> <b>Tabla 2.5: Debilidades de la situación actual.</b> </p>
+
+| **\<id>006** | Personas asintomaticas |
+| -- | -- |
+| **[Versión]** |  1.0 (26/11/2020) |
+| **Descripción** | En la actualidad, la enfermedad de la pandemia, hace que haya personas asintomáticas, es decir personas infectadas pero que no presentan síntomas, dichas personas pueden contagiar al resto de ciudadanos y no se sabe que están contagiando al resto. Lo cual, esto ayuda a que se propague el virus entre la población y se pueda desbordar la pandemia y los infectados. |
+| **Comentarios** | Para solventar esta debilidad deberemos de rastrear cuales han sido los contactos directos con los positivos para así poder realizarles las pruebas médicas oportunas.| 
+  
+<p align="center"> <b>Tabla 2.6: Debilidades de la situación actual.</b> </p>
+
 ### 3.2 Modelos de Procesos de Negocios Actuales
 En este apartado representaremos y describiremos todos aquellos procesos que se llevarán a cabo para gestionar los contagios que se producen en la pandemia, así como los procesos que se emplearán para controlar el cumplimiento de la cuarentena obligatoria por parte de los ciudadanos positivos. También se tendrán en cuenta todos aquellos procesos en los que se gestionen las distintas pruebas médicas que se deben realizar los ciudadanos, asi como informales a estos de los resultados. Por otro lado, se especificará como debe ser la comunicación con el resto de los actores que intervienen en la plataforma como los agentes de la autoridad o el gobierno al que se le proporcionarán todos los datos obtenidos con la plataforma para que puedan tomarse las medidas oportunas por parte de los expertos correspondientes.
 
