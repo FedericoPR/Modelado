@@ -14,7 +14,7 @@ la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá
 | **[Dependencias]** | * Rastreo del contacto con un positivo> <br> * Identificar posibles focos de contagio <br> Rastrear contactos con los casos positivos. |
 | **Descripción** | Este subsistema agrupa los requisitos relacionados con el seguimiento de aquellos que han dado positivo en las pruebas, para así crear una lista de las personas afectada y todo aquello que tenga que ver con el rastreo de casos positivos para poder identificar posibles focos de contagio.  |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Prioridad]** | * \<prioridad del subsistema para la dirección del proyecto> |
+| **[Prioridad]** | * Alta |
 | **Comentarios** | \<comentarios adicionales sobre el subsistema> |
 
 <p align="center"> <b>Tabla 8.1: Subsistemas a desarrollar.</b> <br> </p>
@@ -25,7 +25,7 @@ la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá
 | **[Dependencias]** | * Asegurar el cumplimineto de la cuarentena <br> Suministrar información y estadísticas al gobierno <br> * Gestionar el cumplimiento de la cuarentena |
 | **Descripción** | Este subsistema agrupa los requisitos relacionados con el control de aquellos que han dado positivo en la prueba y asegurandose que los pacientes cumplen el periodo de cuarentena. En caso de incumplimiento se notificara a las autoridades. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Prioridad]** | * \<prioridad del subsistema para la dirección del proyecto> |
+| **[Prioridad]** | * Alta |
 | **Comentarios** | \<comentarios adicionales sobre el subsistema> |
 
 <p align="center"> <b>Tabla 8.2: Subsistemas a desarrollar.</b> <br> </p>
@@ -36,7 +36,7 @@ la Oferta seleccionada o el Estudio de Viabilidad del Sistema, en cuyo se podrá
 | **[Dependencias]** | * Identificar posibles focos de contagio <br> Suministrar información y estadísticas al gobierno <br> * ... |
 | **Descripción** | Este subsistema agrupa los requisitos relacionados con la información que se proporcionará al gobierno por parte de los ambulatorios. Estos datos generan las distintas estadísticas que permitirán localizar los focos de contagio para que así el gobierno pueda tomar las decisiones oportunas. |
 | **[Importancia]** | \<importancia del proceso de negocio para el cliente> |
-| **[Prioridad]** | * \<prioridad del subsistema para la dirección del proyecto> |
+| **[Prioridad]** | * Media |
 | **Comentarios** | \<comentarios adicionales sobre el subsistema> |
 
 <p align="center"> <b>Tabla 8.3: Subsistemas a desarrollar.</b> <br> </p>
