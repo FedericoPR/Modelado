@@ -43,7 +43,7 @@ _Esta sección debe contener los objetivos de negocio que se esperan alcanzar cu
 | -- | -- |
 | **[Versión]** | 1.0 (29/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales o a implantar de los que depende> <br> * \<objetivo de negocio padre, si lo tiene>(padre) <br> * \<otros objetivos de negocio de los que depende> <br> * ... |
-| **Descripción** | <descripción del objetivo de negocio en términos del problema> |
+| **Descripción** | Combinando los datos de los usuarios que tenemos con los resultados de las prebas realizadas podemos establecer aquellas zonas y lugares donde se producen más contagios. Una vez obtenemos una prueba positiva realizamos el rastreo de aquellos usuarios que pueden haber sido contagiados por haber estado en contacto directo en un mismo lugar durante un tiempo determinado con el positivo. Si los usuarios localizados también dan positivo en la prueba que se les realice podremos establecer dónde se ha producivo el contagio. Con todos los datos reunidos de esta manera podemos establecer las "zonas calientes" donde se han producido más contagios para poder poner en alerta a los organismos competentes o a los usuarios de estas localizaciones. Como no podemos asegurar que el contagio se produjo al 100% en un lugar, ya que puedes contagiarte por contacto con un asintomático estableceremos como punto aceptable la determinación de los focos de contagio con un nivel de fiabilidad del 90%|
 | **Subobjetivos** | * <objetivos de negocio hijos(subobjetivos), si los tiene> <br> * ... |
 | **[Importancia]** | \<importancia del objetivo de negocio para el cliente> |
 | **[Prioridad]** | \<prioridad del objetivo de negocio para la dirección del proyecto> |
@@ -55,7 +55,7 @@ _Esta sección debe contener los objetivos de negocio que se esperan alcanzar cu
 | -- | -- |
 | **[Versión]** | 1.0 (29/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales o a implantar de los que depende> <br> * \<objetivo de negocio padre, si lo tiene>(padre) <br> * \<otros objetivos de negocio de los que depende> <br> * ... |
-| **Descripción** | <descripción del objetivo de negocio en términos del problema> |
+| **Descripción** | Una vez tenemos un resultado postitivo de las pruebas pondremos a disposición de los cuerpos de seguridad del estado y de los ambulatorios los datos del usuario para poder informar al usuario de su situación de cuarentena desde ese mismo momento y para poder llevar a cabo un control exahustivo de la misma.  |
 | **Subobjetivos** | * <objetivos de negocio hijos(subobjetivos), si los tiene> <br> * ... |
 | **[Importancia]** | \<importancia del objetivo de negocio para el cliente> |
 | **[Prioridad]** | \<prioridad del objetivo de negocio para la dirección del proyecto> |
@@ -67,7 +67,7 @@ _Esta sección debe contener los objetivos de negocio que se esperan alcanzar cu
 | -- | -- |
 | **[Versión]** | 1.0 (29/11/2020) |
 | **[Dependencias]** | * \<procesos de negocio actuales o a implantar de los que depende> <br> * \<objetivo de negocio padre, si lo tiene>(padre) <br> * \<otros objetivos de negocio de los que depende> <br> * ... |
-| **Descripción** | <descripción del objetivo de negocio en términos del problema> |
+| **Descripción** | Con todos los datos reunidos realizaremos un estudio y un tratamiento de los mismos. La finalidad última de este porceso es el suministro de los datos recabados y la infomración extraida de los mismos al ministerio para que pueda interpretar toda esta información y tomar las medidas y las decisiones que crea oportunas para controlar de la mejor manera la situación |
 | **Subobjetivos** | * <objetivos de negocio hijos(subobjetivos), si los tiene> <br> * ... |
 | **[Importancia]** | \<importancia del objetivo de negocio para el cliente> |
 | **[Prioridad]** | \<prioridad del objetivo de negocio para la dirección del proyecto> |
