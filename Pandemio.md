@@ -14,7 +14,8 @@ Con el desarrollo de la plataforma PANDEMIO, se busca conseguir un sistema de co
 
 Pandemio proporcionará distintos datos acerca de los contagios de los ciudadanos al ministerio de Sanidad, para que dichos datos sean procesados y se tomen las medidas oportunas por parte del juicio de expertos correspondiente. También, se proporcionarán los datos necesarios acerca de los contagios a los ambulatorios, así como a las autoridades correspondientes para que puedan llevar a cabo un control de que los casos positivos cumplen la cuarentena obligatoria cuando sea necesario.
 El alcance del proyecto se centra en tres grandes características, el rastreo de los contactos con los casos positivos, gestionar la realización de las pruebas médicas y gestionar el cumplimiento de la cuarentena. Dentro de cada una de estas características se incluirá diferente funcionalidad, a continuación, se muestra un diagrama de característica que plasma cual es el alcance del proyecto de una forma más precisa.
-![picture 1](images/e5d1862358a7e70d3ee10eb80bf1c2e63aa3983a3a58056b05b740be66bb8fb3.png)
+
+![picture 1](images/0002456fa2638cf889623d3a73b555753c8edcd47c789245ce2fe16a3b0e85e8.png)  
 
 ### 1.2 Objetivos
 Entre los objetivos que se desean alcanzar al desarrollar dicha plataforma se encuentran:
