@@ -7,6 +7,8 @@ Con esta nueva plataforma que se propone desarrollar, se desea mitigar aquellos 
 
 Además, se propone que la nueva plataforma a desarrollar pueda llevar a cabo un seguimiento de aquellos ciudadanos que deben cumplir la cuarentena y no la cumplían, así como aquellos que no acudían a hacerse las pruebas médicas oportunas. Donde resulta importante que se cumpla la ley de datos y los datos de los ciudadanos solo sean usados por las personas autorizadas y sean anonimizados cuando sea posible.
 
+Uno de los aspectos importantes que motiva el desarollo de la plataforma PANDEMIO, es que en la actual pandemia que nos encontramos hay personas que son positivos y que no presentan síntomas, los llamados casos asintomáticos. Dichos casos, son personas que contagian la enfermedad, pero es muy difícil detectar que son contagiadoras, dado que no presentan ningún síntoma que pueda hacer sospechar que están infectados. Por lo cual, se persigue que con la plataforma PANDEMIO, se pueda llevar un control mas preciso de los contactos para poder conocer si alguno de los contactos directos con los positivos puede ser un caso aintomático.
+
 ### 1.1 Alcance
 Con el desarrollo de la plataforma PANDEMIO, se busca conseguir un sistema de control e información acerca de los contagios que se dan en una pandemia, en este caso de Covid-19, pero también nos servirá para otras pandemias que se pudieran presentar en un futuro.
 
@@ -40,6 +42,7 @@ A la hora de actuar ante un nuevo caso positivo en Covid-19, se debe seguir un p
 Después, se llevará a cabo un seguimiento de todas aquellas personas que hayan estado en contacto (durante un tiempo superior a 15 minutos) con el paciente positivo en las 48 horas anteriores a la realización de la prueba PCR, a las cuales se les considerará contacto directo. Los contactos directos deben permanecer en cuarentena hasta que se conozca el resultado de la prueba PCR, si esta es negativa en algunos casos se debe mantener la cuarentena unos días más (depende del tipo de contacto, tiempo, si ha sido con mascarilla o sin ella, etc.) en caso de que lo indique el responsable sanitario. Si la prueba es positiva, se repetirá el mismo proceso con los contactos directos del nuevo caso positivo.
 
 ### 2.2 Glosario de términos
+- **Asintomático:** Aquella persona que padece una enfermedad pero no presenta síntomas de ella.
 - **Caso positivo:** Aquella persona que tras la realización de la prueba oportuna ha indicado que tiene la enfermedad por la cual se hace la prueba.
 - **Confinamiento:** Acción que se lleva cabo para mantener a una persona positiva dentro de unos límites (en este caso su vivienda), con el fin de que no contagie al resto de la población.
 - **Contacto directo:** Aquella persona que ha estado en contacto con un caso confirmado de Covid-19 desde las 48 horas antes del inicio de síntomas o del diagnóstico. Entre estas, son más probables de ser positivos aquellas que hayan estado en el mismo lugar que un caso positivo, a una distancia menor de 2 metros durante un tiempo superior de 15 minutos.
