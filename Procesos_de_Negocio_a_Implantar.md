@@ -88,3 +88,9 @@ En esta sección se especificarán cuales serán los procesos de negocio que se 
 | **Comentarios** | La información recopilada por la plataforma será proporcionada constantemente al gobierno, asi como cada nuevo caso positivo registrado en la plataforma.|
 
 <p align="center"> <b>Tabla 7.4: Procesos de Negocio a implementar.</b> <br></p>
+
+
+A continuación se muestra un diagrama de actividad que modela el funcionamiento general del sistema, indicando cuales son los procesos de negocio que se han de llevar a acabo.
+
+![picture 3](images/f0458b44825e71f402de6c44e5a9728c6928ce3145875d9c90e4090b9269f83b.jpg)  
+
