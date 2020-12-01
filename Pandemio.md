@@ -15,7 +15,9 @@ Con el desarrollo de la plataforma PANDEMIO, se busca conseguir un sistema de co
 Pandemio proporcionará distintos datos acerca de los contagios de los ciudadanos al ministerio de Sanidad, para que dichos datos sean procesados y se tomen las medidas oportunas por parte del juicio de expertos correspondiente. También, se proporcionarán los datos necesarios acerca de los contagios a los ambulatorios, así como a las autoridades correspondientes para que puedan llevar a cabo un control de que los casos positivos cumplen la cuarentena obligatoria cuando sea necesario.
 El alcance del proyecto se centra en tres grandes características, el rastreo de los contactos con los casos positivos, gestionar la realización de las pruebas médicas y gestionar el cumplimiento de la cuarentena. Dentro de cada una de estas características se incluirá diferente funcionalidad, a continuación, se muestra un diagrama de característica que plasma cual es el alcance del proyecto de una forma más precisa.
 
-![picture 1](images/0002456fa2638cf889623d3a73b555753c8edcd47c789245ce2fe16a3b0e85e8.png)  
+![picture 1](images/0002456fa2638cf889623d3a73b555753c8edcd47c789245ce2fe16a3b0e85e8.png)
+
+<p align="center"> <b>Gráfico 1: Diagrama de característica del sistema a implementar.</b> <br> </p>
 
 ### 1.2 Objetivos
 Entre los objetivos que se desean alcanzar al desarrollar dicha plataforma se encuentran:
@@ -503,7 +505,9 @@ En esta sección se especificarán cuales serán los procesos de negocio que se 
 
 A continuación se muestra un diagrama de actividad que modela el funcionamiento general del sistema, indicando cuales son los procesos de negocio que se han de llevar a acabo.
 
-![picture 3](images/f0458b44825e71f402de6c44e5a9728c6928ce3145875d9c90e4090b9269f83b.jpg)  
+![picture 3](images/f0458b44825e71f402de6c44e5a9728c6928ce3145875d9c90e4090b9269f83b.jpg) 
+
+<p align="center"> <b>Gráfico 2: Diagrama de actividad con los procesos a implementar.</b> <br> </p>
 
 ## 5. DESCRIPCIÓN DE LOS SUBSISTEMAS DEL SISTEMA A DESARROLLAR
 Para la mejor compresión de la plataforma PANDEMIO que se deseea implementar, dividiremos dicha plataforma en distintos módulos que agruparán las funcionalidades necesarias. Estos subsistemas estarán descritos con mayor detalle en las siguientes tablas. Nos basamos en el diagrama de características del apartado de alcance (1.1).
@@ -546,4 +550,4 @@ Para que quede claro la descomposición en subsistemas, a continuación se muest
 
 ![picture 1](images/fb9286ac15bd71d1f044f3cee392a03ba4dd4dd3f6a1c17516e10f1c3f9427b3.jpg)  
 
-
+<p align="center"> <b>Gráfico 3: Diagrama de componentes con los Subsistemas a desarrollar.</b> <br> </p>
