@@ -27,3 +27,4 @@
 | **[Prioridad]** | \<prioridad del caso de uso para la dirección del proyecto> |
 | **[Estado]** | \<estado del caso de uso según el ciclo de vida adoptado por el proyecto> |
 | **Comentarios** | \<comentarios adicionales sobre el caso de uso del sistema> |
+<p align="center"> <b>Tabla 12: Plantilla Completa de Casos de Uso.</b> <br> </p>
