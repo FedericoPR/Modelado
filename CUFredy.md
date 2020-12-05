@@ -42,7 +42,7 @@
 
 <p align="center"> <b>Tabla 11.3: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
-| **\<id> CU_1.2** | Registrar resultado de la prueba en el sistema |  |
+| **\<id> CU 1.2** | Registrar resultado de la prueba en el sistema |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (05/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.3 (Rastrear contactos directos con el postivo) que será necesario para poder llevar a cabo el CU 1.6 (Registrar cita pruebas en el sistema), de dichas citas se realizarán las pruebas pertinentes al ciudadano.  Este caso de uso  será el inicio del CU  3.1 (Registrar cita pruebas en el sistema) en caso de que las pruebas den positivo. Así como del CU 0.2 (Informar al ciudadano) notificandole a este el resultado de la prueba.|
