@@ -75,4 +75,4 @@ En este apartado se especificarán los casos de uso del sistema a desarrollar id
     * CU 3.4: Informar foco de contagio. 
 
 
-A continuación, se especificarán aquellos casos de uso que hemos considerado de menos importancia para el sistema:
+A continuación, se especificarán aquellos casos de uso que hemos considerado de menor importancia para el sistema:
