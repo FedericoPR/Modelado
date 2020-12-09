@@ -75,7 +75,7 @@
 | **Excepciones** | **Paso** | **Acción** |
 |  | 1 | El sistema identificará en el rastreo aquellos cuidadanos a los cuales se ha establecido como positivos una única vez para no caer en bucles infinitos de positivos|
 | **Rendimiento** | **Paso** | **Cota de tiempo** |
-| | El rastreo como tal de cuidadanos que pueden estar contagiados no debe de tardar en ser ejecutado un tiempo superior a 100 segundos, que es bastante tiempo pero es un porceso muy complejo y seguramente el más importante del poryecto por lo que es mejor que sea preciso en sacrificio de su rapidez|
+| | El rastreo como tal de cuidadanos que pueden estar contagiados no debe de tardar en ser ejecutado un tiempo superior a 100 segundos, que es bastante tiempo pero es un porceso muy complejo y seguramente el más importante del poryecto por lo que es mejor que sea preciso en sacrificio de su rapidez | 1'40''|
 | **Frecuencia** | El CU debe de llevarse a cabo cada vez que se registre un positivo en el sistema|
 | **[Importancia]** | Muy Alta|
 | **[Prioridad]** | Alta |
