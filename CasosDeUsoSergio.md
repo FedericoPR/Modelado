@@ -35,6 +35,18 @@
 | **Estado** |  |
 | **Comentarios** | |
 
+| **CU 1.7** | Enviar alerta a las autoridades de incumplmiento de realizarse la prueba|
+| -- | -- |
+| **[Versión]** | 1.0 (04/12/2020) |
+| **[Dependencias]** |  |
+| **Precondicion** | La fecha de cita deberá ser 24 h inferior a la fecha actual para que se alerte a las autoridades |
+| **Descripción** | Una vez se registra una cita para el ciudadano, este deberá acudir en el día y la hora previstas para la realización de la prueba. En caso de no acudir a la cita el sistema alertará al usuario de que no se ha ralizado la prueba en la cita que se registró y que dispone de 24 h para volver a llamar en vistas a explicar su situación y/o los motivos por los cuales no ha acudido así como para coincretar una nueva cita. En caso de que finalice este plazo de 24 h y el ciudadano no se haya puesto en contacto para acordar una nueva cita, es decir, el registro siga teniendo una fecha de cita que ha vencido hace más de 24 h, el sistema de manera automática enviará otro mensaje al cuidadano y tambén alertará a las fuerzas del orden de esta situación de incumplimiento por parte del ciudadano. |
+| **Postcondicion** | La fecha de cita seguirá siendo una fecha pasada hasta aclarar la situación por parte de las autoridades |
+| **[Importancia]** | Media |
+| **[Prioridad]** | Media |
+| **Estado** |  |
+| **Comentarios** | Si el usuario llamara para cambiar la cita pasadas 24 horas, bien por actuación de las autoridades, o bien por descuido personal durante las 24 h de plazo, las autoridades serían informadas también|
+
 | **CU 3.4** | Informar foco de contagio |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
