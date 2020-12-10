@@ -3,6 +3,9 @@
 En el siguiente apartado, se especificarán los distintos casos de uso del sistema. Se describirá como los usuarios utilizarán el sistema a desarrollar para llevar a cabo los procesos de negocio.Para ello se incluirá el diagrama de casos de uso, la especificación de los actores del sistema y la especificación de los casos de uso del sistema.
 
 #### 6.2.1 Diagrama de casos de uso del sistema
+En dicho apartado se incluirá el diagrama de casos de usos que describe los casos de uso considerados en el sistema a desarrollar así como los atores que intervienen en dichos casos de uso:
+
+![picture 1](images/ce40137b9c7efb7be1d9d8e7652a092e7f90c46e7d6ea073fd18da736eb41945.png)  
 
 
 #### 6.2.2 Especificación de actores del sistema
