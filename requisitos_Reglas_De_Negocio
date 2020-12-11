@@ -1,0 +1,52 @@
+#### 6.3.1 Requisitos de Reglas de Negocio del Sistema
+Aunque contemos con el apoyo del ministro, nuestra aplicación debe cumplir con aquellas limitaciones y leyes impuestas por el entorno. Nos centraremos principalmente en el tratamiento de los datos de los ciudadanos.
+
+Esta sección debe contener las reglas de negocio que deba cumplir el sistema a desarrollar, especificadas mediante las plantillas para reglas de negocio que se muestran a continuación.
+Estos requisitos deben especificar qué reglas de negocio debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
+
+| **\<id>001** | Cumplimiento de la Ley de protección de datos |
+| -- | -- |
+| **[Versión]** | 1.0 (11/12/2020) |
+| **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
+| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **[Importancia]** |  |
+| **[Prioridad]** |  |
+| **[Estado]** |  |
+| **Comentarios** | |
+<p align="center"> <b>Tabla 14.1: Requisitos de reglas de negocio.</b> <br> </p>
+
+| **\<id>002** | Anonimozar datos ciudadanos |
+| -- | -- |
+| **[Versión]** | 1.0 (11/12/2020) |
+| **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
+| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **[Importancia]** |  |
+| **[Prioridad]** |  |
+| **[Estado]** |  |
+| **Comentarios** | |
+<p align="center"> <b>Tabla 14.2: Requisitos de reglas de negocio.</b> <br> </p>
+
+| **\<id>003** | Destruir infromación inservible del ciudadano |
+| -- | -- |
+| **[Versión]** | 1.0 (11/12/2020) |
+| **[Dependencias]** | * <requisitos generales de los que depende> <br> * 
+Este requisito depende del requisito 1 de información (Datos de los ciudadanos) <br> * ... |
+| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **[Importancia]** |  |
+| **[Prioridad]** |  |
+| **[Estado]** |  |
+| **Comentarios** | |
+<p align="center"> <b>Tabla 14.3: Requisitos de reglas de negocio.</b> <br> </p>
+
+| **\<id>004** | Adaptación de la información segun la autonomía |
+| -- | -- |
+| **[Versión]** | 1.0 (11/12/2020) |
+| **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
+| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **[Importancia]** |  |
+| **[Prioridad]** |  |
+| **[Estado]** |  |
+| **Comentarios** | |
+<p align="center"> <b>Tabla 14.4: Requisitos de reglas de negocio.</b> <br> </p>
+
+
