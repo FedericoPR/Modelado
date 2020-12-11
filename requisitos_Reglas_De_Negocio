@@ -8,7 +8,7 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
-| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **Descripción** | El sistema deberá cumplir con la ley de proteccion de datos para que la información sensible del ciudadano, no se oueda compartir o utilizar indebidamente. |
 | **[Importancia]** |  |
 | **[Prioridad]** |  |
 | **[Estado]** |  |
@@ -19,7 +19,7 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
-| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **Descripción** | El sistema deberá anonimizar los datos de los ciudadanos a aquellos que no tengan autorización. |
 | **[Importancia]** |  |
 | **[Prioridad]** |  |
 | **[Estado]** |  |
@@ -31,7 +31,7 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | * <requisitos generales de los que depende> <br> * 
 Este requisito depende del requisito 1 de información (Datos de los ciudadanos) <br> * ... |
-| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **Descripción** | El sistema deberá destruir la información relativa al ciudadano una vez sea inservible para facilitar su uso y busqueda a la hora de crear listas o de generar notificaciones a los actores correspondientes. |
 | **[Importancia]** |  |
 | **[Prioridad]** |  |
 | **[Estado]** |  |
@@ -42,7 +42,7 @@ Este requisito depende del requisito 1 de información (Datos de los ciudadanos)
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | * <requisitos generales de los que depende> <br> * <otros requisitos de los que depende> <br> * ... |
-| **Descripción** | El sistema deberá almacenar la información correspondiente a <concepto relevante>. En concreto: |
+| **Descripción** | El sistema deberá adaptar su comunicación con los sistemas de información de cada autonomía. |
 | **[Importancia]** |  |
 | **[Prioridad]** |  |
 | **[Estado]** |  |
