@@ -92,3 +92,7 @@
 | **Comentarios** | Los datos relativos a los informes son generados de forma automática por el propio sistema y se deberá mantener un histórico de dichos informes, para que el gobierno pueda acceder a dicha información en cualquier momento.|
 
 <p align="center"> <b>Tabla 13.7: Requisitos de Información.</b> <br> </p>
+
+A continucación se mostrará un modelo gráfico que facilite la comprensión de los requisitos de información que debe de cumplir el sistema a desarrollar, para ello se adjunta un diagrama de entidad relación.
+
+![picture 1](images/709d19016093475e858288348c505f388f6212b090e58cdda6c8af6b730b98f7.png)  
