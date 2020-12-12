@@ -22,3 +22,36 @@
 - El sistema deberá de enviar alertas vía sms con cada alteración del estado del ciudadano.
 - El sistema deberá diferenciar como llevar a cabo el cumplimiento de la cuaentena en e función del tipo de movil del ciudadano tipos de movil (o si no dispone de el).
 - El sistema deberá enviar estadísticas generales al gobierno de forma automática cada 3 días
+
+# Requisitos no funcionales:
+
+**Requisitos de Fiabilidad:**
+- El sistema deberá realizar una copia de seguridad de las bases de datos cada hora.
+- El sistema deberá disponer de varios servidores. (Con el fin de evitar caidas del sistema o colapsos).
+- El sistema deberá poder recuperarse aunte cualquier fallo inesperado de forma autónoma en un tiempo no superior a los 15 minutos.(Volver a las copias de seguridad anteriores).
+- 
+
+**Requisitos de Usabilidad:**
+- El sistema deberá permitir que un usuario novato no tarde mas de 15 minutos en aprender su funcionamiento.
+- El sistema deberá permitir en el 75% de los casos que con un máximo de 5 clicks se pueda acceder a la información deseada.
+- El sistema deberá disponer de una interfaz gráfica intuitiva.
+
+**Requisitos de Eficiencia:**
+- El sistema deberá de rasterar los contactos entre casos positivos en un tiempo no superior a 15 minutos en el 90% de los casos.
+- El sistema deberá generar informes con las estadísticas de los datos en un tiempo no superior a 30 minutos en el 80% de los casos.
+- El sistema deberá mandar un aviso del incumplimiento de la cuarentena a las autoridades en un tiempo inferior a 1 minuto desde que es detectado.
+- El sistema deberá tener un tiempo máximo de respuesta de 10 segundos para cualquier consulta que se realice en el.
+
+**Requisitos de Mantenibilidad:**
+
+**Requisitos de Portabilidad:**
+- El sistema deberá de poder ser instalado en los equipos en un tiempo no superior a 2 horas en el 90% de los casos.
+- El sistema deberá de poder ser instalado en cualquier equipo con independencia del software y hardaware utilizado, es decir, debe de ser multipataforma.
+
+**Requisitos de Seguridad:**
+- El sistema deberá disponer de métodos de autenticación de los que dependerán las vistas a mostrar y la información a la que será accesible.
+- El sistema debe de cumplir con la ley de protección de datos de los ciudadanos.
+- El sistema deberá destruir los datos de los ciudadanos una vez que ya no sean útiles en un tiempo no superior a 5 días.
+- El sistema deberá anonimizar los datos para todos aquellos usuarios que no dispongan de autorización.
+
+**Otros requisitos no funcionales:**
