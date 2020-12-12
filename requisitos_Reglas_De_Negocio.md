@@ -12,7 +12,7 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
-| **Comentarios** |  [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) |
+| **Comentarios** | [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) |
 <p align="center"> <b>Tabla 14.1: Requisitos de reglas de negocio.</b> <br> </p>
 
 | **\<id>002** | Anonimozar datos ciudadanos |
