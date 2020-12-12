@@ -11,8 +11,6 @@
 
 **Requisitos de Reglas de Negocio del Sistema:** (Referido a las limitaciones de mi sistema y leyes a cumplir) (**Fredy**)
 - El sistema deberá cumplir la LPD a la hora de almacenar los datos relativos del ciudadano.
-- El sistema deberá anonimizar los datos de los ciudadanos a aquellos que no tengan autorización.
-- El sistema deberá destruir la información relativa al ciudadano una vez sea inservible.
 - El sistema deberá adaptar su comunicación con lo sistemas de información de cada autonomía.
 
 **Requisitos de Conducta:** (algo más especifico)(**Sergio**)
@@ -35,6 +33,8 @@
 - El sistema deberá permitir que un usuario novato no tarde mas de 15 minutos en aprender su funcionamiento.
 - El sistema deberá permitir en el 75% de los casos que con un máximo de 5 clicks se pueda acceder a la información deseada.
 - El sistema deberá disponer de una interfaz gráfica intuitiva.
+- El sistema deberá mostrar mensajes de ayuda al realizar cualquier operación.
+- El sistema deberá mostrar la información en el idioma elegido.
 
 **Requisitos de Eficiencia:**
 - El sistema deberá de rasterar los contactos entre casos positivos en un tiempo no superior a 15 minutos en el 90% de los casos.
@@ -43,14 +43,15 @@
 - El sistema deberá tener un tiempo máximo de respuesta de 10 segundos para cualquier consulta que se realice en el.
 
 **Requisitos de Mantenibilidad:**
+- El sistema deberá de contener una base de datos cuya estructura sea lo más simplificada posible.
 
 **Requisitos de Portabilidad:**
 - El sistema deberá de poder ser instalado en los equipos en un tiempo no superior a 2 horas en el 90% de los casos.
-- El sistema deberá de poder ser instalado en cualquier equipo con independencia del software y hardaware utilizado, es decir, debe de ser multipataforma.
+- El sistema deberá de poder ser instalado en cualquier equipo con independencia del software y hardware utilizado, es decir, debe de ser multipataforma.
+- El sistema deberá de poder coexistir con los diferentes sistemas sanitarios de las comunidades autónomas.
 
 **Requisitos de Seguridad:**
 - El sistema deberá disponer de métodos de autenticación de los que dependerán las vistas a mostrar y la información a la que será accesible.
-- El sistema debe de cumplir con la ley de protección de datos de los ciudadanos.
 - El sistema deberá destruir los datos de los ciudadanos una vez que ya no sean útiles en un tiempo no superior a 5 días.
 - El sistema deberá anonimizar los datos para todos aquellos usuarios que no dispongan de autorización.
 
