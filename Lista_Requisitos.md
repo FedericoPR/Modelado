@@ -27,7 +27,6 @@
 - El sistema deberá realizar una copia de seguridad de las bases de datos cada hora.
 - El sistema deberá disponer de varios servidores. (Con el fin de evitar caidas del sistema o colapsos).
 - El sistema deberá poder recuperarse aunte cualquier fallo inesperado de forma autónoma en un tiempo no superior a los 15 minutos.(Volver a las copias de seguridad anteriores).
-- 
 
 **Requisitos de Usabilidad:**(**Sergio**)
 - El sistema deberá permitir que un usuario novato no tarde mas de 15 minutos en aprender su funcionamiento.
