@@ -1,6 +1,6 @@
 **Requisitos de Fiabilidad**
 
-| **\<id>001** | Copias de seguridad |
+| **RNF 01** | Copias de seguridad |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -12,7 +12,7 @@
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>002** | Servidores de respaldo |
+| **RNF 02** | Servidores de respaldo |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -24,7 +24,7 @@
 
 <p align="center"> <b>Tabla 16.2: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>003** | Recuperación autónoma ante fallos |
+| **RNF 03** | Recuperación autónoma ante fallos |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |Requisito no funcional 001 Copias de seguridad.|
@@ -38,7 +38,7 @@
 
 **Requisitos de portabilidad**
 
-| **\<id>014** | Fácil instalación |
+| **RNF 14** | Fácil instalación |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -50,7 +50,7 @@
 
 <p align="center"> <b>Tabla 16.14: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>015** | Multiplataforma |
+| **RNF 15** | Multiplataforma |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -62,7 +62,7 @@
 
 <p align="center"> <b>Tabla 16.15: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>016** | Coexistencia con distintos sistemas |
+| **RNF 16** | Coexistencia con distintos sistemas |
 | -- | -- |
 | **[Versión]** | 1.0 (12/12/2020)|
 | **[Dependencias]** |El requisito de conducta El sistema deberá adaptar su comunicación con lo sistemas de información de cada autonomía|
