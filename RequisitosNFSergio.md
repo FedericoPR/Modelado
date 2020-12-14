@@ -3,19 +3,19 @@
 | **\<id>001** | Funcionamientos sencillo |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
-| **[Dependencias]** |Ninguna|
+| **[Dependencias]** | Dependerá del requisito "Interfaz gráfica intuitiva" ya que siempre es más sencillo usar un sistema cuya interfaz sea amigable|
 | **Descripción** |El sistema deberá ser lo suficientemente sencillo e intuitivo como para que un usuario novato no tarde más de 15 minutos en aprender su funcionamiento |
 | **[Importancia]** |Media |
 | **[Prioridad]** |Media |
 | **[Estado]** | Pendiente|
-| **Comentarios** | Puesto que las funcionalidades del sistema no son muchas y la mayor parte de las acciones son ralizadas automáticamente y los usuarios son más bien  receptores de información. Los difreentes dlujos que puede llevar a cabo el sistema son bastante marcados y sin muchas variantes por lo cual deberá ser muy fácil para un usario comprender y usar el sistema en poco tiempo|
+| **Comentarios** | Puesto que las funcionalidades del sistema no son muchas y la mayor parte de las acciones son ralizadas automáticamente y los usuarios son más bien  receptores de información. Los difreentes dlujos que puede llevar a cabo el sistema son bastante marcados y sin muchas variantes por lo cual deberá ser muy fácil para un usuario comprender y usar el sistema en poco tiempo|
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
 | **\<id>002** | Facilidad para acceder a la infromación deseada |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
-| **[Dependencias]** |Ninguna|
+| **[Dependencias]** |Dependerá del requisito "Interfaz gráfica intuitiva" ya que será más facil acceder a la información si la interfaz es sencilla y clara en las opciones que ofrece para moverse por ella||
 | **Descripción** |El sistema deberá permitir en el 75% de los casos que con un máximo de 5 clicks se pueda acceder a la información deseada. Las acciones por parte de los usuarios son pocas y no deberá ser un camino largo llegar hasta ellas |
 | **[Importancia]** |Media |
 | **[Prioridad]** |Media |
@@ -28,11 +28,11 @@
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Ninguna|
-| **Descripción** | El sistema deberá disponer de una interfaz gráfica intuitiva.|
+| **Descripción** | El sistema deberá disponer de una interfaz gráfica intuitiva y amigable|
 | **[Importancia]** |Media |
 | **[Prioridad]** |Media |
 | **[Estado]** | Pendiente|
-| **Comentarios** | Para que al usuario no le resule muy farragosa la interfaz serñe intuitiva para que pueda moverse el usuario por la información más comodamente|
+| **Comentarios** | Para que al usuario no le resule muy farragosa la interfaz será intuitiva para que pueda moverse el usuario por la información más comodamente. Para ello usaremos paneles y botones grandes y visibles (podemos debido a que hay pocas acciones disponibles) y lenguaje sencillo y conciso|
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
