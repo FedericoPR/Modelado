@@ -54,4 +54,4 @@
 - El sistema deberá destruir los datos de los ciudadanos una vez que ya no sean útiles en un tiempo no superior a 5 días.
 - El sistema deberá anonimizar los datos para todos aquellos usuarios que no dispongan de autorización.
 
-**Otros requisitos no funcionales:**
+**Otros requisitos no funcionales:
