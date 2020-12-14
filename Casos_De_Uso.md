@@ -81,7 +81,7 @@ En este apartado se especificarán los casos de uso del sistema a desarrollar id
 
 A continuación, se especificarán aquellos casos de uso que hemos considerado de menor importancia para el sistema:
 
-| **\<id> CU 0.1** | Listar ciudadanos por estado |
+| **CU 0.1** | Listar ciudadanos por estado |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.1 (Registrar ciudadano en el sistema) ya que necesita que recopilar la información de los ciudadanos ya registrados en el sistema que filtrará según su estado. Este caso de uso interactua con los actores ambulatorio y fuerzas del orden dado que estos podrán acceder a las listas creadas por el sistema. |
@@ -95,7 +95,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 <p align="center"> <b>Tabla 11.1: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
-| **\<id> CU 0.2** | Informar al ciudadano |
+| **CU 0.2** | Informar al ciudadano |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) ya que si el ciudadano da positivo, el sistema notificará este para que sepa que pasos debe realizar, si se debe realizar alguna otra prueba o  iniciar el CU 2.1 o bien el CU 2.2 para llevar acabo el control del cumplimiento del periodo de cuarentena. |
@@ -109,7 +109,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 <p align="center"> <b>Tabla 11.2: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
-| **\<id> CU 1.1** | Registrar ciudadano en el sistema |
+| **CU 1.1** | Registrar ciudadano en el sistema |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.6 (Registrar cita pruebas en el sistema) ya que un ciudadano sospechoso de tener el virus debe realizarse una prueba por lo que se debe guardar información sobre él en caso de que diera un resultado positivo. Lo que iniciaria el CU 0.1 (Listar ciudadanos por estado) con los datos que proporciona este caso de uso con la información del ciudadano y estado. En este caso de uso interactutuará con el actor ambulatorio que tendrá permiso para introducir la información necesaria del ciudadano al sistema. |
@@ -171,7 +171,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 | **Estado** |  |
 | **Comentarios** | Si el usuario llamara para cambiar la cita pasadas 24 horas, bien por actuación de las autoridades, o bien por descuido personal durante las 24 h de plazo, las autoridades serían informadas también|
 
-| **\<id> CU 2.2** | Control humano por las autoridades (Ciudadanos sin móvil) |
+| **CU 2.2** | Control humano por las autoridades (Ciudadanos sin móvil) |
 | -- | -- |
 | **[Versión]** | 1.0(04/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 0.1 (Listar ciudadanos por estado), ya que debe de incluir dicho caso de uso. Dicho caso de uso interactua con el actor autoridades y el actor ciudadano. Ya que por medio de este caso se llevará un control por parte de las autoridades sobre el ciudadano.|
@@ -185,7 +185,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 <p align="center"> <b>Tabla 11.2.2: Plantilla simplificada de casos de uso.</b> <br> </p>
 
-| **\<id> CU 2.3** | Enviar alerta autoridades incumplimiento cuarentena. |
+| **CU 2.3** | Enviar alerta autoridades incumplimiento cuarentena. |
 | -- | -- |
 | **[Versión]** | 1.0(04/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 2.1 (Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil)), ya que si se detecta alguna anomalía en dicho caso de uso se dispararía este caso de uso, y también depende del CU 0.2 (Informar al ciudadano) cuando se detecte esa anomalía. Dicho caso de uso interactua con el actor autoridades. Ya que por medio de este caso se informará a las autoridades de que ha ocurrido un evento.|
@@ -199,7 +199,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 <p align="center"> <b>Tabla 11.2.3: Plantilla simplificada de casos de uso.</b> <br> </p>
 
-| **\<id> CU 3.1** | Informar caso positivo. |
+| **CU 3.1** | Informar caso positivo. |
 | -- | -- |
 | **[Versión]** | 1.0(04/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) y que dicho resultado sea positivo, ya que si se detecta algun nuevo caso positivo se dispararía este caso de uso. Dicho caso de uso interactua con el actor Gobierno, ya que por medio de este caso se informará al gobierno de la ocurrencia de un nuevo caso positivo .|
@@ -213,7 +213,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 <p align="center"> <b>Tabla 11.3.1: Plantilla simplificada de casos de uso.</b> <br> </p>
 
-| **\<id> CU 3.3** | Informar estadísticas |
+| **CU 3.3** | Informar estadísticas |
 | -- | -- |
 | **[Versión]** | 1.0(05/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 3.2 (Generar estadísticas) ya que antes de poder informar las estadísitcas deben de ser generadas (dependencia de tipo include). Dicho caso de uso interactua con el actor Gobierno, ya que por medio de este caso se informará al gobierno de las estadísitcas generadas por el sistema .|
@@ -241,7 +241,7 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 
 A continuacion se especificarán de forma mas detallada aquellos casos de uso que tengan mayor relevancia en el sistema por medio de las siguientes tablas:
 
-| **\<id> CU 1.2** | Registrar resultado de la prueba en el sistema |  |
+| **CU 1.2** | Registrar resultado de la prueba en el sistema |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (05/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.3 (Rastrear contactos directos con el postivo) que será necesario para poder llevar a cabo el CU 1.6 (Registrar cita pruebas en el sistema), de dichas citas se realizarán las pruebas pertinentes al ciudadano.  Este caso de uso  será el inicio del CU  3.1 (Registrar cita pruebas en el sistema) en caso de que las pruebas den positivo. Así como del CU 0.2 (Informar al ciudadano) notificandole a este el resultado de la prueba.|
@@ -269,7 +269,7 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **Comentarios** |  |
 <p align="center"> <b>Tabla 12: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
-| **\<id> CU 1.3** | Rastrear contactos directos con el postivo |  |
+| **CU 1.3** | Rastrear contactos directos con el postivo |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (09/12/2020)|
 | **[Dependencias]** | Dicho caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) para alertar al sistema de que se ha detectado un positivo y de que deberá utilizar los datos de los que dispone para identificar aquellos ciudadasno que puedan haber contactado lo suficiente con el postitivo. También depende del CU 1.4 (Adquirir datos de los ciudadanos), ya que necesitará de todos los datos de localización de los ciudadanos para que el algoritmo pueda realizar los cruces e identificar los ciudadanos susceptibles de haber sido contagiados|
@@ -291,7 +291,7 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **[Estado]** | Pendiente |
 | **Comentarios** ||
 
-| **\<id> CU 2.1** | Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil). |  |
+| **CU 2.1** | Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil). |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (05/12/2020)|
 | **[Dependencias]** | Dicho caso de uso depende del CU 0.2 (Listar ciudadanos por estado) para obtener aquellos ciudadanos registrados en el sistema que deben de cumplir cuarentena. También depende del CU 2.3 (Enviar alerta autoridades incumplimiento cuarentena), ya que cuando se detecte un ciudadano que no está cumpliendo la cuarentena se informará a las autoridades. Este caso de uso deberá interactuar con las operadoras teléfonicas para poder obtener la localización en tiempo real del dispositivo móvil del ciudadano.|
@@ -315,7 +315,7 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **Comentarios** | El CU afecta al 90% la población española que dispone de teléfono móvil. Dicho caso de uso es complemenatario al CU 2.2 Control humano por las autoridades (Ciudadanos sin móvil), el cual solo afecta a la población que no posee teléfono móvil.|
 <p align="center"> <b>Tabla 12.2.1: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
-| **\<id> CU 3.2** | Generar estadísticas |  |
+| **CU 3.2** | Generar estadísticas |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (05/12/2020)|
 | **[Dependencias]** | Dicho caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) y el resultado es positivo. También depende del CU 1.3 ( Rastrear contactos directos con el postivo), ya que a partir de la información proporcionada por dichos casos de uso, el caso de uso generar estadísticas podrá obtener las estadísitcas sobre la población. De este caso de uso también depende el CU 3.3 (Informar estadísticas), dado que una vez que se han obtenido las estadísitcas, se disparará el CU 3.3.|
