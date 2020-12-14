@@ -568,8 +568,7 @@ Como ya hemos explicado, vamos a describir un primer acercamiento a lo que será
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020) |
 | **[Dependencias]** | Este requisito depende del objetivo de negocio 2 (Rastreo del contacto con un positivo), depende del objetivo de negocio 3 (Asegurar la realización de las pruebas). |
-| **Descripción** | El sistema deberá agrupar aquellos requisitos más concretos relacionados con el seguimiento de los ciudadanos que han dado positivo en las pruebas realizadas, y 
-los relacionados con la realización de la pruebas pertinentes a aquellos cuidadanos susceptibles de haber sido contagiados por el positivo. De este modo podremos crear una lista de las personas afectadas añadiendo toda aquella información que pueda ser de ayuda, como conseguencia de este rastreo de positivos, para poder identificar posibles focos de contagio. |
+| **Descripción** | El sistema deberá realzar un seguimiento de los ciudadanos que han dado positivo en las pruebas realizadas, y realizar las pruebas pertinentes a aquellos cuidadanos susceptibles de haber sido contagiados por el positivo. De este modo podremos crear una lista de las personas afectadas añadiendo toda aquella información que pueda ser de ayuda, como conseguencia de este rastreo de positivos, para poder identificar posibles focos de contagio. |
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
