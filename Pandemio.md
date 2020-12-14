@@ -591,8 +591,7 @@ los relacionados con la realización de la pruebas pertinentes a aquellos cuidad
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020) |
 | **[Dependencias]** | Este requisito general depende del objetivo de negocio 6 (Proporcionar información y datos al ministerio) |
-| **Descripción** | El sistema deberá gestionar la información que se proporcionará al gobierno con respecto a los datos recopilados y procesados por la plataforma. Estos datos darán lugar a estadísticas que una vez analizadas nos posibilitará localizar los posiles focos de contagio, zonas donde más contagios hay, número 
-de contagios por distrito médico...etc. De esta manera el gobierno podrá tomar las decisiones o medidas que crea convenientes. |
+| **Descripción** | El sistema deberá gestionar la información que se proporcionará al gobierno con respecto a los datos recopilados y procesados por la plataforma. Estos datos darán lugar a estadísticas que una vez analizadas nos posibilitará localizar los posiles focos de contagio, zonas donde más contagios hay, número de contagios por distrito médico...etc. De esta manera el gobierno podrá tomar las decisiones o medidas que crea convenientes. |
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
