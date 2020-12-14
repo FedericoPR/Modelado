@@ -1,6 +1,6 @@
 #### Requisitos de Eficiencia
 
-| **\<id>009** | Rastreo de contactos positivos |
+| **RNF 09** | Rastreo de contactos positivos |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020)|
 | **[Dependencias]** | Este requisito depende del requisito general 1 (rastrear contactos entre positivos y gestionar la realización de pruebas médicas). Depende del erquisito de informacion 4 (Datos de localización de los ciudadanos), del requisito de conducta  (Rastreo de contactos positivos).  |
@@ -12,7 +12,7 @@
 
 <p align="center"> <b>Tabla 16.9: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>010** | Generar informes |
+| **RNF 10** | Generar informes |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020)|
 | **[Dependencias]** | Este requisito depende del requisito general 3 (Gestionar información recopilada y proporcionar estadísticas al gobierno), del requisito de información 7 (Informe de las estadísticas generadas), requisito de reglas de negocio 1 (Cumplimiento de la Ley de protección de datos), requisito de reglas de negocio 2 (Adaptación de la información según la autonomía).  |
@@ -24,7 +24,7 @@
 
 <p align="center"> <b>Tabla 16.10: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>011** | Enviar aviso incumplimiento cuarentena |
+| **RNF 11** | Enviar aviso incumplimiento cuarentena |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020)|
 | **[Dependencias]** | Este requisito depende del requisito general 2 (Gestionar el cumplimiento de cuarentena), depende del requisito de conducta del sistema (Comprobar la ubicación del usario en cuarentena) |
@@ -36,7 +36,7 @@
 
 <p align="center"> <b>Tabla 16.11: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>012** | Tiempo de respuesta |
+| **RNF 12** | Tiempo de respuesta |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020)|
 | **[Dependencias]** | Ninguna |
@@ -50,7 +50,7 @@
 
 <p align="center"> <b>Tabla 16.12: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>017** | Autenticación de los usuarios |
+| **RNF 17** | Autenticación de los usuarios |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020)|
 | **[Dependencias]** | El requisito depende del requisito general gestionar información recopilada y proporcionar estadisticas al gobierno. |
@@ -62,7 +62,7 @@
 
 <p align="center"> <b>Tabla 16.17: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>018** | Destruir información inservible del ciudadano |
+| **RNF 18** | Destruir información inservible del ciudadano |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020) |
 | **[Dependencias]** | El requisito depende del requisito general gestionar información recopilada y proporcionar estadisticas al gobierno. También depende del requisito 1 de información (Datos de los ciudadanos), tambien en el requisito de Rastreo de contactos con positivo que en el caso de que el ciudadano de negativo en las pruebas se borrará de la lista que genera dicho requisito. Por otro lado depende del requisito de reglas de negocio 1 (Cumplimiento de la Ley de protección de datos).|
@@ -74,7 +74,7 @@
 
 <p align="center"> <b>Tabla 16.18: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>019** | Anonimozar datos ciudadanos |
+| **RNF 19** | Anonimozar datos ciudadanos |
 | -- | -- |
 | **[Versión]** | 1.0 (13/12/2020) |
 | **[Dependencias]** | El requisito depende del requisito general gestionar información recopilada y proporcionar estadisticas al gobierno, depende del requisito 1 de información (Datos de los ciudadanos). también depende del requisito de reglas de negocio 1 (Cumplimiento de la Ley de protección de datos) |
