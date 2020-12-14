@@ -80,7 +80,7 @@
 
 <p align="center"> <b>Tabla 13.6: Requisitos de Información.</b> <br> </p>
 
-| **RF 07* | Informe de las estadísticas generadas |
+| **RF 07** | Informe de las estadísticas generadas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 3.2 Generar estadísticas y del CU 3.3 Informar estadísticas.También depende del requisito general gestionar la información recopilada y proporcionar estadísticas al gobierno.|
