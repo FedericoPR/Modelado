@@ -1,4 +1,4 @@
-| **\<id>001** | Datos de los ciudadanos |
+| **RF 01** | Datos de los ciudadanos |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 1.1 Registrar ciudadano en el sistema y del CU 1.5 Registrar contactos directos en el sistema.|
@@ -11,7 +11,7 @@
 
 <p align="center"> <b>Tabla 13.1: Requisitos de Información.</b> <br> </p>
 
-| **\<id>002** | Resultado de las pruebas médicas |
+| **RF 02** | Resultado de las pruebas médicas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 1.2 Registrar resultado de la prueba en el sistema. También depende del requisito general gestión de la realización de las pruebas médicas.|
@@ -25,7 +25,7 @@
 
 <p align="center"> <b>Tabla 13.2: Requisitos de Información.</b> <br> </p>
 
-| **\<id>003** | Citas médicas |
+| **RF 03** | Citas médicas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 1.6 Registrar cita pruebas en el sistema y del CU 1.7 Enviar alerta a las autoridades de incumplmiento de realizarse la prueba.También depende del requisito general gestión de la realización de las pruebas médicas.|
@@ -39,7 +39,7 @@
 
 <p align="center"> <b>Tabla 13.3: Requisitos de Información.</b> <br> </p>
 
-| **\<id>004** | Datos de localización de los ciudadanos. |
+| **RF 04** | Datos de localización de los ciudadanos. |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 1.3 Rastrear contactos directos con el postivo y del CU 1.4 Adquirir datos de los ciudadanos.También depende del requisito general rastrear los contactos entre casos positivos.|
@@ -53,7 +53,7 @@
 
 <p align="center"> <b>Tabla 13.4: Requisitos de Información.</b> <br> </p>
 
-| **\<id>005** | Estado médico de los ciudadanos. |
+| **RF 05** | Estado médico de los ciudadanos. |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 0.1 Listar ciudadanos por estado.|
@@ -67,7 +67,7 @@
 
 <p align="center"> <b>Tabla 13.5: Requisitos de Información.</b> <br> </p>
 
-| **\<id>006** | Localización del móvil de los ciudadanos. |
+| **RF 06** | Localización del móvil de los ciudadanos. |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 2.1 Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil) y del CU 2.3 Enviar alerta autoridades incumplimiento cuarentena.También depende del requisito general gestionar el cumplimiento de la cuarentena.|
@@ -80,7 +80,7 @@
 
 <p align="center"> <b>Tabla 13.6: Requisitos de Información.</b> <br> </p>
 
-| **\<id>007** | Informe de las estadísticas generadas |
+| **RF 07** | Informe de las estadísticas generadas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | El requisito depende del CU 3.2 Generar estadísticas y del CU 3.3 Informar estadísticas.También depende del requisito general gestionar la información recopilada y proporcionar estadísticas al gobierno.|
