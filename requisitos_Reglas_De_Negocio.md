@@ -4,7 +4,7 @@ Aunque contemos con el apoyo del ministro, nuestra aplicación debe cumplir con 
 Esta sección debe contener las reglas de negocio que deba cumplir el sistema a desarrollar, especificadas mediante las plantillas para reglas de negocio que se muestran a continuación.
 Estos requisitos deben especificar qué reglas de negocio debe respetar el sistema, evitando que se incumplan durante su funcionamiento.
 
-| **\<id>001** | Cumplimiento de la Ley de protección de datos |
+| **RF 08** | Cumplimiento de la Ley de protección de datos |
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | El requisito depende del requisito general gestionar información recopilada y proporcionar estadisticas al gobierno. También depende del requisito 1 de información (Datos de los ciudadanos) |
@@ -15,7 +15,7 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | **Comentarios** | [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) |
 <p align="center"> <b>Tabla 14.1: Requisitos de reglas de negocio.</b> <br> </p>
 
-| **\<id>002** | Adaptación de la información según la autonomía |
+| **RF 09** | Adaptación de la información según la autonomía |
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | Este requisito depende del requisito general gestionar la información recopilada y proporcionar estadísticas al gobierno |
