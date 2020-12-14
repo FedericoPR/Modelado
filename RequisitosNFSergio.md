@@ -1,6 +1,6 @@
 **Requisitos de Usabilidad**
 
-| **\<id>001** | Funcionamientos sencillo |
+| **RNF 04** | Funcionamientos sencillo |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** | Dependerá del requisito "Interfaz gráfica intuitiva" ya que siempre es más sencillo usar un sistema cuya interfaz sea amigable|
@@ -12,7 +12,7 @@
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>002** | Facilidad para acceder a la infromación deseada |
+| **RNF 05** | Facilidad para acceder a la infromación deseada |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Dependerá del requisito "Interfaz gráfica intuitiva" ya que será más facil acceder a la información si la interfaz es sencilla y clara en las opciones que ofrece para moverse por ella||
@@ -24,7 +24,7 @@
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>003** | Interfaz gráfica intuitiva |
+| **RNF 06** | Interfaz gráfica intuitiva |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -36,7 +36,7 @@
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>004** | Información de ayuda |
+| **RNF 07** | Información de ayuda |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -48,7 +48,7 @@
 
 <p align="center"> <b>Tabla 16.1: Requisitos no funcionales del sistema</b> <br> </p>
 
-| **\<id>005** | Varios idiomas disponibles |
+| **RNF 08** | Varios idiomas disponibles |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Ninguna|
@@ -62,7 +62,7 @@
 
 **Requisitos de Mantenibilidad:**
 
-| **\<id>005** | Simplicidad de la Base de Datos |
+| **RNF 13** | Simplicidad de la Base de Datos |
 | -- | -- |
 | **[Versión]** | 1.0 (14/12/2020)|
 | **[Dependencias]** |Ninguna|
