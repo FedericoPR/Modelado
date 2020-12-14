@@ -551,3 +551,52 @@ Para que quede claro la descomposición en subsistemas, a continuación se muest
 ![picture 1](images/fb9286ac15bd71d1f044f3cee392a03ba4dd4dd3f6a1c17516e10f1c3f9427b3.jpg)  
 
 <p align="center"> <b>Gráfico 3: Diagrama de componentes con los Subsistemas a desarrollar.</b> <br> </p>
+
+## 6. CATÁLOGO DE REQUISITOS DEL SISTEMA A DESARROLLAR
+
+En esta sección se van a detallar la solución propuesta para poder satisfacer las necesidades que queremos cubrir con nuestro sistema. 
+
+Para poder cumplir con los objetivos principales hemos realizado un primer agrupamiento de los mismos teniendo en cuenta la organización en subsistemas que
+ya describimos en la seccción anterior. Una vez establecidos los subsistemas o requisitos generales los desgranaremos en requisitos más especificos de manera
+que podamos llevar a cabo todos los casos de uso que se planterán tambien en esta misma seccion.
+
+### 6.1. Requisitos Generales del Sistema
+
+Como ya hemos explicado, vamos a describir un primer acercamiento a lo que serán los requisitos del sistema. Para ello agruparemos los requisitos de una manera general siguiendo el patrón marcado en los subsistemas de la sección 5. De esta manera podemos establecer de un modo general y aglomerado los siguientes requisitos generales del sistema:
+
+| **RG 01** | Rastreo de los contactos entre casos positivos y gestión de la realización de las pruebas médicas |
+| -- | -- |
+| **[Versión]** | 1.0 (14/12/2020) |
+| **[Dependencias]** | Este requisito depende del objetivo de negocio 2 (Rastreo del contacto con un positivo), depende del objetivo de negocio 3 (Asegurar la realización de las pruebas). |
+| **Descripción** | El sistema deberá agrupar aquellos requisitos más concretos relacionados con el seguimiento de los ciudadanos que han dado positivo en las pruebas realizadas, y 
+los relacionados con la realización de la pruebas pertinentes a aquellos cuidadanos susceptibles de haber sido contagiados por el positivo. De este modo podremos crear una lista de las personas afectadas añadiendo toda aquella información que pueda ser de ayuda, como conseguencia de este rastreo de positivos, para poder identificar posibles focos de contagio. |
+| **[Importancia]** | Muy alta |
+| **[Prioridad]** | Alta |
+| **[Estado]** | Pendiente |
+| **Comentarios** | Un ciudadano susceptible de haber sido contagiado no se almacenará como un caso positivo por lo que no tendrá un periodo de cuarentena asociado, aunque se recomienda que tome ciertas precauciones hasta saber el resultado de la prueba. |
+<p align="center"> <b>Tabla 9.1: Requisitos generales del sistema.</b> <br> </p>
+
+| **RG 02** | Gestionar el cumplimiento de la cuarentena |
+| -- | -- |
+| **[Versión]** | 1.0 (14/12/2020) |
+| **[Dependencias]** | Este requisito general depende del objetivo de negocio 5 (Asegurar el cumplimiento de la cuarentena) |
+| **Descripción** | El sistema deberá gestionar el control de los ciudadanos que han dado positivo en la prueba, asegurandose que los pacientes cumplen el periodo de cuarentena. Se incluirán aquellos requisitos que aseguren el cumplimiento de la cuarentena pero también aquellos que nos permitan actuar en caso de verse violada. |
+| **[Importancia]** | Muy alta |
+| **[Prioridad]** | Alta |
+| **[Estado]** | Pendiente |
+| **Comentarios** | Este requisito es fundamental ya que el cumplimiento de este limitará el aumento de futoros focos de contagio |
+<p align="center"> <b>Tabla 9.2: Requisitos generales del sistema.</b> <br> </p>
+
+| **RG 03** | Gestionar información recopilada y proporcionar estadísticas al gobierno |
+| -- | -- |
+| **[Versión]** | 1.0 (14/12/2020) |
+| **[Dependencias]** | Este requisito general depende del objetivo de negocio 6 (Proporcionar información y datos al ministerio) |
+| **Descripción** | El sistema deberá gestionar la información que se proporcionará al gobierno con respecto a los datos recopilados y procesados por la plataforma. Estos datos darán lugar a estadísticas que una vez analizadas nos posibilitará localizar los posiles focos de contagio, zonas donde más contagios hay, número 
+de contagios por distrito médico...etc. De esta manera el gobierno podrá tomar las decisiones o medidas que crea convenientes. |
+| **[Importancia]** | Muy alta |
+| **[Prioridad]** | Alta |
+| **[Estado]** | Pendiente |
+| **Comentarios** |  |
+<p align="center"> <b>Tabla 9.3: Requisitos generales del sistema.</b> <br> </p>
+
+
