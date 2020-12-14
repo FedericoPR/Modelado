@@ -6,7 +6,7 @@ A continuación se pasan a detallar aquellos requisitos de las acciones que debe
 _Esta sección debe contener los requisitos de conducta que se hayan identificado, especificados mediante las plantillas de requisitos de conducta que se muestran a continuación.
 Estos requisitos deben especificar cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc._
 
-| **\<id>999** | Comprobar la ubicación del usuario en cuarentena |
+| **RF 10** | Comprobar la ubicación del usuario en cuarentena |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | Este requisito tiene dependencia directa con el caso de uso 2.1 "Control automático por el sistema del cumplimiento cuarentena" y tambien depende de el el caso de uso 2.3 "Enviar alerta autoridades incumplimiento cuarentena" |
@@ -17,7 +17,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **[Prioridad]** | Alta |
 | **Comentarios** | Si la ubicación se comprueba que es la misma que la de la vivienda el sistema no hará nada y volverá a realizar la comprobación cuando pase el tiempo establecido |
 
-| **\<id>999** |Solicitar los datos de localización de los ciudadanos|
+| **RF 11** |Solicitar los datos de localización de los ciudadanos|
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
 | **[Dependencias]** | De este requisito dependerá el CU 1.3 "Rastrear contactos directos con el postivo" ya que para realizarlo hará uso de los datos aquí adquiridos. Además los datos de los cuidadanos en cuanto al tipo de móvil que tienen y a cual es su domicilio tambien serán usados en en control de las cuarentenas|
@@ -28,7 +28,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **[Prioridad]** | Alta |
 | **Comentarios** | El volumen de datos será inmenso y por lo tanto debemos disponer de servidores lo suficientemente grandes como para alamcenarlos y procesarlos |
 
-| **\<id>999** | Rastreo de contactos con positivo |
+| **RF 12** | Rastreo de contactos con positivo |
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | Este requisito depende en gran medida del CU 1.3 "Rastrear contactos directos con el postivo" ya que el restreo automático por parte del sistema para sacar una lista con los posibles infectados es el primer paso y por tanto imprescindible del CU "Rastrear contactos directos con el postivo"|
@@ -39,7 +39,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **[Prioridad]** | Alta |
 | **Comentarios** | Será de vital importancia para este requisito que se cumpla también y con eficacia el de "Solicitar los datos de localización de los ciudadanos" a las operadoras |
 
-| **\<id>999** | Envio de alertas de estado al usuario|
+| **RF 13** | Envio de alertas de estado al usuario|
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | Este requisito dependerá del CU 0.2 "Informar al ciudadano" donde se le informa de todo aquello que sea relevante para el y con respecto a su situación |
@@ -50,7 +50,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **[Prioridad]** | Alta |
 | **Comentarios** | En todo momento se le informará al usuario de que sus datos están siendo tratados siguiendo la ley de proteccion de datos |
 
-| **\<id>999** | Adaptar el cumplimiento de la cuarentena al tipo de movil del cuidadano o a la ausencia del mismo |
+| **RF 14** | Adaptar el cumplimiento de la cuarentena al tipo de movil del cuidadano o a la ausencia del mismo |
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | Este requisito depende sobre todo del CU 2.1 "Control automático por el sistema del cumplimiento cuarentena" |
@@ -61,7 +61,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **[Prioridad]** | Media |
 | **Comentarios** | En caso de que el usuario tenga movil con huella, realizará el sistema las comprobaciones de manera automática y en caso de ser sin huella permitirá a las aurtoridades de manera automática la realización de videollamadas periódicamente. |
 
-| **\<id>999** | Envío de estadisticas al gobierno|
+| **RF 15** | Envío de estadisticas al gobierno|
 | -- | -- |
 | **[Versión]** | 1.0 (11/12/2020) |
 | **[Dependencias]** | Este requisito depende de todos los casos de uso del subsistema de gestión e información y estadísticas al gobierno ya que engloba el envio al gobierno de todo tipo de información y estadísticas que puedan ser relevantes para ellos como los casos positivos, los posibles focos y las estadísticas por zonas, edades...etc |
