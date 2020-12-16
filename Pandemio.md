@@ -569,6 +569,7 @@ Como ya hemos explicado, vamos a describir un primer acercamiento a lo que será
 | **[Versión]** | 1.0 (14/12/2020) |
 | **[Dependencias]** | Este requisito depende del objetivo de negocio 2 (Rastreo del contacto con un positivo), depende del objetivo de negocio 3 (Asegurar la realización de las pruebas). |
 | **Descripción** | El sistema deberá realzar un seguimiento de los ciudadanos que han dado positivo en las pruebas realizadas, y realizar las pruebas pertinentes a aquellos cuidadanos susceptibles de haber sido contagiados por el positivo. De este modo podremos crear una lista de las personas afectadas añadiendo toda aquella información que pueda ser de ayuda, como conseguencia de este rastreo de positivos, para poder identificar posibles focos de contagio. |
+| **Requisitos hijos** | Este requisito es padre del RF 02 (Resultado de las pruebas médicas), RF 03 (Citas médicas), RF 04 (Datos de localización de los ciudadanos), RNF 09 (Rastreo de contactos positivos) |
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
@@ -580,10 +581,11 @@ Como ya hemos explicado, vamos a describir un primer acercamiento a lo que será
 | **[Versión]** | 1.0 (14/12/2020) |
 | **[Dependencias]** | Este requisito general depende del objetivo de negocio 5 (Asegurar el cumplimiento de la cuarentena) |
 | **Descripción** | El sistema deberá gestionar el control de los ciudadanos que han dado positivo en la prueba, asegurandose que los pacientes cumplen el periodo de cuarentena. Se incluirán aquellos requisitos que aseguren el cumplimiento de la cuarentena pero también aquellos que nos permitan actuar en caso de verse violada. |
+| **Requisitos hijos** | Este requisito es padre del RF 06 (Localización del móvil de los ciudadanos), RNF 11 (Enviar aviso incumplimiento cuarentena). |
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
-| **Comentarios** | Este requisito es fundamental ya que el cumplimiento de este limitará el aumento de futoros focos de contagio |
+| **Comentarios** | Este requisito es fundamental ya que el cumplimiento de este limitará el aumento de futoros focos de contagio. |
 <p align="center"> <b>Tabla 9.2: Requisitos generales del sistema.</b> <br> </p>
 
 | **RG 03** | Gestionar información recopilada y proporcionar estadísticas al gobierno |
@@ -591,6 +593,7 @@ Como ya hemos explicado, vamos a describir un primer acercamiento a lo que será
 | **[Versión]** | 1.0 (14/12/2020) |
 | **[Dependencias]** | Este requisito general depende del objetivo de negocio 6 (Proporcionar información y datos al ministerio) |
 | **Descripción** | El sistema deberá gestionar la información que se proporcionará al gobierno con respecto a los datos recopilados y procesados por la plataforma. Estos datos darán lugar a estadísticas que una vez analizadas nos posibilitará localizar los posiles focos de contagio, zonas donde más contagios hay, número de contagios por distrito médico...etc. De esta manera el gobierno podrá tomar las decisiones o medidas que crea convenientes. |
+| **Requisitos hijos** | Este requisito es padre del RF 07 (Informe de las estadísticas generadas), RF 08 (Cumplimiento de la Ley de protección de datos), RF 09 (Adaptación de la información según la autonomía), RNF 10 (Generar informes), RNF 17 (Autenticación de los usarios), RNF 18 (Destruir información inservible del ciudadano), RNF 19 (Anonimizar datos ciudadanos). |
 | **[Importancia]** | Muy alta |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
@@ -713,12 +716,12 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** | Este caso de uso depende del CU 1.6 (Registrar cita pruebas en el sistema) ya que un ciudadano sospechoso de tener el virus debe realizarse una prueba por lo que se debe guardar información sobre él en caso de que diera un resultado positivo. Lo que iniciaria el CU 0.1 (Listar ciudadanos por estado) con los datos que proporciona este caso de uso con la información del ciudadano y estado. En este caso de uso interactutuará con el actor ambulatorio que tendrá permiso para introducir la información necesaria del ciudadano al sistema. |
 | **Precondición** | El usuario debe presentar sintomas de la enfermedad para así considerarlo caso sospechoso y empezar el seguimiento de su situación. |
-| **Descripción** | Este caso de uso supone el inicio del proceso de seguimiento de un ciudadano del cual se sospecha que tenga la enfermedad, para tener disponibe su información y poder contactar rapidaente con dicho ciudadano en caso de dar positivo, asi como poder almacenarlo en nuestros listados de ciudadanos por estado. La información del ciudadano tras su resgistro se considerá vital para el funcionamiento del sistema en cuanto a generar estadisticas estadisticas y dar su acceso a aquellosactores autorizados ..  |
+| **Descripción** | Este caso de uso supone el inicio del proceso de seguimiento de un ciudadano del cual se sospecha que tenga la enfermedad, para tener disponibe su información y poder contactar rapidaente con dicho ciudadano en caso de dar positivo, asi como poder almacenarlo en nuestros listados de ciudadanos por estado. La información del ciudadano tras su resgistro se considerá vital para el funcionamiento del sistema en cuanto a generar estadisticas estadisticas y dar su acceso a aquellosactores autorizados.  |
 | **Postcondición** | Habrá un nuevo ciudadano registrado en el sistema con sus correspondientes datos. |
 | **[Importancia]** | Muy Alta> |
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
-| **Comentarios** | La información del ciudadano registrado es únicamente accesible a los actores autorizados de cara a proteger su privacidad y que agentes externos no se puedan aprovechar de dichos datos |
+| **Comentarios** | La información del ciudadano registrado es únicamente accesible a los actores autorizados de cara a proteger su privacidad y que agentes externos no se puedan aprovechar de dichos datos. |
 
 <p align="center"> <b>Tabla 11.3: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
@@ -726,39 +729,42 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** |  |
-| **Precondicion** | Las operadoras deberán tener acceso al sistema para poder suministrar los datos de los cuidadanos o bien el administrador del sistema los recibirá de las operadoras y los incorporará al sistema  |
+| **Precondicion** | Las operadoras deberán tener acceso al sistema para poder suministrar los datos de los cuidadanos o bien el administrador del sistema los recibirá de las operadoras y los incorporará al sistema.  |
 | **Descripción** | Este caso de uso consiste en el aporte de todos los datos de los cuidadanos por parte de la operadora telefónica. Más adelante estos datos serán imprescindibles para hacer el rastreo de los posibles contactos |
-| **Postcondicion** | Los datos de los cuidadanos quedarán reflejados en el sitema de manera que puedan ser utilizados por los algoritmos para poder realizar los cruces de información y rastrear los posibles contagiados |
+| **Postcondicion** | Los datos de los cuidadanos quedarán reflejados en el sitema de manera que puedan ser utilizados por los algoritmos para poder realizar los cruces de información y rastrear los posibles contagiados. |
 | **[Importancia]** | Muy Alta |
 | **[Prioridad]** | Alta |
 | **Estado** |  |
-| **Comentarios** | Debido a la importancia de esta información para poder realizar la mayor parte de las funciones del sistema esta deberá estar lo más actualizada posbible. Por ello el encargado de administrar esta información para el sistema deberá actualizar la misma con mucha frecuencia |
+| **Comentarios** | Debido a la importancia de esta información para poder realizar la mayor parte de las funciones del sistema esta deberá estar lo más actualizada posbible. Por ello el encargado de administrar esta información para el sistema deberá actualizar la misma con mucha frecuencia. |
+<p align="center"> <b>Tabla 11.4: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
 | **CU 1.5** | Registrar contactos directos en el sistema |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** |  |
-| **Precondicion** | El ciudadano a registrar habrá sido identificado anteriormente por el algoritmo como posible positivo |
-| **Descripción** | Una vez el algoritmo nos proporciona aquellos ciudadanos que han tenido contacto suficiente con un positivo y, por tanto, son susceptibles de ser positivos pasaremos a registrar a estos ciudadanos en el sistema. En este primer registro se pondrá al ciudadano con el estado "Pendiente de cita" para que el responsable del ambulatorio sepa que deberá concretar una cita con él para realizarse las pruebas pertinentes |
-| **Postcondicion** | El ciudadano quedará registrado en el sistema como pendiente de concretar una cita lo antes posible para realizarse las puebas y se le inromará de que deberá guardar cuarentena haste ese momento|
+| **Precondicion** | El ciudadano a registrar habrá sido identificado anteriormente por el algoritmo como posible positivo. |
+| **Descripción** | Una vez el algoritmo nos proporciona aquellos ciudadanos que han tenido contacto suficiente con un positivo y, por tanto, son susceptibles de ser positivos pasaremos a registrar a estos ciudadanos en el sistema. En este primer registro se pondrá al ciudadano con el estado "Pendiente de cita" para que el responsable del ambulatorio sepa que deberá concretar una cita con él para realizarse las pruebas pertinentes. |
+| **Postcondicion** | El ciudadano quedará registrado en el sistema como pendiente de concretar una cita lo antes posible para realizarse las puebas y se le inromará de que deberá guardar cuarentena haste ese momento. |
 | **[Importancia]** | Alta |
 | **[Prioridad]** | Media |
 | **Estado** |  |
-| **Comentarios** | Una vez se guarda el cuidadano como posible positivo los responsables de llamarlo y concretar cita deberán intentar que esa cita para la realización de las pruebas no tarde para ser lo más eficientes posibles en evitar la propagación de un usuario que puede que esté contagiado|
+| **Comentarios** | Una vez se guarda el cuidadano como posible positivo los responsables de llamarlo y concretar cita deberán intentar que esa cita para la realización de las pruebas no tarde para ser lo más eficientes posibles en evitar la propagación de un usuario que puede que esté contagiado. |
+<p align="center"> <b>Tabla 11.5: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
 | **CU 1.6** | Registrar cita pruebas en el sistema |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** |  |
-| **Precondicion** | El usuario debe haber sido detectado por el algoritmo y registrado en el sistema para que aparezca como pendiente de cita al filtrar para que el ambulatorio se ponga en contacto |
-| **Descripción** | Tras haber detectado un posible positivo con los datos de rastreo por parte del algoritmo y haber sido registrado el usuario en el sistema, el responsable sanitario del ambulatorio al que pertenece el cuidadano se pondrá en contacto con él para concretatar la cita en la que se le realizarán las pruebas. Una vez se concrete la cita el responsable lo registrará en el sistema|
-| **Postcondicion** | El usuario quedará como pendiente de realizar las pruebas y se le infromará de que permanezca en cuarentena hasta la realización de las mismas. Esta cuarentena no será controlada por las fuerzas de seguridad debido a que no se trata de un positivo confirmado por lo que se intentará dar la cita lo antes posible |
+| **Precondicion** | El usuario debe haber sido detectado por el algoritmo y registrado en el sistema para que aparezca como pendiente de cita al filtrar para que el ambulatorio se ponga en contacto. |
+| **Descripción** | Tras haber detectado un posible positivo con los datos de rastreo por parte del algoritmo y haber sido registrado el usuario en el sistema, el responsable sanitario del ambulatorio al que pertenece el cuidadano se pondrá en contacto con él para concretatar la cita en la que se le realizarán las pruebas. Una vez se concrete la cita el responsable lo registrará en el sistema. |
+| **Postcondicion** | El usuario quedará como pendiente de realizar las pruebas y se le infromará de que permanezca en cuarentena hasta la realización de las mismas. Esta cuarentena no será controlada por las fuerzas de seguridad debido a que no se trata de un positivo confirmado por lo que se intentará dar la cita lo antes posible. |
 | **[Importancia]** | Alta |
 | **[Prioridad]** | Media |
 | **Estado** |  |
 | **Comentarios** | |
+<p align="center"> <b>Tabla 11.6: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
-| **CU 1.7** | Enviar alerta a las autoridades de incumplmiento de realizarse la prueba|
+| **CU 1.7** | Enviar alerta a las autoridades de incumplmiento de realizarse la prueba |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** |  |
@@ -768,35 +774,36 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 | **[Importancia]** | Media |
 | **[Prioridad]** | Media |
 | **Estado** |  |
-| **Comentarios** | Si el usuario llamara para cambiar la cita pasadas 24 horas, bien por actuación de las autoridades, o bien por descuido personal durante las 24 h de plazo, las autoridades serían informadas también|
+| **Comentarios** | Si el usuario llamara para cambiar la cita pasadas 24 horas, bien por actuación de las autoridades, o bien por descuido personal durante las 24 h de plazo, las autoridades serían informadas también. |
+<p align="center"> <b>Tabla 11.7: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
 | **CU 2.2** | Control humano por las autoridades (Ciudadanos sin móvil) |
 | -- | -- |
 | **[Versión]** | 1.0(04/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 0.1 (Listar ciudadanos por estado), ya que debe de incluir dicho caso de uso. Dicho caso de uso interactua con el actor autoridades y el actor ciudadano. Ya que por medio de este caso se llevará un control por parte de las autoridades sobre el ciudadano.|
 | **Precondición** | En el sistema se encuentra registrado un ciudadano que debe de cumplir cuarentena y no dispone de teléfono móvil. |
-| **Descripción** | Los agentes de la autoridad podrán realizar un listado de los ciudadanos registrados en el sistema cuyo estado sea en cuarentena y sin teléfono móvil (CU 0.1 Listar ciudadanos por estado). De esta forma de obtendrá el listado de todos aquellos ciudadanos a los cuales no se les puede realizar un control del cumplimiento de la cuarentena de forma automática por el sistema. Por lo que será responsabilidad de los agentes de la autoridad llevar a cabo un control de la cuarenta de esta parte de la población, para ello realizará controles aleatorios en los domicilios de estos ciudadanos comprobando de que se encuentren en casa cumpliendo la cuarentena, en caso de que no se cumpla actuarán en consecuencia.|
-| **Postcondición** | Se comprobará si se está llevando a cabo la cuarentena por el ciudadano.|
+| **Descripción** | Los agentes de la autoridad podrán realizar un listado de los ciudadanos registrados en el sistema cuyo estado sea en cuarentena y sin teléfono móvil (CU 0.1 Listar ciudadanos por estado). De esta forma de obtendrá el listado de todos aquellos ciudadanos a los cuales no se les puede realizar un control del cumplimiento de la cuarentena de forma automática por el sistema. Por lo que será responsabilidad de los agentes de la autoridad llevar a cabo un control de la cuarenta de esta parte de la población, para ello realizará controles aleatorios en los domicilios de estos ciudadanos comprobando de que se encuentren en casa cumpliendo la cuarentena, en caso de que no se cumpla actuarán en consecuencia. |
+| **Postcondición** | Se comprobará si se está llevando a cabo la cuarentena por el ciudadano. |
 | **[Importancia]** | Media|
 | **[Prioridad]** | Media|
 | **[Estado]** | Pendiente|
 | **Comentarios** |Este caso de uso solo afectará al pequeño porcentaje del 10% de la población española que no disponde de teléfono móvil y que enla mayoría de los casos se corresponde con personas mayores o ancianos.|
 
-<p align="center"> <b>Tabla 11.2.2: Plantilla simplificada de casos de uso.</b> <br> </p>
+<p align="center"> <b>Tabla 11.8: Plantilla simplificada de casos de uso.</b> <br> </p>
 
 | **CU 2.3** | Enviar alerta autoridades incumplimiento cuarentena. |
 | -- | -- |
 | **[Versión]** | 1.0(04/12/2020) |
 | **[Dependencias]** |Este caso de uso depende del CU 2.1 (Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil)), ya que si se detecta alguna anomalía en dicho caso de uso se dispararía este caso de uso, y también depende del CU 0.2 (Informar al ciudadano) cuando se detecte esa anomalía. Dicho caso de uso interactua con el actor autoridades. Ya que por medio de este caso se informará a las autoridades de que ha ocurrido un evento.|
-| **Precondición** | Un cidadano con móvil que debe de cumplir la cuarentena no la está cumpliendo y es detectado por el sistema (CU 2.1 Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil)) |
+| **Precondición** | Un cidadano con móvil que debe de cumplir la cuarentena no la está cumpliendo y es detectado por el sistema (CU 2.1 Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil)). |
 | **Descripción** | Dicho caso de uso es disparado cuando el CU 2.1 (Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil)), detecta que un ciudadano con móvil no se encuentra en su domicilio cumpliendo con la cuarentena obligatoria. En esta situación, el sistema enviará un mensaje de alerta a la autoridades informándolas de que un ciudadano no está cumpliendo con la cuarentena, proporcionando toda la información disponible del ciudadano, incluyendo la ubicación de su dispositivo móvil para que pueda ser localizado por los agentes (siempre y cuando el móvil del ciudadano no se encuentre en su casa), de esta forma los agentes de la autoridad actuarán en consecuencia localizando al ciudadano. Al mismo tiempo de que se envía la alerta a las autoridades, se dispara el CU 0.2 (Informar al ciudadano), informándole por medio de un SMS de que no está cumpliendo la cuarentena y ha sido avisado a la autoridad.|
-| **Postcondición** | Las autoridades habrán recibido una alerta sobre el incumplimiento de la cuarentena, con la información del ciudadano y el ciudadano habrá sido informado de ello.|
+| **Postcondición** | Las autoridades habrán recibido una alerta sobre el incumplimiento de la cuarentena, con la información del ciudadano y el ciudadano habrá sido informado de ello. |
 | **[Importancia]** | Alta|
 | **[Prioridad]** | Alta|
 | **[Estado]** | Pendiente|
-| **Comentarios** |El como se deberá actuar para localizar al ciudadano que no cumple la cuarentena es competencia de las autoridades responsables.|
+| **Comentarios** |El como se deberá actuar para localizar al ciudadano que no cumple la cuarentena es competencia de las autoridades responsables. |
 
-<p align="center"> <b>Tabla 11.2.3: Plantilla simplificada de casos de uso.</b> <br> </p>
+<p align="center"> <b>Tabla 11.9: Plantilla simplificada de casos de uso.</b> <br> </p>
 
 | **CU 3.1** | Informar caso positivo. |
 | -- | -- |
@@ -804,39 +811,40 @@ A continuación, se especificarán aquellos casos de uso que hemos considerado d
 | **[Dependencias]** |Este caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) y que dicho resultado sea positivo, ya que si se detecta algun nuevo caso positivo se dispararía este caso de uso. Dicho caso de uso interactua con el actor Gobierno, ya que por medio de este caso se informará al gobierno de la ocurrencia de un nuevo caso positivo .|
 | **Precondición** | Un ciudadano ha dado positivo en la prueba realizada. |
 | **Descripción** | Dicho caso de uso es disparado cuando el CU 1.2 (Registrar resultado de la prueba en el sistema) registra una prueba que ha sido positiva. En esta situación, el sistema añadirá un nuevo caso positivo a un contador de casos positivos por centro de salud (en el contador correspondiente al centro de salud donde se ha detectado el caso positivo), dicha información con los contadores de casos positivos por centro de salud será siempre accesible por el gobierno, para que pueda ser consultada en cualquier momento y se conozca la información en tiempo real.|
-| **Postcondición** | Se habrá registrado el caso postivo en el sistema de contadores de casos positivos por centro de salud al que puede acceder el gobierno.|
+| **Postcondición** | Se habrá registrado el caso postivo en el sistema de contadores de casos positivos por centro de salud al que puede acceder el gobierno. |
 | **[Importancia]** | Alta|
 | **[Prioridad]** | Alta|
 | **[Estado]** | Pendiente|
-| **Comentarios** |Dicha información será actualizada constantemente, cada vez que un nuevo caso positivo es registrado en el sistema, a diferencia del CU 3.3 (Informar estadísticas), las cuales serán proporcionadas al gobierno de forma periódica cada 3 días o el tiempo fijado.|
+| **Comentarios** |Dicha información será actualizada constantemente, cada vez que un nuevo caso positivo es registrado en el sistema, a diferencia del CU 3.3 (Informar estadísticas), las cuales serán proporcionadas al gobierno de forma periódica cada 3 días o el tiempo fijado. |
 
-<p align="center"> <b>Tabla 11.3.1: Plantilla simplificada de casos de uso.</b> <br> </p>
+<p align="center"> <b>Tabla 11.10: Plantilla simplificada de casos de uso.</b> <br> </p>
 
 | **CU 3.3** | Informar estadísticas |
 | -- | -- |
 | **[Versión]** | 1.0(05/12/2020) |
-| **[Dependencias]** |Este caso de uso depende del CU 3.2 (Generar estadísticas) ya que antes de poder informar las estadísitcas deben de ser generadas (dependencia de tipo include). Dicho caso de uso interactua con el actor Gobierno, ya que por medio de este caso se informará al gobierno de las estadísitcas generadas por el sistema .|
+| **[Dependencias]** |Este caso de uso depende del CU 3.2 (Generar estadísticas) ya que antes de poder informar las estadísitcas deben de ser generadas (dependencia de tipo include). Dicho caso de uso interactua con el actor Gobierno, ya que por medio de este caso se informará al gobierno de las estadísitcas generadas por el sistema. |
 | **Precondición** | El sistema ha generado estadísticas a partir de los datos que dispone. CU 3.2 (Generar estadísticas) |
-| **Descripción** | Dicho caso de uso es disparado cuando el CU 3.2 (Generar estadíticas) genera nuevas estadísticas a partir de los datos disponibles en el sistema. En esta situación, el sistema mostrará un informe estadístico con todas las estadísticas obtenidas en el CU 3.2 y se enviará un aviso al sistema del gobierno informándole de que están disponibles nuevas estadísiticas obtenidas a partir de los datos recopliados en los últimos 3 días o el tiempo marcado, para que las pueda visualizar en el sistema y a partir de ellas, el comité de expertos del gobierno puedan tomas las decisiones oportunas.|
-| **Postcondición** | Se habrán proporcionado las estadísticas al gobierno y se le habrá mandado un aviso para que puedan visualizarlas en el sistema.|
+| **Descripción** | Dicho caso de uso es disparado cuando el CU 3.2 (Generar estadíticas) genera nuevas estadísticas a partir de los datos disponibles en el sistema. En esta situación, el sistema mostrará un informe estadístico con todas las estadísticas obtenidas en el CU 3.2 y se enviará un aviso al sistema del gobierno informándole de que están disponibles nuevas estadísiticas obtenidas a partir de los datos recopliados en los últimos 3 días o el tiempo marcado, para que las pueda visualizar en el sistema y a partir de ellas, el comité de expertos del gobierno puedan tomas las decisiones oportunas. |
+| **Postcondición** | Se habrán proporcionado las estadísticas al gobierno y se le habrá mandado un aviso para que puedan visualizarlas en el sistema. |
 | **[Importancia]** |Muy Alta|
 | **[Prioridad]** | Alta|
 | **[Estado]** | Pendiente|
-| **Comentarios** |La información relevante a las estadísitcas será proporcionada al gobierno de forma periódica cada 3 días o el tiempo fijado. Dado que se necesita disponer de un gran volumen de datos recopilados durante varios dias para que dichas estadísticas sean lo mas fiables posibles.|
+| **Comentarios** |La información relevante a las estadísitcas será proporcionada al gobierno de forma periódica cada 3 días o el tiempo fijado. Dado que se necesita disponer de un gran volumen de datos recopilados durante varios dias para que dichas estadísticas sean lo mas fiables posibles. |
 
-<p align="center"> <b>Tabla 11.3.3: Plantilla simplificada de casos de uso.</b> <br> </p>
+<p align="center"> <b>Tabla 11.11: Plantilla simplificada de casos de uso.</b> <br> </p>
 
 | **CU 3.4** | Informar foco de contagio |
 | -- | -- |
 | **[Versión]** | 1.0 (04/12/2020) |
 | **[Dependencias]** |  |
 | **Precondicion** | Una vez se confirme un contagiado pos otro positivo, por medio de los datos de localizacion estableceremos cual ha sido el punto más probable donde se ha producido el contagio, en caso de haber más de uno. |
-| **Descripción** | Con todos los datos de los que el sistema dispone, de contagios, lugar donde se produce el contagio, número de contagios...etc por medio de algoritmos generará una serie de estadísticas que nos permitiran averiguar cuales son los lugares donde más se contagian los ciudadanos. Cuando estos valores lleguen a ciertos parámetros previamente establecidos etiquetaremos este lugar como "foco de conagio" del cual se informará al gobierno para que tome las medidas oportunas|
-| **Postcondicion** | Una vez se llegue a ciertos valores de numero de contagiados en una zona supondrá informar de esta situación al gobierno |
+| **Descripción** | Con todos los datos de los que el sistema dispone, de contagios, lugar donde se produce el contagio, número de contagios...etc por medio de algoritmos generará una serie de estadísticas que nos permitiran averiguar cuales son los lugares donde más se contagian los ciudadanos. Cuando estos valores lleguen a ciertos parámetros previamente establecidos etiquetaremos este lugar como "foco de conagio" del cual se informará al gobierno para que tome las medidas oportunas. |
+| **Postcondicion** | Una vez se llegue a ciertos valores de numero de contagiados en una zona supondrá informar de esta situación al gobierno. |
 | **[Importancia]** | Alta |
 | **[Prioridad]** | Media |
 | **Estado** |  |
 | **Comentarios** | |
+<p align="center"> <b>Tabla 11.12: Plantilla simplificada de Casos de Uso.</b> <br> </p>
 
 A continuacion se especificarán de forma mas detallada aquellos casos de uso que tengan mayor relevancia en el sistema por medio de las siguientes tablas:
 
@@ -866,29 +874,30 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
 | **Comentarios** |  |
-<p align="center"> <b>Tabla 12: Plantilla Completa de Casos de Uso.</b> <br> </p>
+<p align="center"> <b>Tabla 12.1: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
 | **CU 1.3** | Rastrear contactos directos con el postivo |  |
 | --- | --- | --- |
 | **[Versión]** | 1.0 (09/12/2020)|
-| **[Dependencias]** | Dicho caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) para alertar al sistema de que se ha detectado un positivo y de que deberá utilizar los datos de los que dispone para identificar aquellos ciudadasno que puedan haber contactado lo suficiente con el postitivo. También depende del CU 1.4 (Adquirir datos de los ciudadanos), ya que necesitará de todos los datos de localización de los ciudadanos para que el algoritmo pueda realizar los cruces e identificar los ciudadanos susceptibles de haber sido contagiados|
-| **Precondición** | En el sisteme deben estar los datos de los ciudadanos suministrados por las operadoras y deberá saltar un caso positivo para que el sistema empiece a trabajar en los rastreos|
-| **Descripción** |  Una vez se registra un positivo en la pruebas realizadas a algún ciudadano, este resultado es introducido en el sistema. En ese momento el algoritmo de rastreo comenzará su trabajo. Para ello tendrá en cuenta y trabajará con todos los datos previamente suministrados por las operadoras móviles, cotejará y contrastará las ubicaciones de los ciudadanos que coincidan en lugar y momento con las del postivo para establecer cuales de ellos pueden haber sido contagiados por cumplir los parámetros de contacto necesarios para contagiarse. Cuando el sistema concluye su análisis suministrará los datos de aquellos ciudadanos que puedan ser positivos y para que sean registrados en el sistema como pendientes de realizar la prueba junto con  el lugar donde es más probable que se haya producido el contagio, para tenerlo en cuenta en las estadísticas. Una vez loa ambulatorios dispongan de los datos aportados por este rastreo comenzarán a informar a los cuidadanos de su situación y a concretar citas con los mismos|
+| **[Dependencias]** | Dicho caso de uso depende del CU 1.2 (Registrar resultado de la prueba en el sistema) para alertar al sistema de que se ha detectado un positivo y de que deberá utilizar los datos de los que dispone para identificar aquellos ciudadasno que puedan haber contactado lo suficiente con el postitivo. También depende del CU 1.4 (Adquirir datos de los ciudadanos), ya que necesitará de todos los datos de localización de los ciudadanos para que el algoritmo pueda realizar los cruces e identificar los ciudadanos susceptibles de haber sido contagiados. |
+| **Precondición** | En el sisteme deben estar los datos de los ciudadanos suministrados por las operadoras y deberá saltar un caso positivo para que el sistema empiece a trabajar en los rastreos. |
+| **Descripción** |  Una vez se registra un positivo en la pruebas realizadas a algún ciudadano, este resultado es introducido en el sistema. En ese momento el algoritmo de rastreo comenzará su trabajo. Para ello tendrá en cuenta y trabajará con todos los datos previamente suministrados por las operadoras móviles, cotejará y contrastará las ubicaciones de los ciudadanos que coincidan en lugar y momento con las del postivo para establecer cuales de ellos pueden haber sido contagiados por cumplir los parámetros de contacto necesarios para contagiarse. Cuando el sistema concluye su análisis suministrará los datos de aquellos ciudadanos que puedan ser positivos y para que sean registrados en el sistema como pendientes de realizar la prueba junto con  el lugar donde es más probable que se haya producido el contagio, para tenerlo en cuenta en las estadísticas. Una vez loa ambulatorios dispongan de los datos aportados por este rastreo comenzarán a informar a los cuidadanos de su situación y a concretar citas con los mismos|. 
 | **Secuencia Normal** | **Paso** | **Acción** |
-|  | 1 | El sistema detectará que se ha introducido un nuevo positivo en el sistema y comenzará el rastreo con respecto a él CU 1.2 (Registrar resultado de la prueba en el sistema) |
-|  | 2 | El algoritmo detectará aquellos cuidadanos que puedan estar infectados teniendo en cuenta los datos de las operadoras CU 1.4 (Adquirir datos de los ciudadanos) |
-|  | 3 | El sistema elaborará una lista de los cuidadanos que ha detectado para que se registren en el sistema así como el punto de contagio y los ambulatorios registrarán estos datos CU 1.1(Registrar resultado de la prueba en el sistema) |
-|  | 4 | Los ambulatorios se encargarán de ponerse en contacto con los posibles positivos para concretar con ellos una cita en la cual realizarse la pureba CU 1.6 (Registrar cita pruebas en el sistema) que en caso de dar positivo empezaría de nuevo el caso de uso que se está tratando (CU 1.3 "Rastrear contactos directos con el postivo") |
-| **Postcondición** | El sistema registrará todos los cuidadanos que puedan haber sido contagiados para que se les realicen las pruebas y continuará con el ciclo en cada uno de los postivos encontrados de esta manera |
+|  | 1 | El sistema detectará que se ha introducido un nuevo positivo en el sistema y comenzará el rastreo con respecto a él CU 1.2 (Registrar resultado de la prueba en el sistema). |
+|  | 2 | El algoritmo detectará aquellos cuidadanos que puedan estar infectados teniendo en cuenta los datos de las operadoras CU 1.4 (Adquirir datos de los ciudadanos). |
+|  | 3 | El sistema elaborará una lista de los cuidadanos que ha detectado para que se registren en el sistema así como el punto de contagio y los ambulatorios registrarán estos datos CU 1.1(Registrar resultado de la prueba en el sistema). |
+|  | 4 | Los ambulatorios se encargarán de ponerse en contacto con los posibles positivos para concretar con ellos una cita en la cual realizarse la pureba CU 1.6 (Registrar cita pruebas en el sistema) que en caso de dar positivo empezaría de nuevo el caso de uso que se está tratando (CU 1.3 "Rastrear contactos directos con el postivo"). |
+| **Postcondición** | El sistema registrará todos los cuidadanos que puedan haber sido contagiados para que se les realicen las pruebas y continuará con el ciclo en cada uno de los postivos encontrados de esta manera. |
 | **Excepciones** | **Paso** | **Acción** |
-|  | 1 | El sistema identificará en el rastreo aquellos cuidadanos a los cuales se ha establecido como positivos una única vez para no caer en bucles infinitos de positivos|
+|  | 1 | El sistema identificará en el rastreo aquellos cuidadanos a los cuales se ha establecido como positivos una única vez para no caer en bucles infinitos de positivos. |
 | **Rendimiento** | **Paso** | **Cota de tiempo** |
-| | El rastreo como tal de cuidadanos que pueden estar contagiados no debe de tardar en ser ejecutado un tiempo superior a 100 segundos, que es bastante tiempo pero es un porceso muy complejo y seguramente el más importante del poryecto por lo que es mejor que sea preciso en sacrificio de su rapidez | 1'40''|
-| **Frecuencia** | El CU debe de llevarse a cabo cada vez que se registre un positivo en el sistema|
+| | El rastreo como tal de cuidadanos que pueden estar contagiados no debe de tardar en ser ejecutado un tiempo superior a 100 segundos, que es bastante tiempo pero es un porceso muy complejo y seguramente el más importante del poryecto por lo que es mejor que sea preciso en sacrificio de su rapidez. | 1'40''|
+| **Frecuencia** | El CU debe de llevarse a cabo cada vez que se registre un positivo en el sistema. |
 | **[Importancia]** | Muy Alta|
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
-| **Comentarios** ||
+| **Comentarios** |  |
+<p align="center"> <b>Tabla 12.2: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
 | **CU 2.1** | Control automático por el sistema del cumplimiento cuarentena.(Ciudadanos con móvil). |  |
 | --- | --- | --- |
@@ -912,7 +921,7 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
 | **Comentarios** | El CU afecta al 90% la población española que dispone de teléfono móvil. Dicho caso de uso es complemenatario al CU 2.2 Control humano por las autoridades (Ciudadanos sin móvil), el cual solo afecta a la población que no posee teléfono móvil.|
-<p align="center"> <b>Tabla 12.2.1: Plantilla Completa de Casos de Uso.</b> <br> </p>
+<p align="center"> <b>Tabla 12.3: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
 | **CU 3.2** | Generar estadísticas |  |
 | --- | --- | --- |
@@ -938,12 +947,13 @@ A continuacion se especificarán de forma mas detallada aquellos casos de uso qu
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
 | **Comentarios** | El CU debe de realizarse con poca fecuencia para que las estadísticas obtenidas sean lo mas reales posibles obtenidas de grandes volúmenes de datos, por ello mismo el tiempo que implica llevar a cabo el caso de uso es grande. |
-<p align="center"> <b>Tabla 12.3.2: Plantilla Completa de Casos de Uso.</b> <br> </p>
+<p align="center"> <b>Tabla 12.4: Plantilla Completa de Casos de Uso.</b> <br> </p>
 
 ### 6.3 Requisitos Funcionales del Sistema
 En esta sección describiremos todos los requisitos funcionales del sistema, dichos requisitos describirán cual será la operativa del sistema a desarrollar, así como el comportamiento del sistema. Para describir dicho requisitos funcionales del sistema se han dividido en las siguientes secciones.
 #### 6.3.1 	Requisitos de Información del Sistema
 En esta sección se describirán los requisitos de almacenamiento de información que debe de cumplir el sistema ha desarrollar. Dichos requisitos se corresponden con la información que el sistema debe de alamacenar para poder ofrecer la funcionalidad que se describe en los casos de uso del sistema o en otros requisitos. Para describir los distintos requisitos de información del sistema, se utilizarán las siguientes tablas de requisitos.
+
 
 | **RF 01** | Datos de los ciudadanos |
 | -- | -- |
@@ -958,6 +968,7 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 
 <p align="center"> <b>Tabla 13.1: Requisitos de Información.</b> <br> </p>
 
+
 | **RF 02** | Resultado de las pruebas médicas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
@@ -969,8 +980,8 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 | **[Estado]** | Pendiente |
 | **Comentarios** | Los datos relativos a las pruebas médicas serán introducidos en el sistema por parte del responsable médico de los ambulatorios una vez se conozca el resultado de la prueba médica realizada al ciudadano. |
 
-
 <p align="center"> <b>Tabla 13.2: Requisitos de Información.</b> <br> </p>
+
 
 | **RF 03** | Citas médicas |
 | -- | -- |
@@ -983,8 +994,8 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 | **[Estado]** | Pendiente |
 | **Comentarios** | Los datos relativos a las citas serán introducidos en el sistema por parte del responsable médico de los ambulatorios una vez se realice una llamada telefónica con el ciudadano para concretar la cita. Dichas citas se tendrán en cuenta dado que se realizarán comprobaciones periodicamente de que los ciudadanos han acudido a realizarse las pruebas médicas el día citado y en caso de no acudir, se enviará una alerta a las autoridades. |
 
-
 <p align="center"> <b>Tabla 13.3: Requisitos de Información.</b> <br> </p>
+
 
 | **RF 04** | Datos de localización de los ciudadanos. |
 | -- | -- |
@@ -997,8 +1008,8 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 | **[Estado]** | Pendiente |
 | **Comentarios** | Los datos relativos a la localización de los ciudadanos serán proporcionados por las operadoras telefónicas de los ciudadanos, y tendrán una estrcutura clara fijada por dichas operadoras. Estos datos de localización de los ciudadanos serán actualizados periodicamente por las operadoras con el fin de que los rastreos de los contactos directos con los positivos que se realizan con dichos datos sean lo mas reales posibles. (La forma de manejar estos datos es responsabilidad del algoritmo de rastreo de contactos positivos.) |
 
-
 <p align="center"> <b>Tabla 13.4: Requisitos de Información.</b> <br> </p>
+
 
 | **RF 05** | Estado médico de los ciudadanos. |
 | -- | -- |
@@ -1011,8 +1022,8 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 | **[Estado]** | Pendiente |
 | **Comentarios** | Los datos relativos al estado médico de los ciudadanos registrados en el sistema irá siendo actualizado en función de los eventos que ocurran en el sistema y dicha información será utilizada para poder listar aquellos ciudadanos que tengan un estado concreto con el fin de tomar distintas acciones en función de dicho estado. |
 
-
 <p align="center"> <b>Tabla 13.5: Requisitos de Información.</b> <br> </p>
+
 
 | **RF 06** | Localización del móvil de los ciudadanos. |
 | -- | -- |
@@ -1027,6 +1038,7 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 
 <p align="center"> <b>Tabla 13.6: Requisitos de Información.</b> <br> </p>
 
+
 | **RF 07** | Informe de las estadísticas generadas |
 | -- | -- |
 | **[Versión]** | 1.0 (10/12/2020) |
@@ -1039,6 +1051,7 @@ En esta sección se describirán los requisitos de almacenamiento de informació
 | **Comentarios** | Los datos relativos a los informes son generados de forma automática por el propio sistema y se deberá mantener un histórico de dichos informes, para que el gobierno pueda acceder a dicha información en cualquier momento.|
 
 <p align="center"> <b>Tabla 13.7: Requisitos de Información.</b> <br> </p>
+
 
 A continucación se mostrará un modelo gráfico que facilite la comprensión de los requisitos de información que debe de cumplir el sistema a desarrollar, para ello se adjunta un diagrama de entidad relación.
 
@@ -1060,7 +1073,9 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
 | **Comentarios** | [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) |
+
 <p align="center"> <b>Tabla 14.1: Requisitos de reglas de negocio.</b> <br> </p>
+
 
 | **RF 09** | Adaptación de la información según la autonomía |
 | -- | -- |
@@ -1071,14 +1086,13 @@ Estos requisitos deben especificar qué reglas de negocio debe respetar el siste
 | **[Prioridad]** | Alta |
 | **[Estado]** | Pendiente |
 | **Comentarios** | Este requisito viene dado por la naturaleza de la gestión de las autonomías. Donde cada una esta en diferentes fases para combatir el virus y además cuentan con una distribución urbana diferente. Es decir la organización y recopilación de datos afecta a como estos se van a organizar según en que atutonomía nos encontremos. |
+
 <p align="center"> <b>Tabla 14.2: Requisitos de reglas de negocio.</b> <br> </p>
+
 
 #### 6.3.3 	Requisitos de Conducta del Sistema
 
 A continuación se pasan a detallar aquellos requisitos de las acciones que deberá realizar el sistema de manera independiente y sin una acción especifica del usuario. Estas acciones serán automatizdadas por el sistema y se lanzarán, normalmente, cuando se ejecute otra acción.
-
-_Esta sección debe contener los requisitos de conducta que se hayan identificado, especificados mediante las plantillas de requisitos de conducta que se muestran a continuación.
-Estos requisitos deben especificar cualquier otro comportamiento deseado del sistema que no se haya especificado mediante los casos de uso del sistema, como generación de informes, funcionalidades transversales a varios casos de uso del sistema, etc._
 
 | **RF 10** | Comprobar la ubicación del usuario en cuarentena |
 | -- | -- |
@@ -1089,7 +1103,7 @@ Estos requisitos deben especificar cualquier otro comportamiento deseado del sis
 | **Subobjetivos** | En caso de ubicación erronea se autoimatizará el aviso al cuidadano y a las autoridades |
 | **[Importancia]** | Alta |
 | **[Prioridad]** | Alta |
-| **Comentarios** | Si la ubicación se comprueba que es la misma que la de la vivienda el sistema no hará nada y volverá a realizar la comprobación cuando pase el tiempo establecido |
+| **Comentarios** | Si la ubicación se comprueba que es la misma que la de la vivienda el sistema no hará nada y volverá a realizar la comprobación cuando pase el tiempo establecido. |
 
 | **RF 11** |Solicitar los datos de localización de los ciudadanos|
 | -- | -- |
