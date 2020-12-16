@@ -1444,3 +1444,27 @@ En este apartado mostraremos una matriz que nos permita visualizar las distintas
 |3.3 Informar estadísticas|||X|
 |3.4 Informar foco de contagio|||X|
 
+## Conclusiones
+
+Con la creación de la aplicación PANDEMIO hemos querido solventar los problemas que 
+planteaba la aplicación anterior. Debido a que el usuario ya no tiene que participar
+activamente en la aplicación y sus datos son obtenidos gracias a las compañias,
+nos aseguramos de poder recopilar la información la mayoria de los ciudadanos.
+El pilar fundamental de nuestra aplicación son los datos de los ciudadanos, que nos
+servirán para llevar a cabo un mejor seguimiento de su estado actual y si esta cumpliendo
+el periodo de cuarentena que se le ha establecido. Por otra parte generaremos estadísticas
+que proporcionaremos al gobierno adaptandose a la disposición que imponga cada autonomía.
+Y tambien avisaremos a las fuerzas del orden para que actuen en caso de incumplimiento
+del periodo de cuarentena. 
+
+Como se ha descrito y justificado a lo largo de la práctica es vital cumplir con la
+Ley de protección de datos, debido a la sensibilidad de los datos obtenidos. Por lo que
+debemos de asegurarnos que solo aquellos que esten autorizados para gestionar dichos
+datos ouedan acceder a estos y que dicha información no sea vulnerada por terceros 
+o distribuida de manerá pública. Esto se solventara con un modelo de vistas donde cada actor
+accede solo a la información que se le esta permitido visualizar. 
+
+PANDEMIO pretende agilizar el proceso de recopilación de información siendo compatible
+con los diversos navegadores, móviles y software posibles a fin de poder recabar la mayor
+información posible que nos permita tener un "mapa" de incidencia del coronavirus en España,
+sin comprometer la privacidad de los usuarios.
