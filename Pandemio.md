@@ -1423,7 +1423,7 @@ En este apartado se habla de los requisitos de integración del sistema, en este
 
 ### 6.7 Información sobre trazabilidad.
 
-En este apartado mostraremos una matriz que nos permita visualizar las distintas relaciones y dependencias entre requisitos, para eso tendremos en cuenta las dependecias de cada uno de los requisitos anteriormente citados. La matriz de trazabilidad que mostramos a continuación se corresponde con la matriz de trazabilidad de Casos de Uso frente a requisitos generale.
+En este apartado mostraremos una matriz que nos permita visualizar las distintas relaciones y dependencias entre requisitos, para eso tendremos en cuenta las dependecias de cada uno de los requisitos anteriormente citados. La matriz de trazabilidad que mostramos a continuación se corresponde con la matriz de trazabilidad de Casos de Uso frente a requisitos generales. Hemos incluido dicha matriz debido a que de entre todas las posibles es la que mayor información nos puede aportar acerca de la trazabilidad y nos puede proporcionar una visión mas general de las dependencias que existen.
 
 | Requisitos generales / Casos de Uso | 1.0 Rastreo de contactos y gestion pruebas | 2.0 Cumplimiento cuarentena| 3.0 Gestion informacion y estadísticas|
 |-- | -- | -- | -- |
@@ -1460,7 +1460,7 @@ del periodo de cuarentena.
 Como se ha descrito y justificado a lo largo de la práctica es vital cumplir con la
 Ley de protección de datos, debido a la sensibilidad de los datos obtenidos. Por lo que
 debemos de asegurarnos que solo aquellos que esten autorizados para gestionar dichos
-datos ouedan acceder a estos y que dicha información no sea vulnerada por terceros 
+datos puedan acceder a estos y que dicha información no sea vulnerada por terceros 
 o distribuida de manerá pública. Esto se solventara con un modelo de vistas donde cada actor
 accede solo a la información que se le esta permitido visualizar. 
 
@@ -1468,3 +1468,5 @@ PANDEMIO pretende agilizar el proceso de recopilación de información siendo co
 con los diversos navegadores, móviles y software posibles a fin de poder recabar la mayor
 información posible que nos permita tener un "mapa" de incidencia del coronavirus en España,
 sin comprometer la privacidad de los usuarios.
+
+Por otra parte, es importante reflejar que este documento se corresponde con una primera aproximación de los requisitos de la plataforma PANDEMIO, en la cual queda constancia de todos aquellos requisitos de mayor importancia que se deben de considerar para el correcto funcionamiento del sistema. El resto de requisitos que sean mas concisos se deberán de tener en cuenta una vez que se disponga de dicha información siendo elicitada por medio de diversas entrevistas con los stakeholders correspondientes. Por lo tanto, en futuras iteraciones se podrá hacer un análisis más completo de los distintos requisitos no funcionales que debe de cumplir el sistema, ya que en este primer análisis no han sido considerados muchos de ellos por la falta de información.
